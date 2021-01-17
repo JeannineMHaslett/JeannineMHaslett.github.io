@@ -47,8 +47,8 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .review1,
-    .review2,
+    .review1
+    .review2
     .review3 {
         max-width: 15.63em;
         margin: 0 auto;
