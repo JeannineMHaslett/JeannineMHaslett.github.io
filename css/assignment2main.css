@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&family=Shadows+Into+Light&display=swap');
+
+a {
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    text-align: center;
+}
+
+.content {
+    max-width: 60em;
+    margin: 0 auto;
+    background-color: rgba(245, 167, 193, 1);
+    align-content: center;
+}
+
+.content a {
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    text-align: center;
+}
+
+.content a:hover {
+    color: rgb(231, 5, 81, 1);
+}
+
+header {
+    background-color: rgba(245, 167, 193, 1);
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    padding: 5px;
+}
+
+header h1 {
+    background-color: rgba(245, 167, 193, 1);
+    color: rgba(0, 0, 0, 1);
+}
+
+header h3,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+
+header a {
+    background-color: rgba(245, 167, 193, 1);
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+main {
+    max-width: 60em;
+    align-content: center;
+}
+
+main a {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.columns h2 {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 5px;
+}
+
+footer {
+    max-width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: rgba(245, 167, 193, 1);
+    color: rgba(0, 0, 0, 1);
+    padding: 5px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px;
+}
+
+h1,
+h2 {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+img {
+    width: 15.63em;
+    height: auto;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    align-content: center;
+    box-shadow: 10px 10px 4px rgba(245, 167, 193, 1);
+}
+
+p {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+a {
+    background-color: rgba(245, 167, 193, 1);
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+a :hover {
+    color: rgb(231, 5, 81, 1);
+}
+
+.columns {
+    max-width: 55em;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+}
+
+.columns h3 {
+    border: rgba(245, 167, 193, 1) 10px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.columns a {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.review1,
+.review2,
+.review3 {
+    padding: 10px;
+    background-color: rgba(245, 167, 193, 1) 10px;
+    border: rgba(245, 167, 193, 1) 10px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.otc,
+.squarespace,
+.rebellion {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    align-content: center;
+}
