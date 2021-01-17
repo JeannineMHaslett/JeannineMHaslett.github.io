@@ -131,7 +131,6 @@ a :hover {
 }
 
 .columns h3 {
-    border: rgba(245, 167, 193, 1) 10px;
     border-radius: 10px;
     color: rgba(0, 0, 0, 1);
     text-align: center;
@@ -150,7 +149,6 @@ a :hover {
 .review3 {
     padding: 10px;
     background-color: rgba(245, 167, 193, 1);
-    border: rgba(245, 167, 193, 1) 10px;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
