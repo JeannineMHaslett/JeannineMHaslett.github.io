@@ -149,7 +149,7 @@ a :hover {
 .review2,
 .review3 {
     padding: 10px;
-    background-color: rgba(245, 167, 193, 1) 10px;
+    background-color: rgba(245, 167, 193, 1);
     border: rgba(245, 167, 193, 1) 10px;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
