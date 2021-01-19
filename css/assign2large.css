@@ -1,64 +1,24 @@
-@media onlyscreen and (min-width: 35em) {
+@media only screen and (min-width: 128em) {
 
-    body {
-        background-color: rgba(255, 255, 255, 1);
-        max-width: 66em;
-        margin-top: 5%;
-    }
-
-    .content {
-        max-width: 93.75em;
-        margin: 0 auto;
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .columns {
-        grid-template-columns: span 3;
+        max-width: 60em;
+        margin: 20px;
+        height: 1500px;
     }
 
-    header {
-        max-width: 93.75em;
-        margin: 0 auto;
-    }
-
-    header h3,
-    h6 {
+    div header {
         max-width: 93.75em;
         margin: 0 auto;
         width: auto;
     }
 
-    footer {
-        max-width: 34.88em;
-        margin: auto;
+    footer { 
+        max-width: 129em;
+        height: auto;
     }
 
-    h1,
-    h2 {
-        max-width: 93.75em;
-        margin: 0 auto;
-    }
-
-    img {
-        width: 15.63em;
-    }
-
-    .columns {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .review1,
-    .review2,
-    .review3 {
-        max-width: 15.63em;
-        margin: 0 auto;
-    }
-
-    .rebellion {
-        grid-template-columns: 1fr;
-    }
-
-    main {
-        grid-template-columns: 1fr 1fr;
-    }
 }
