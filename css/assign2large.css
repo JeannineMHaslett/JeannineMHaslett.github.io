@@ -1,5 +1,5 @@
 @media only screen and (min-width: 128em) {
-
+    
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -20,5 +20,5 @@
         max-width: 129em;
         height: auto;
     }
-
 }
+
