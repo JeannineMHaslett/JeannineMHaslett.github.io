@@ -1,24 +1,15 @@
-@media only screen and (min-width: 36em) {
-    main {
-        grid-template-columns: 1fr 1fr 1fr;
+@media only screen and (min-width: 32.5em) {
+    main {display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
     }
 
-    .columns {
-        max-width: 60em;
-        margin: 20px;
-        height: 1500px;
+    .review1 {
+        grid-column-start: 1;
     }
 
-    div header {
-        max-width: 93.75em;
-        margin: 0 auto;
-        width: auto;
-    }
-
-    footer { 
-        max-width: 129em;
-        height: auto;
+    .review2 {
+        grid-column-start: 2;
     }
 }
-
 

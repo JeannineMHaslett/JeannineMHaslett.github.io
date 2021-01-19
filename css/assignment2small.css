@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&family=Shadows+Into+Light&display=swap');
 
-body {
-    max-width: 100%;
-    max-height: auto;
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
     background-color: rgba(245, 167, 193, 1);
+    align-content: center;
 }
 
-
+main {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: auto;
+    margin: auto;
+    overflow: hidden;
+}
 a {
     color: rgba(0, 0, 0, 1);
     text-decoration: none;
@@ -14,15 +22,19 @@ a {
 }
 
 .columns {
+    max-width: 55em;
     overflow: hidden;
-    max-width: 70em;
-    margin-left: auto;
-    margin-right: auto;
-    align-content: center;
+    display: grid;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 1);
     border-radius: 10px;
+    position: relative;
 }
+
 .columns a {
+    background-color: rgba(255, 255, 255, 1);
     color: rgba(0, 0, 0, 1);
+    font-size: .75em;
     text-decoration: none;
     text-align: center;
 }
@@ -31,12 +43,16 @@ a {
     color: rgb(231, 5, 81, 1);
 }
 
-header { 
+div {
+    width: auto;
+}
+
+div header { 
     max-width: 1200px;
-    max-height: 500px;
+    height: 175px;
     content: center;
-    background-color: rgba(245, 167, 193, 1);
     padding: 5px;
+    background-color: rgba(245, 167, 193, 1);
     color: rgba(0, 0, 0, 1);
     margin: 0 auto; 
     text-align: center;
@@ -46,6 +62,7 @@ header h1 {
     color: rgba(0, 0, 0, 1);
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
+    margin-top: 25px;
 }
 
 header a {
@@ -57,15 +74,35 @@ header a {
 }
 
 header .subheading {
+    background-color: rgba(245, 167, 193, 1);
     font-family: 'Poppins', sans-serif;
     color: rgba(0, 0, 0, 1);
     font-size: 1.5em;
-    padding: 5px;
+    margin-top: 5px;
 }
 
 .columns h2 {
     background-color: rgba(255, 255, 255, 1);
+    color:rgba(0, 0, 0, 1);
+    font-family: 'Shadows Into Light', cursive;
     padding: 5px;
+    text-align: center;
+}
+
+img {
+    width: 14em;
+    height: auto;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    align-content: center;
+    box-shadow: 10px 10px 4px rgba(136, 136, 136, 1);
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 10px;
+    border-color: rgba(245, 167, 193, 1);
+    overflow: hidden;
 }
 
 footer {
@@ -90,31 +127,7 @@ h1 {
     font-family: 'Shadows Into Light', cursive;
 }
 
-.columns {
-    max-width: 60em;
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: auto;
-    margin-right: auto;
-    align-content: center;
-    background-color: rgba(255, 255, 255, 1);
-}
 
-img {
-    width: 15em;
-    height: auto;
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    align-content: center;
-    box-shadow: 10px 10px 4px rgba(136, 136, 136, 1);
-    border-style: solid;
-    border-width: 15px;
-    border-radius: 10px;
-    border-color: rgba(245, 167, 193, 1);
-}
 p {
     color: rgba(0, 0, 0, 1);
     font-family: 'Poppins', sans-serif;
@@ -138,7 +151,7 @@ h2 a :hover {
 }
 
 .review h2 {
-    font-size: 1.5em;
+    font-size: 1em;
     color: rgba(0, 0, 0, 1);
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
@@ -154,12 +167,13 @@ h2 a :hover {
 
 .review {
     max-width: 800px;
-    background-color: rgba(245, 167, 193, 1);
+    overflow: hidden;
+    display: inline-block;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(255, 255, 255, 1);
-    border: rgba(245, 167, 193, 1);
     font-family: 'Poppins', sans-serif;
     text-align: center;
-}
+    overflow: hidden;
+ }
