@@ -3,7 +3,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     height: auto;
-    background-color: #d8e3ff;
+    background-color: #4c86a9;
     align-content: center;
 }
 
@@ -14,6 +14,14 @@ main {
     margin: auto;
     overflow: hidden;
 }
+
+.menu {
+    max-width: 1200px;
+    background-color:#4c86a9;
+    color: #172a39;
+}
+
+
 a {
     background-color:#4c86a9;
     color: #172a39;
@@ -27,7 +35,7 @@ a {
     overflow: hidden;
     display: grid;
     margin: auto;
-    background-color: #d8e3ff;
+    background-color: #4c86a9;
     border-radius: 10px;
     position: relative;
 }
@@ -62,13 +70,25 @@ header h1 {
     font-family: 'Bree Serif', serif;
     margin-top: 25px;
 }
+header img {
+    max-width: 100px;
+    height: auto;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    align-content: center;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #8a7968;
+    overflow: hidden;
+}
 
-
-header .presection {
+.presection {
     background-color: #4c86a9;
     font-family: 'Poppins', sans-serif;
     color: #172a39;
-    font-size: 1.5em;
+    font-size: 8px;
 }
 
 div {
@@ -160,9 +180,7 @@ h2 a :hover {
 
 }
 
-div .section1,
-div .section2,
-div .section3 {
+.background {
     max-width: 800px;
     overflow: hidden;
     display: inline-block;
@@ -171,6 +189,35 @@ div .section3 {
     margin-right: auto;
     background-color: #d8e3ff;
     font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    overflow: hidden;
+ }
+
+ .navigation {
+    max-width: 800px;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d8e3ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    overflow: hidden;
+ }
+
+ .acccent-colors {
+    max-width: 800px;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d8e3ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
     text-align: center;
     overflow: hidden;
  }
