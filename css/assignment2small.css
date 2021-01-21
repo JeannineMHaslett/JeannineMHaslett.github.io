@@ -8,48 +8,6 @@ body{
     align-content: center;
 }
 
-main {
-    max-width: 1000px;
-    display: grid;
-    grid-template-columns: auto;
-    margin: auto;
-    overflow: hidden;
-}
-a {
-    color: rgba(0, 0, 0, 1);
-    text-decoration: none;
-    text-align: center;
-}
-
-.columns {
-    max-width: 55em;
-    overflow: hidden;
-    display: grid;
-    margin: auto;
-    background-color: rgba(255, 255, 255, 1);
-    border-radius: 10px;
-    position: relative;
-}
-
-.columns a {
-    background-color: rgba(255, 255, 255, 1);
-    color: rgba(0, 0, 0, 1);
-    font-size: .75em;
-    text-decoration: none;
-    text-align: center;
-}
-
-header a:hover {
-    color: rgba(231, 5, 81, 1)
-}
-.columns a:hover {
-    color: rgba(231, 5, 81, 1)
-}
-
-div {
-    width: auto;
-}
-
 div header { 
     max-width: 1200px;
     height: 175px;
@@ -59,6 +17,16 @@ div header {
     margin: 0 auto; 
     text-align: center;
  }
+
+ a {
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    text-align: center;
+}
+
+header a:hover {
+    color: rgba(231, 5, 81, 1)
+}
 
 header h1 {
     max-height: 100px;
@@ -81,6 +49,39 @@ header .subheading {
     font-family: 'Poppins', sans-serif;
     color: rgba(0, 0, 0, 1);
     font-size: 1.5em;
+}
+main {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.columns {
+    max-width: 55em;
+    overflow: hidden;
+    display: grid;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    position: relative;
+}
+
+.columns a {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    font-size: .75em;
+    text-decoration: none;
+    text-align: center;
+}
+
+.columns a:hover {
+    color: rgba(231, 5, 81, 1)
+}
+
+div {
+    width: auto;
 }
 
 .columns h2 {

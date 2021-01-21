@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,500;0,700;1,500;1,700&display=swap');
-body{
+
+
+body {
     max-width: 1200px;
     margin: 0 auto;
     height: auto;
-    background-color: #4c86a9;
+   
     align-content: center;
+}
+
+header,
+footer {
+    background-color: #172a39;
+    color: #d8e3ff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 main {
@@ -13,211 +26,6 @@ main {
     grid-template-columns: auto;
     margin: auto;
     overflow: hidden;
-}
-
-.menu {
-    max-width: 1200px;
-    background-color:#4c86a9;
-    color: #172a39;
-}
-
-
-a {
-    background-color:#4c86a9;
-    color: #172a39;
-    border-radius: 10px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.columns {
-    max-width: 55em;
-    overflow: hidden;
-    display: grid;
-    margin: auto;
-    background-color: #4c86a9;
-    border-radius: 10px;
-    position: relative;
-}
-
-.columns a {
+    padding: 15px;
     background-color: #d8e3ff;
-    color: #172a39;
-    font-size: .75em;
-    text-decoration: none;
-    text-align: center;
 }
-.columns a:hover {
-    color: #4c86a9;
-}
-
-header a {
-    background-color: #4c86a9;
-    color:  #172a39;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-header a:hover {
-    color: #d8e3ff;
-}
-
-header h1 {
-    max-height: 100px;
-    color: #172a39;
-    text-align: center;
-    font-family: 'Bree Serif', serif;
-    margin-top: 25px;
-}
-header img {
-    max-width: 100px;
-    height: auto;
-    display: inline-block;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    padding: 5px;
-    align-content: center;
-    border-style: solid;
-    border-width: 8px;
-    border-color: #8a7968;
-    overflow: hidden;
-}
-
-.presection {
-    background-color: #4c86a9;
-    font-family: 'Poppins', sans-serif;
-    color: #172a39;
-    font-size: 8px;
-}
-
-div {
-    width: auto;
-}
-
-div header { 
-    max-width: 1200px;
-    height: 175px;
-    padding: 5px;
-    background-color:#4c86a9;
-    color: #172a39;
-    margin: 0 auto; 
-    text-align: center;
- }
-
-.columns h2 {
-    background-color: #d8e3ff;
-    color: #172a39;
-    font-family: 'Bree Serif', serif;
-    padding: 5px;
-    text-align: center;
-}
-
-img {
-    width: 14em;
-    height: auto;
-    display: inline-block;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    padding: 5px;
-    align-content: center;
-    border-style: solid;
-    border-width: 8px;
-    border-color: #8a7968;
-    overflow: hidden;
-}
-
-footer {
-    max-width: 1200px;
-    height: 70px;
-    margin: 0 auto;
-    color: #172a39;
-    background-color: #4c86a9;
-    padding: 5px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-}
-
-footer p {
-    text-align: center;
-    padding: 10px;
-}
-
-h1 {
-    color: #172a39;
-    text-align: center;
-    font-family: 'Bree Serif', serif;
-}
-
-
-p {
-    color: #172a39;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1em;
-    text-align: left;
-    margin-right: 5px;
-    margin-left: 20px;
-    padding: 5px;
-}
-
-a {
-    background-color: #4c86a9;
-    color: #172a39; 
-    text-decoration: none;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-}
-
-h2 a :hover {
-    color: #8a7968;
-}
-
-.section1 h2 {
-    font-size: 1em;
-    color: #172a39;
-    text-align: center;
-    font-family: 'Bree Serif', serif;
-
-}
-
-.background {
-    max-width: 800px;
-    overflow: hidden;
-    display: inline-block;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #d8e3ff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-    text-align: center;
-    overflow: hidden;
- }
-
- .navigation {
-    max-width: 800px;
-    overflow: hidden;
-    display: inline-block;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #d8e3ff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-    text-align: center;
-    overflow: hidden;
- }
-
- .acccent-colors {
-    max-width: 800px;
-    overflow: hidden;
-    display: inline-block;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #d8e3ff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-    text-align: center;
-    overflow: hidden;
- }

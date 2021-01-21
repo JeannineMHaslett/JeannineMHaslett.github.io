@@ -17,6 +17,11 @@ header {
     padding: 5px;
 }
 
+main {
+    padding-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
 h1 {
     padding-left: 50px;
     font-family: 'Shadows Into Light', cursive;
@@ -31,11 +36,6 @@ h1 {
     width: 150px;
     height: auto;
     box-shadow: 0 0 10px 5px rgba(184, 169, 169, 1);
-}
-
-main {
-    padding-left: 20px;
-    font-family: 'Poppins', sans-serif;
 }
 
 li a {
