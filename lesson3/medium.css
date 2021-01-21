@@ -1,0 +1,14 @@
+@media only screen and (min-width: 32.5em) {
+    main {display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .review1 {
+        grid-column-start: 1;
+    }
+
+    .review2 {
+        grid-column-start: 2;
+    }
+}
