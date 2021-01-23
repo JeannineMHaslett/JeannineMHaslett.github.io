@@ -84,7 +84,6 @@ nav li {
   overflow: hidden;
   position: relative;
   background-color: #d8e3ff;
-  padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -169,7 +168,7 @@ nav li {
 .accents h3 {
   font-family: 'Poppins', sans-serif;
   max-width: 1200px;
-  margin: 50px;
+  margin: 0 auto;
   background-color: #d8e3ff;
 
 
