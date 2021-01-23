@@ -1,17 +1,47 @@
+@media only screen and (min-width: 415px) {
+    body {
+        max-width: 960px;
+      }
+      
+      main .container {
+        max-width: 960px;
+      }
 
-
-@media only screen and (min-width: 32.5em) {
-    main {display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
+      header {
+        max-width: 960px;
     }
-    nav ul { display: flex; }
-    nav ul li { flex: 1 1 100%; }
-    .background {
-        grid-column-start: 1;
+      
+    .container .mainmenu {
+        max-width: 960px;
+
     }
 
-    .navigation {
-        grid-column-start: 2;
-    }
+nav ul {
+    max-width: 960px;
 }
+
+nav li {
+  max-width: 960px;
+}
+
+.columns {
+    max-width: 960px;
+}
+
+.background p,
+.navigation p,
+.accents p {
+    max-width: 960px;
+}
+
+.background h3,
+.navigation h3,
+.accents h3 {
+    max-width: 960px;
+}
+
+footer p {
+    max-width: 960px;
+}
+}
+

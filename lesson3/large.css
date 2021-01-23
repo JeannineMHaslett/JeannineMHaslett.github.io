@@ -1,20 +1,46 @@
-@media only screen and (min-width: 60em) {
-    main {
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
+@media only screen and (min-width: 960px) {
+    body {
+        max-width: 1200px;
+      }
+      
+      main .container {
+        max-width: 1200px;
+      }
+
+      header {
+        max-width: 1200px;
+    }
+      
+    .container .mainmenu {
+        max-width: 1200px;
+
     }
 
-    .review1 {
-        grid-column-start: 1;
-    }
+nav ul {
+    max-width: 1200px;
+}
 
-    .review2 {
-        grid-column-start: 2;
-    }
+nav li {
+  max-width: 1200px;
+}
 
-    .review3 {
-        grid-column-start: 3;
-    }
+.columns {
+    max-width: 1200px;
+}
 
+.background p,
+.navigation p,
+.accents p {
+    max-width: 1200px;
+}
+
+.background h3,
+.navigation h3,
+.accents h3 {
+    max-width: 1200px;
+}
+
+footer p {
+    max-width: 1200px;
+}
 }
