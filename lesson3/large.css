@@ -25,6 +25,10 @@ nav li {
   font-size: 25px;
 }
 
+nav a {
+    font-size: 20px;
+}
+
 .columns {
     max-width: 1200px;
 }
