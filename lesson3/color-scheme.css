@@ -75,6 +75,7 @@ nav li {
   color: #172a39;
   margin: 80px;
   background-color: #d8e3ff;
+  margin: 0;
 }
 
 .palette {
@@ -82,6 +83,7 @@ nav li {
   position: relative;
   background-color: #d8e3ff;
   position: static;
+  margin: 0;
 }
 
 .palette img {
@@ -101,6 +103,7 @@ nav li {
   max-width: 100%;
   position: relative;
   background-color: #d8e3ff;
+  margin: 0;
 }
 
 .columns h2 {
