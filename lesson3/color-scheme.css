@@ -79,7 +79,6 @@ nav li {
 
 .palette {
   max-width: 100%;
-  overflow: hidden;
   position: relative;
   background-color: #d8e3ff;
   position: static;
@@ -94,14 +93,12 @@ nav li {
   border-width: 5px;
   border-color: #172a39;
   box-shadow: 10px 10px 4px #8a7968;
-  overflow: hidden;
   display: block;
   width: 90%;
 }
 
 .columns {
   max-width: 100%;
-  overflow: hidden;
   position: relative;
   background-color: #d8e3ff;
 }
