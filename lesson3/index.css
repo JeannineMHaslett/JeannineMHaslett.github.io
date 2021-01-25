@@ -108,6 +108,14 @@ h1 {
   background-color: #d8e3ff;
 }
 
+.columns {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #d8e3ff;
+  margin: 0 auto;
+  }
+
 section {
   max-width: 100%;
   position: relative;
