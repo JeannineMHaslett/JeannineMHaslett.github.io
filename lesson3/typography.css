@@ -83,20 +83,72 @@ nav li {
 }
 header h1 {
   max-width: 100%;
-  padding: 5px;
+  padding: 30px;
   background-color: #172a39;
   color: #f4d35f;
   text-align: center;
   font-family: 'Bree Serif', serif;
+  font-size: 30px;
   position: static;
   margin: 0;
 }
 
-.headertext h1 {
-  font-family: 'Bree Serif', serif;  max-width: 100%;
+.headertext div h2 {
+  font-family: 'Bree Serif', serif; 
+  max-width: 100%;
   font-size: 30px;
   padding: 20px;
   margin-left: 20px;
+  background-color: #d8e3ff;
+  color: #172a39;
+  position: static;
+  margin-top: 30px;
+}
+.header div {
+  font-family: 'Bree Serif', serif;  max-width: 100%;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 30px;
+  background-color: #d8e3ff;
+  color: #172a39;
+  position: static;
+}
+.poppins h2 {
+   font-family: 'Poppins', sans-serif;
+  width: 100%;
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: #d8e3ff;
+  color: #172a39;
+  position: static;
+}
+.poppins p {
+ font-family: 'Bree Serif', serif;  max-width: 100%;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 50px;
+  background-color: #d8e3ff;
+  color: #172a39;
+  position: static;
+}
+
+.bree div {
+  font-family: 'Bree Serif', serif;  max-width: 100%;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 18px;
+  background-color: #d8e3ff;
+  color: #172a39;
+  position: static;
+}
+
+.poppins div p{
+  font-family: 'Poppins', sans-serif;  max-width: 100%;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 30px;
   background-color: #d8e3ff;
   color: #172a39;
   position: static;
@@ -113,16 +165,54 @@ header h1 {
   position: static;
 }
 
-.headertext p {font-family: 'Poppins', sans-serif;
+.navitext p {
+  font-family: 'Poppins', sans-serif;  
+  max-width: 100%;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: #d8e3ff;
+  color: #172a39;
+  position: static;
+}
+
+.h2text div h2 {font-family: 'Bree Serif', serif;
     max-width: 100%;
-    margin-top: 0;
+    margin-top: 40px;
     margin-bottom: 0;
     margin-left: 50px;
     margin-right: 20px;
     background-color: #d8e3ff;
   color: #172a39;
    align-content: center;
-    position: relative;}
+    position: relative;
+}
+
+.h2text div p {font-family: 'Bree Serif', serif;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: #d8e3ff;
+  font-size: 20px;
+  color: #172a39;
+   align-content: center;
+    position: relative;
+}
+
+.h3text div h2 {
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: #d8e3ff;
+  font-size: 20px;
+  color: #172a39;
+   align-content: center;
+    position: relative;
+}
 
  h2 {
   font-family: 'Bree Serif', serif;
@@ -139,8 +229,33 @@ section {
   background-color: #d8e3ff;
 }
 
-.h3text h2 {
+.h3text div h2 {
   max-width: 100%;
+  display: block;
+  margin-left: 40px;
+  padding: 5px;
+  background-color: #d8e3ff;
+  color: #172a39;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  position: relative;
+}
+
+.h3text div p {
+    max-width: 100%;
+  display: block;
+  margin-left: 45px;
+  margin-top: -8px;
+  padding: 5px;
+  background-color: #d8e3ff;
+  color: #172a39;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  position: relative;
+  
+}
+.h3qfox div p {
+    max-width: 100%;
   display: block;
   margin: 0;
   padding: 5px;
@@ -150,24 +265,24 @@ section {
   font-size: 20px;
   position: relative;
 }
-
-.h3text h3 {
-  max-width: 100%;
-  display: block;
-  margin: 0;
-  padding: 5px;
-  background-color: #d8e3ff;
-  color: #172a39;
+.bodycopy div h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-  position: relative;
-}
-
-p {
-  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
   max-width: 100%;
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 50px;
+  margin-right: 20px;
+  background-color: #d8e3ff;
+  align-content: center;
+  position: relative;
+}
+.bodycopy div p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 20px;
   background-color: #d8e3ff;
@@ -193,4 +308,3 @@ footer a {
 footer a:hover {
   color: #f4d35f;
 }
-
