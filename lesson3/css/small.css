@@ -5,6 +5,21 @@ body {
 max-width: 960px;
 margin: 0 auto;
 }
+header {
+  display: flex;
+  background-color: #172a39;
+  color: #f4d35f;
+	padding: 0px;
+	align-items: center;
+	justify-content: center;
+}
+header h1 {
+  font-family: 'Bree Serif', serif;
+  font-size: 45px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+}
 
 main {
   margin: 0 auto;
