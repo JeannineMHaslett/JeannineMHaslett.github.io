@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,500;0,700;1,500;1,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,500;0,700;1,500;1,700&display=swap');
-
-
 body {
   min-width: 415px;
   max-width: 100%;
@@ -26,8 +23,11 @@ header {
   text-align: center;
   font-family: 'Bree Serif', serif;
   position: static;
+ 
 }
-
+nav .images {
+  border-radius: 5px;
+}
 nav ul {
   max-width: 100%;
   margin: 0;
@@ -60,6 +60,7 @@ nav a {
 nav a:hover {
   color: #172a39;
   background-color: #f4d35f;
+  border-radius: 5px;
 }
 
 nav li {

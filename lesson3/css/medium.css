@@ -1,0 +1,8 @@
+@media only screen and (min-width: 415px) {
+
+nav ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+}
+
