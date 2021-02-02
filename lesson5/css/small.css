@@ -5,6 +5,22 @@ body {
   background-color: #d8e3ff;
 }
 
+.satBanner {
+  display: flex;
+  background-color: #f4d35f;
+  color: #172a39;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.satBanner p {
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 header {
   display: flex;
   background-color: #172a39;
