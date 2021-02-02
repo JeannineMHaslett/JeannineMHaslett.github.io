@@ -1,17 +1,16 @@
-/*Large Screen*/
 @media only screen and (min-width: 875px) {
-    main { 
-        max-width: 875px;
-        margin: auto;
-    }
-      main .largerp {
-        margin: 0 auto;
-      }
-    footer {
+  main { 
+      max-width: 875px;
       margin: auto;
+  }
+    main .largerp {
+      margin: 0 auto;
     }
-    
-    .heading h1 {
-      font-size: 3rem;
+  footer {
+    margin: auto;
+  }
+  
+  .heading h1 {
+    font-size: 3rem;
+  }
     }
-      }
