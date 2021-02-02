@@ -1,8 +1,9 @@
-@media only screen and (min-width: 415px) {
+@media only screen and (min-width: 650px) {
+    nav ul {
+        display: flex;
+    }
 
-nav ul {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    nav ul li {
+        flex: 1 1 100%;
+    }
 }
-
-}
-
