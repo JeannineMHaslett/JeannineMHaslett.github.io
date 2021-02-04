@@ -22,52 +22,93 @@
 </head>
 
 <body>
-    <div class="satBanner">      
-    </div>
-    <header>
-        <picture>
-            <img src="images/weather-logo.png" alt="logo of sun with raining cloud">
-        </picture>
-        <section>
-            <h1>Whether to Weather</h1>
-            <div class="byline">Weather and more from Preston</div>
-        </section>
-    </header>
+    <section class="header">
+        <div class="satBanner">
+            <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+        <header>
+            <picture>
+                <img src="images/weather-logo.png" alt="logo of sun with raining cloud">
+            </picture>
+            <div>
+                <h1>Whether to Weather</h1>
+                <div class="byline">Weather and more from Preston</div>
+            </div>
+        </header>
 
-    <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="/index.html" target="blank">Assignment Portal</a></li>
-        </ul>
-    </nav>
 
-    <!------<container class="shoshoneFalls">
-        <img src="images/shoshone-falls.jpg" alt="image of Shoshone Falls in Twin Falls Idaho" width="960">
-    </container> ------>
-
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </section>
     <main>
-        <h2>Preston, Idaho</h2>
-        <div>
-            <p class="largerp"><b>Weather Summary</b></p>
-        </div><br>
-        <div>
-            <p class="largerp"><b>Five Day Forecast</b></p>
-        </div><br>
-        <div>
-            <p class="largerp"><b>Article</b></p>
-        </div><br>
-        <div>
-            <p class="largerp"><b>Contact Information</b></p>
-        </div><br>
+        <div class="hero-div">
+            <div class="falls">
+                <img src="images/shoshone-falls.jpg" alt="image of Shoshone Falls in Twin Falls Idaho" width="960">
+                </container>
+            </div>
+            <section class="overlay">
+                <h3>Weather Summary</h3>
+                <table>
+                    <tr>
+                        <td><b>Partly Cloudy:</b></td>
+                        <td><b>29&#176</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>Humidity:</b></td>
+                        <td><b>72%</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>Wind:</b></td>
+                        <td><b>3 MPH SE</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>Feels like:</b></td>
+                        <td><b>26&#176</b></td>
+                    </tr>
+                </table>
+            </section>
+        </div>
 
+        <container class="forecast">
+            <h2>Preston, Idaho</h2>
+            <div class="five-day-forecast">
+                <h3><b>Five Day Forecast</b></h3>
+                <div class="forecast-img">
+                    <img src="images/forecast.jpg" alt="image of forecast for next five days" width="500">
+                </div>
+            </div>
+        </container>
+
+        <container class="article">
+            <div class="weather-article">
+                <h3><b>Weather News</b></h3>
+                <p>Welcome to the Preston weather home page. Here, you will find a five-day forecast, today's
+                    temperature as well as humidity and wind chill.
+                    We will always alert you when there is stromy weather, with updates on road conditions and closures.<br><br>
+
+                    Last week's storm inundated Preston with 3 inches of rainfall in 2 hours, which caused mild flooding
+                    in some neighborhoods. Be prepared for the moisture to turn to snow soon, as there is an arctic
+                    blast moving our direction. The arctic blast is currently causing major problems in the easern part
+                    of the country in the form of a nor'easter. Stay tuned for more weather news.
+                </p>
+            </div>
+        </container>
+        
+        <container class="map">
+            <img src="images/map.JPG" alt="Weather map of Preston" width 100px>
+            <h3><b>Contact Information</b></h3>
+        </container>
     </main>
-    <footer>
+        <footer>
         <p>&copy;2021 Whether to Weather | Jeannine Haslett | <a href="https://www.byui.edu/online">BYUI
                 Online Learning </a></p>
         <div id="date">
