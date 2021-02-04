@@ -90,7 +90,7 @@ nav ul li a:hover {
   color: #172a39;
   border-radius: 5px;
 }
-:active {
+nav ul li :active {
   background-color: #f4d35f;
 }
 .clearfix:after {
