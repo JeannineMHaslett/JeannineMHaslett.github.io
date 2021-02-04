@@ -13,9 +13,8 @@ document.getElementById("date").innerHTML = day[current.getDay()] +
     current.getFullYear();
 
 //function for Saturday pancake banner//
-/*var d = new Date();
-var n = d.getDay();
-console.log(n);
-if (n == 2) {
-    document.getElementById("satBanner").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
-}*/
+let d = new Date();
+let n = d.getDay();
+// console.log(n);
+if (n == 5) {
+        document.querySelector(".satBanner").style.display = "block";}

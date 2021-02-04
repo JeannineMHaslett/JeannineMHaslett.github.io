@@ -1,29 +1,20 @@
 body {
-
     margin: 0 auto;
     background-color:  #d8e3ff; 
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 .satBanner {
-  display: flex;
+  display: none;
   background-color: #f4d35f;
   color: #172a39;
   padding: 15px;
-  align-items: center;
-  text-align: center;
-    -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.satBanner p {
   font-family: 'Bree Serif', serif;
   font-size: 15px;
   margin: 0 auto;
   text-align: center;
 }
+
 header {
   display: flex;
   background-color: #172a39;
@@ -99,6 +90,9 @@ nav ul li a:hover {
   color: #172a39;
   border-radius: 5px;
 }
+:active {
+  background-color: #f4d35f;
+}
 .clearfix:after {
   content: "";
   display: table;
@@ -118,7 +112,9 @@ nav ul.hide {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+ img {
+   width: 100%;
+ }
 .falls {
   margin: 10px auto;
   background-color: #d8e3ff;
