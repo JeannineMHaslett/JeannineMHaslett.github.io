@@ -16,7 +16,7 @@ document.getElementById("date").innerHTML = day[current.getDay()] +
 let d = new Date();
 let n = d.getDay();
 // console.log(n);
-if (n == 6) {
+if (n == 5) {
     document.querySelector(".satBanner").style.display = "block";
 }
 

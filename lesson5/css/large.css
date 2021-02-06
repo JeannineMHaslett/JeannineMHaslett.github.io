@@ -12,6 +12,10 @@
     margin: auto;
   }
 
+  div .article {
+  margin-top: 30px;
+  }
+
   .heading h1 {
     font-size: 45px;
   }
