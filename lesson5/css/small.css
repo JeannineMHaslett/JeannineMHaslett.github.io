@@ -228,7 +228,7 @@ main div {
 }
 
 .footer {
-  display: flex;
+  
   flex-flow: row;
   background-color: #172a39;
   padding: 0px;
@@ -258,6 +258,7 @@ main div {
 }
 
 footer {
+  display: block;
   max-width: 100%;
   background-color: #172a39;
   color: #d8e3ff;
