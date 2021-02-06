@@ -1,6 +1,6 @@
 @media only screen and (min-width: 875px) {
   main { 
-      max-width: 875px;
+      max-width: 1000px;
       margin: auto;
   }
     main .largerp {
@@ -11,6 +11,6 @@
   }
   
   .heading h1 {
-    font-size: 3rem;
+    font-size: 45px;
   }
     }
