@@ -49,8 +49,8 @@
   .overlay {
     top: 50px;
     left: 50px;
-    display: block;
-  }
+    position: absolute;
+    }
 
   .overlay td {
     font-size: 18px;
