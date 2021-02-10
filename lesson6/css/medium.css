@@ -43,13 +43,12 @@
     padding: 0px;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    margin-right: 20px;
   }
 
   .overlay {
     top: 50px;
     left: 50px;
-    display: block;
     position: absolute;
     }
 
@@ -115,7 +114,7 @@
 
 
  .footer img {
-  max-width: 500px;
+  max-width: 650px;
   margin: 0;
 }
 .copy .copyright, 
