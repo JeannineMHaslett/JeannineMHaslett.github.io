@@ -18,6 +18,8 @@
   }
 
   #primaryNav {
+    display: flex;
+    margin-top: 0;
     font-size: 15px;
   }
 

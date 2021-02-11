@@ -65,37 +65,22 @@ main {
   color: #172a39;
   font-family: 'Bree Serif', serif;
   font-size: 25px;
-  }
-
-.columns {
-  align-content: center;
 }
 
-h2 {
- font-family: 'Bree Serif', serif;
-}
-
-h3 {
+.columns h3 {
   color: #172a39;
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-
+  font-size: 20px;
 }
 
 .columns p {
   color: #172a39;
   font-family: 'Poppins', sans-serif;
-  font-size: 13.5px;
-  padding: 5px;
+  font-size: 15px;
 }
 
 img {
-  max-width: 500px;
-  margin: 20px;
-  border-style: solid;
-  border-color: #172a39;
-  box-shadow: 5px 5px 5px 5px#8a7968;
-  align-content: center;
+  margin: 8px;
 }
 
 footer {
@@ -108,6 +93,7 @@ footer {
   flex: 0 1 100%;
   align-items: center;
   justify-content: center;
+  padding: 20px;
   height: 32px;
 }
 
@@ -120,15 +106,21 @@ footer {
 
 }
 
+main div {
+  display: block;
+  background-color: #d8e3ff;
+  border: 3px solid #4c86a9;
+  box-shadow: 0px 0px 5px 5px #4c86a9;
+
+}
+
 footer {
-  max-width: 960px;
   background-color: #172a39;
   color: #d8e3ff;
   border: none;
   text-align: center;
   padding: 30px 0px 30px 0px;
   font-family: 'Poppins', sans-serif;
-  margin: 10px;
 }
 
 footer a {
@@ -142,6 +134,16 @@ footer a:hover {
 footer p {
   background-color: #172a39;
   color: #d8e3ff;
-  text-align: left;
-  font-size: 12px;
+}
+
+/* medium screens */
+@media only screen and (min-width: 650px) {
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    flex: 1 1 100%;
+  }
 }

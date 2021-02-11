@@ -1,7 +1,10 @@
 @media only screen and (min-width: 875px) {
-  main {
+
+   main,
+   header,
+   nav {
     max-width: 1000px;
-    margin: auto;
+    margin-left: 20px;
   }
 
   main .largerp {

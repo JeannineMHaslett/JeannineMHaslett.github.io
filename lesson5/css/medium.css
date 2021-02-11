@@ -32,10 +32,6 @@
     display: block;
   }
 
-  #primaryNav {
-    display: flex;
-  }
-
   nav ul li {
     flex: 1 1 100%;
     text-align: center;
