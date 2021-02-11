@@ -19,7 +19,6 @@ header {
   display: flex;
   background-color: #172a39;
   color: #f4d35f;
-  padding: 0px;
   align-items: center;
   justify-content: center;
 }
@@ -45,10 +44,8 @@ header img {
 
 .byline {
   font-family: 'Poppins', sans-serif;
-  font-size: 13px;
   text-align: center;
   color: #f4d35f;
-  padding-bottom: 20px;
 }
 
 #primaryNav {
