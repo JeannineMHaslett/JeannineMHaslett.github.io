@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,500;0,700;1,500;1,700&display=swap');
 
 body {
+  margin: 0;
   background-color: #d8e3ff;
 }
 
@@ -58,17 +59,22 @@ h1 {
   font-family: 'Bree Serif', serif;
 }
 
-.palette h2,
-.columns h2 {
+h2 {
   color: #172a39;
   font-family: 'Bree Serif', serif;
   font-size: 25px;
+  margin-left: 10px;
 }
 
 .columns h3 {
   color: #172a39;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
+}
+main .scenarios h3 {
+  color: #172a39;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
 }
 
 .columns p {
@@ -77,19 +83,29 @@ h1 {
   font-size: 15px;
 }
 
-img {
+.palette img,
+.columns img {
   max-width: 700px;
   margin-bottom: 25px;
   border: 2px solid #172a39;
   box-shadow: 3px 3px 10px 5px #8a7968;
 }
 
-p {
+.molly img,
+.zack img {
+  max-width: 300px; 
+  margin-bottom: 10px;
+  border: 2px solid #172a39;
+  box-shadow: 3px 3px 10px 5px #8a7968;
+}
+
+.molly p,
+.zack p,
+.scenarios p {
   color: #172a39;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Poppins', sans-serif;
-  padding: 15px 15px 15px 15px;
-  margin: 5px;
+  margin: 10px 0px 10px 5px;
 }
 
 footer {
