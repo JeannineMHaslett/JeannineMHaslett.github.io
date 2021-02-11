@@ -26,7 +26,8 @@ nav {
 
 nav ul {
   list-style-type: none;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding: 15px;
   overflow: hidden;
 }
@@ -44,6 +45,10 @@ nav a:hover {
   background-color: #f4d35f;
   color: #172a39;
   border-radius: 5px;
+}
+
+nav ul li a:active {
+  background-color: #f4d35f;
 }
 
 main {
@@ -97,9 +102,15 @@ main .scenarios h3 {
 }
 
 .molly img,
-.zack img,
+.zack img {
+  max-width: 200px; 
+  margin-bottom: 10px;
+  border: 2px solid #172a39;
+  box-shadow: 3px 3px 10px 5px #8a7968;
+}
+
 .logo {
-  max-width: 300px; 
+  max-width: 150px; 
   margin-bottom: 10px;
   border: 2px solid #172a39;
   box-shadow: 3px 3px 10px 5px #8a7968;
@@ -113,10 +124,42 @@ main .scenarios h3 {
 }
 .molly p,
 .zack p,
-.scenarios p {
+.scenarios p,
+.description p,
+.name p,
+.purpose p,
+.colors p,
+.header p,
+.navitext p,
+.mainhead p {
   color: #172a39;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
+  margin: 10px 0px 10px 5px;
+}
+
+.header h3,
+.bree h3,
+.navitext h3 {
+  color: #172a39;
+  font-size: 20px;
+  font-family: 'Bree Serif', serif;
+  margin: 10px 0px 10px 5px;
+}
+
+.mainhead,
+.sechead {
+  color: #172a39;
+  font-size: 20px;
+  font-family: 'Bree Serif', serif;
+  margin: 10px 0px 10px 5px;
+}
+
+.bree p,
+.mainheadexpl p {
+  color: #172a39;
+  font-size: 16px;
+  font-family: 'Bree Serif', serif;
   margin: 10px 0px 10px 5px;
 }
 
