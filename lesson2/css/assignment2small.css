@@ -42,14 +42,23 @@ header a {
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
+    display: flex;
+font-family: 'Poppins', sans-serif;
+font-size: 1.5em;
+align-items: center;
+justify-content: center;
 }
 
 header .subheading {
+    display: flex;
     background-color: rgba(245, 167, 193, 1);
     font-family: 'Poppins', sans-serif;
     color: rgba(0, 0, 0, 1);
     font-size: 1.5em;
+    align-items: center;
+    justify-content: center;
 }
+
 main {
     max-width: 1000px;
     display: grid;
