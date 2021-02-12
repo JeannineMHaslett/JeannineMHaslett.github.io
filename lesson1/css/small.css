@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&family=Shadows+Into+Light&display=swap');
+
+body {
+    max-width: 600px;
+    margin: 0 auto;
+   }
+
+header {
+    text-align: center;
+    padding: 5px;
+}
+
+h1 {    
+    font-size: 30px;
+    color: rgba(0, 0, 0, 1);
+    margin: 5px;
+    padding: 10px 30px 5px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.photo {
+    float: right;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+main {
+    margin: 0px 30px;
+}
+
+h2 {
+font-family: 'Poppins', sans-serif;
+color: rgba(0, 0, 0, 1);
+font-size: 18px;
+}
+
+ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+ }
+ 
+li a {
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgba(224, 106, 146, 1);
+}
+
+header, footer {
+    max-width: 600px;
+    background-color: rgba(245, 167, 193, 1);
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
