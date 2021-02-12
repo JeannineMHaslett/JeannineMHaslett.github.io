@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,500;0,700;1,500;1,700&display=swap');
+
 body {
   max-width: 700px;
   background-color: #d8e3ff;
@@ -123,7 +125,7 @@ nav ul.hide {
   }
 
 .overlay {
-  position: block;
+  display: block;
   top: 15px;
   left: 15px;
   padding: 10px;
