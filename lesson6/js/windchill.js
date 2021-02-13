@@ -1,17 +1,17 @@
-// LaTeX: f=35.74+0.6215\:t-35.75\:s^{0.16}+0.4275\:t\:s^{0.16}f = 35.74 + 0.6215 t − 35.75 s 0.16 + 0.4275 t s 0.16, 
-//where f is the wind chill factor in Fahrenheit, t is the air average temperature in Fahrenheit, and s is the wind speed in miles per hour.
 
+ 
+ 29 = document.getElementById("temp").value;
+ 3 = document.getElementById("speed").value;
+ 
+if (temp <= 50 && speed >= 3)  {
+  document.getElementById('windchill').innerHTML = windchill(t,s) + "&#176;";;
+}
+else {
+  document.getElementById("windchill").text = "N/A";
+}
 
-
-let t = parseInt(document.getElementById("temp").innerHTML="");
-let s = parseInt(document.getElementById("speed").innerHTML="");
-
-let x = 35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s, 0.16);
-x = x.toFixed();
-
-if ((t > -50) || (s < 1)) {
-    document.getElementByID("windchill").innerHTML = "None";
-} else {
-    document.getElementById("windchill").innerHTML = x;
+function windchill(t,s) {
+  let w = Math.round(35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s, 0.16));
+return w;
 }
 
