@@ -53,7 +53,11 @@
     <main>
         <div class="hero-div">
             <div class="falls">
-                <img src="images/shoshone-falls.jpg" alt="image of Shoshone Falls in Twin Falls Idaho" width="960">
+                <picture>
+                    <source srcset="images/provided400.jpg" media="(min-width: 500px) and (max-width: 799px">
+                    <source srcset="images/provided600.jpg" media="(min-width: 800px)">    
+                <img src="images/provided250.jpg" alt="image of green field with sun, blue sky and clouds">
+            </picture>
             </div>
 
             <section class="overlay">
@@ -72,7 +76,7 @@
                         <td><b>3 MPH SE</b></td>
                     </tr>
                     <tr>
-                        <td><b>Wind Chill:</b></td>
+                        <td><b>Feels like:</b></td>
                         <td><b>26&#176;</b></td>
                     </tr>
                 </table>
@@ -115,8 +119,17 @@
 
         <div class="article">
             <h3><b>Weather News</b></h3>
-            <img class="rainstorm" src="images/rainstorm.jpg" alt="rain and lightning in the evening">
+            <img class="rainstorm" src="images/rainstorm400.jpg" alt="rain and lightning in the evening">
 
+            <p>Welcome to the Preston weather home page. Here, you will find a five-day forecast, today's
+                temperature as well as humidity and wind chill. We will always alert you when there is stormy
+                weather, with updates on road conditions and closures.<br><br>
+
+                Last week's storm inundated Preston with 3 inches of rainfall in 2 hours, which caused mild
+                flooding in some neighborhoods. Be prepared for the moisture to turn to snow soon, as there is
+                an arctic blast moving our direction. The arctic blast is currently causing major problems in
+                the eastern part of the country in the form of a nor'easter. Stay tuned for more weather news.
+            </p>
             <p>Welcome to the Preston weather home page. Here, you will find a five-day forecast, today's
                 temperature as well as humidity and wind chill. We will always alert you when there is stormy
                 weather, with updates on road conditions and closures.<br><br>
@@ -132,7 +145,7 @@
         <ul class="footer">
             <li>
                 <h3>Weather Map</h3><br>
-                <img src="images/map.JPG" alt="Weather map of Preston">
+                <img class="map" src="images/map.JPG" alt="Weather map of Preston">
             </li>
 
             <li>
@@ -158,11 +171,13 @@
                 <p>&copy;2021 Whether to Weather | Jeannine Haslett | <a href="https://www.byui.edu/online">BYUI
                         Online Learning </a></p>
             </div>
+        </div>
 
             <div id="date"></div>
          
       </footer>
     <script src="js/script.js"></script>
+    
 </body>
 
-<html>
+</html>

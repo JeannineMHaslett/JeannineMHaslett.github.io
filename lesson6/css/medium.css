@@ -1,5 +1,5 @@
 /*Medium Screen*/
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 500px) {
   body {
     max-width: 1000px;
     margin: 0 auto;
@@ -45,12 +45,12 @@
     padding: 0px;
     align-items: center;
     justify-content: center;
-    margin-right: 20px;
+    margin: 0;
   }
 
   .overlay {
-    top: 50px;
-    left: 50px;
+    top: 40px;
+    left: 40px;
     position: absolute;
     }
 
@@ -71,8 +71,8 @@
     padding: 10px;
   }
   
-  .rainstorm {
-    max-width: 300px;
+  .rainstorm img {
+    float: right;
     margin: 0;
   }
 
@@ -114,6 +114,10 @@
   align-items: center;
   } 
 
+  .social-media img {
+    max-width: 30px;
+    padding: 10px 15px 0px 0px;
+  }
 
  .footer img {
   max-width: 650px;
