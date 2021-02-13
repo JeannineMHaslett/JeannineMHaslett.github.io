@@ -1,7 +1,9 @@
 
- 
- 29 = document.getElementById("temp").value;
- 3 = document.getElementById("speed").value;
+let x = document.getElementById("temp").value;
+let y = document.getElementById("speed").value;
+
+temp = 29;
+speed = 3;
  
 if (temp <= 50 && speed >= 3)  {
   document.getElementById('windchill').innerHTML = windchill(t,s) + "&#176;";;
