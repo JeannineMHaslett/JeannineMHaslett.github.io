@@ -54,33 +54,37 @@
         <div class="hero-div">
             <div class="falls">
                 <picture>
-                    <source srcset="images/provided400.jpg" media="(min-width: 500px) and (max-width: 799px">
+                    <source srcset="images/provided400.jpg" media="(min-width: 500px) and (max-width: 799px)">
                     <source srcset="images/provided600.jpg" media="(min-width: 800px)">
                     <img src="images/provided250.jpg" alt="image of green field with sun, blue sky and clouds">
                 </picture>
             </div>
 
-            <section class="overlay">
-                <h3>Weather Summary</h3>
-                <table>
-                    <tr>
-                        <td><b>Partly Cloudy:</b></td>
-                        <td><b>29&#176;</b></td>
-                    </tr>
-                    <tr>
-                        <td><b>Humidity:</b></td>
-                        <td><b>72%</b></td>
-                    </tr>
-                    <tr>
-                        <td><b>Wind:</b></td>
-                        <td><b>3 MPH SE</b></td>
-                    </tr>
-                    <tr>
-                        <td><b>Wind Chill:</b></td>
-                        <td><b id="windchill"></b></td>
-                    </tr>
-                </table>
-            </section>
+            <section class="overlay"> 
+                <h3>Weather Summary</h3> 
+                <table> 
+                
+                <tr> 
+                <td><b>Partly Cloudy:</b></td> 
+                <td><b id="temp">29</b></td> 
+                </tr> 
+                
+                <tr> 
+                <td><b>Humidity:</b></td> 
+                <td><b>72%</b></td> 
+                </tr> 
+                
+                <tr> 
+                <td><b>Wind:</b></td> 
+                <td><b id="speed">3</b><b> MPH SE</b></td> 
+                </tr> 
+                
+                <tr> <td><b>Wind Chill:</b></td> 
+                <td><b id="windchill"></b></td> 
+                </tr> 
+                </table> 
+            </section> 
+                
         </div>
 
 
@@ -178,7 +182,7 @@
     </footer>
     <script src="js/script.js"></script>
     <script src="js/windchill.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.2/webfont.js>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.2/webfont.js">
     </script>
     <script>
         webfont.load ({
