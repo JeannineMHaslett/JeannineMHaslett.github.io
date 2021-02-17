@@ -1,0 +1,41 @@
+@media only screen and (min-width: 800px) {
+  main {
+    max-width: 1400px;
+    margin: auto;
+  }
+
+  main .largerp {
+    margin: 0 auto;
+  }
+
+  .falls  img{
+    max-width: 1000px;
+  }
+  .gallery {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 3fr));
+    justify-content: center;
+  }
+
+  .gallery picture img 
+  .gallery .lazy {
+   max-width: 400px;
+  }
+
+  .gallery data a {
+    max-width: 400px;
+  } 
+
+  footer {
+    margin: auto;
+  }
+
+  div .article {
+  margin-top: 30px;
+  }
+
+  .heading h1 {
+    font-size: 45px;
+  }
+}
