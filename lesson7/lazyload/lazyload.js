@@ -1,4 +1,4 @@
-let images = document.querySelectorAll("img[data-src]");
+const images = document.querySelectorAll("img[data-src]");
 function preloadImage(img) {
     let src = img.getAttribute("data-src");
     if (!src) {
@@ -7,11 +7,11 @@ function preloadImage(img) {
     img.src = src;
     img.removeAttribute('data-src');
 }
-let imgOptions = {
-    threshold: 0,
+const imgOptions = {
+    threshold: 1,
     rootMargin: "0px 0px 50px 0px"
 };
-let imgObserver = new IntersectionObserver((entries, imgObserver) => {
+const imgObserver = new IntersectionObserver((entries, imgObserver) => {
     entries.forEach(entry => {
         if (!entry.isIntersecting) {
             return;
@@ -21,6 +21,7 @@ let imgObserver = new IntersectionObserver((entries, imgObserver) => {
         }
     })
 }, imgOptions);
+
 images.forEach(image => {
     imgObserver.observe(image);
 })

@@ -38,8 +38,7 @@ body {
   }
 
   img[data-src] {
-      filter: blur(0px);
-      transition: 0.5s;
+      filter: blur(5px);
   }
 
   figcaption {
