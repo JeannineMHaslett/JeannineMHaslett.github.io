@@ -1,4 +1,8 @@
 @media only screen and (min-width: 800px) {
+  body {
+    max-width: 1400px;
+  }
+  
   main {
     max-width: 1400px;
     margin: auto;
@@ -18,8 +22,7 @@
     justify-content: center;
   }
 
-  .gallery picture img 
-  .gallery .lazy {
+  .gallery img {
    max-width: 400px;
   }
 

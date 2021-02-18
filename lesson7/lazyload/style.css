@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,500;0,700;1,500;1,700&display=swap');
+
+body {
+    max-width: 799px;
+    background-color: #d8e3ff;
+    margin: 0 auto;
+  }
+
+  header {
+    display: flex;
+    background-color: #172a39;
+    color: #f4d35f;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  
+  figure {
+      max-width: 300px;
+      height: auto;
+  }
+
+  img {
+      width: 100%;
+      filter: blur(0px);
+      transition: filter 0.5s;
+  }
+
+  img[data-src] {
+      filter: blur(0px);
+      transition: 0.5s;
+  }
+
+  figcaption {
+  font-size: 10px;
+  font-family: 'Poppins'; 
+}
