@@ -17,8 +17,8 @@
   }
   .gallery {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 3fr));
+    grid-gap: 10px;
+    grid-template-columns: 1fr, 1fr, 1fr;
     justify-content: center;
   }
 

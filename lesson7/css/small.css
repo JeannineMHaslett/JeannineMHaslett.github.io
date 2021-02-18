@@ -137,7 +137,6 @@ picture {
   border-radius: 5px;
   box-shadow: 0px 0px 30px 3px white;
   grid-template-columns: auto;
-  
 }
 
 .overlay h3 {
@@ -248,11 +247,27 @@ main h2 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  grid-template-columns: repeat(autofill, minmax(400px, 1fr));
+  grid-template-columns: 1fr;
 }
 
-.gallery img{
- max-width: 400px;
+figure {
+  max-width: 300px;
+  height: auto;
+}
+
+.gallery img {
+  width: 100%;
+  filter: blur(0px);
+  transition: filter 0.5s;
+}
+
+img[data-src] {
+  filter: blur(5px);
+}
+
+figcaption {
+font-size: 10px;
+font-family: 'Poppins'; 
 }
 
 .gallery .placeholder {
