@@ -33,14 +33,13 @@ header {
 }
 
 header img {
-  display: block;
   width: 70px;
-  padding: 15px;
+  padding: 15px 0;
 }
 
-.header .heading h1 {
+header .heading h1 {
   font-family: 'Bree Serif', serif;
-  font-size: 30px;
+  font-size: 26px;
   margin: 0;
   padding: 10px;
 }
@@ -50,7 +49,6 @@ header img {
   font-size: 13px;
   text-align: center;
   color: #f4d35f;
-  padding-bottom: 20px;
 }
 
 #primaryNav {
@@ -58,16 +56,14 @@ header img {
 }
 
 nav button {
-  margin-left: 40px;
-  margin-bottom: 40px;
   padding: 0px 5px;
   background-color: #d8e3ff;
   color: #172a39;
   border: #172a39;
   font-size: 30px;
   border-radius: 5px;
-  justify-content: center;
-}
+  margin: 5px;
+ }
 
 nav {
   margin: 0 auto;
@@ -78,7 +74,7 @@ nav {
 
 nav ul {
   list-style-type: none;
-  padding: 15px;
+  padding-right: 15px;
  }
 
 nav ul li a {
@@ -237,7 +233,6 @@ figcaption {
 
 .gallery {
   display: grid;
-  grid-gap: 10px;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
@@ -353,49 +348,3 @@ footer li .map {
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
 }
-
-/*body {
-    max-width: 799px;
-    background-color: #d8e3ff;
-    margin: 0 auto;
-  }
-
-  header {
-    display: flex;
-    background-color: #172a39;
-    color: #f4d35f;
-    padding: 0px;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    font-family: 'Bree Serif', serif;
-    font-size: 20px;
-    text-align: center;
-  }
-
-  main {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-  }
-  
-  figure {
-      max-width: 300px;
-      height: auto;
-  }
-
-  img {
-      width: 100%;
-      filter: blur(3px);
-      transition: filter 0.5s;
-  }
-
-  img[data-src] {
-      filter: blur(2px);
-  }
-
-  figcaption {
-  font-size: 10px;
-  font-family: 'Poppins'; 
-}*/

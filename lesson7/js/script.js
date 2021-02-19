@@ -1,3 +1,5 @@
+
+
 //function for hamburger menu
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
@@ -12,8 +14,5 @@ document.getElementById("date").innerHTML = day[current.getDay()] +
     ", " + current.getDate() + " " + month[current.getMonth()] + " " +
     current.getFullYear();
 
-//function for Saturday pancake banner
 
-if (current.getDay() == 5) {
-    document.querySelector(".satBanner").style.display = "block";
-}
+
