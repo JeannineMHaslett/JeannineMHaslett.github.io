@@ -246,7 +246,7 @@ figcaption {
   transition: filter 0.5s;
 }
 
-.gallery img:hover {
+.gallery figure:hover {
   box-shadow: 0px 0px 30px 3px rgba(76, 134, 169, .75);
 }
 
