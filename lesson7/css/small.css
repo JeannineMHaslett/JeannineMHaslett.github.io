@@ -237,7 +237,6 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
-  flex-direction: column;
   grid-template-columns: 1fr;
 }
 
