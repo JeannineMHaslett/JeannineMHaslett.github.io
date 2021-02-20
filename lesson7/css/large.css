@@ -2,7 +2,7 @@
   body {
     max-width: 1400px;
   }
-  
+
   main {
     max-width: 1400px;
     margin: auto;
@@ -12,7 +12,7 @@
     margin: 0 auto;
   }
 
-  .falls  img{
+  .falls img {
     max-width: 1000px;
   }
 
@@ -20,10 +20,10 @@
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-   }
+  }
 
   .gallery img {
-   max-width: 400px;
+    max-width: 400px;
   }
 
   footer {
@@ -31,7 +31,7 @@
   }
 
   div .article {
-  margin-top: 30px;
+    margin-top: 30px;
   }
 
   .heading h1 {
