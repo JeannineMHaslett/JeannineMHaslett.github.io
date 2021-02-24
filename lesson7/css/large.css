@@ -16,6 +16,9 @@
     max-width: 1000px;
   }
 
+  nav ul li {
+    font-size: 18px;
+  }
   .gallery {
     display: grid;
     grid-gap: 10px;
@@ -26,8 +29,16 @@
     max-width: 400px;
   }
 
+  figcaption {
+    font-size: 15px;
+  }
+
   footer {
     margin: auto;
+  }
+
+  footer li .map {
+    max-width: 450px;
   }
 
   div .article {

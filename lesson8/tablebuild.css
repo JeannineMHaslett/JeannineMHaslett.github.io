@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,500&display=swap');
+
+body {
+    max-width: 350px;
+    justify-content: center;
+}
+
+table, th, td {
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+  }
+  
+  th, tr, td {
+    padding: 5px; 
+    text-align: center; 
+    flex-basis: 9rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+ tr .title {
+    background-color: #7fb9c2;
+    color: black;
+    font-size: 20px;
+    font-family: Ubuntu, sans-serif;
+}
+
+ #data1 {
+      background-color: #e7f0ed;
+      color: black;
+  }
+
+  #data2 {
+      background-color: #e7ffed;
+      color: black;
+  }
+
+  #other1 {
+      background-color: #628ca6;
+      color: black;
+  }
+
+  #other2 {
+      background-color: #7fb9c2;
+      color: black;
+  }
+

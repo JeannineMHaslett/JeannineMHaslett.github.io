@@ -63,8 +63,6 @@
   }
 
   .gallery {
-    display: grid;
-    grid-gap: 10px;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -115,13 +113,15 @@
     margin: 0 auto;
   }
 
+  figcaption {
+    font-size: 12px;
+  }
+
   .footer,
   .social-media {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 15px;
     margin: 0 auto;
-    align-items: center;
   }
 
   .social-media img {
@@ -134,6 +134,9 @@
     margin: 0;
   }
 
+  footer li .map {
+    max-width: 250px;
+  }
   .copy .copyright,
   .copy #date,
   .copy .counter {
