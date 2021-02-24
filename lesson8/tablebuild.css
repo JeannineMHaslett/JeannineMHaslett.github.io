@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;0,700;1,400&display=swap');
 
 body {
     max-width: 350px;
@@ -13,19 +12,17 @@ main {
 
 table {
     font-family: Ubuntu, sans-serif;
-    padding: 15px;
+    padding: 30px;
     box-shadow: 10px 10px 20px 0px #628ca6;
     margin: 50px;
-
 }
 
 table, th, td {
-    border: 1px solid lightgrey;
+    border: 1px solid gray;
     border-collapse: collapse;
   }
-  
   th, tr, td {
-    padding: 5px; 
+    padding: 10px; 
     text-align: center; 
     flex-basis: 9rem;
     flex-grow: 0;
@@ -38,13 +35,10 @@ table, th, td {
     font-size: 35px;
 }
 
-td .highlight {
-    background-color: #628ca6;
-}
 .secheading {
     background-color: #628ca6;
     color: white;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .compiled {
@@ -53,7 +47,7 @@ td .highlight {
 }
 
 .tablebody {
-    font-size: 18px;
+    font-size: 20px;
 }
 .tablebody :nth-child(odd) {
     background-color: #e7f0ed;
@@ -61,6 +55,11 @@ td .highlight {
 
 .tablebody :nth-child(even) {
     background-color: #e7ffed;
+}
+
+td .highlight {
+    background-color: #628ca6;
+    color: white;
 }
 
 /*medium screen*/
