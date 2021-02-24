@@ -2,64 +2,62 @@
 
 body {
     max-width: 350px;
-    display: relative;
 }
 
 main {
     display: flex;
     justify-content: center;
-}
-
-table {
-    font-family: Ubuntu, sans-serif;
-    padding: 30px;
-    box-shadow: 10px 10px 20px 0px #628ca6;
-    margin: 50px;
-}
-
-table, th, td {
-    border: 1px solid lightgray;
-    border-collapse: collapse;
   }
-  th, tr, td {
+
+th, tr, td {
     padding: 10px; 
     text-align: center; 
     flex-basis: 9rem;
     flex-grow: 0;
     flex-shrink: 0;
   }
-  
- thead {   
+
+table {
+    font-family: Ubuntu, sans-serif;
+    padding: 30px;
+    box-shadow: 10px 10px 20px 0px #628ca6;
+}
+
+table, th, td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+  }
+
+thead {
     background-color: #7fb9c2;
     color: black;
     font-size: 35px;
 }
 
-.secheading {
+tbody {
+    font-size: 20px;
+    background-color: #e7ffed;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e7f0ed;
+}
+
+.subhead {
     background-color: #628ca6;
     color: white;
     font-size: 23px;
 }
 
-.compiled {
-    background-color: #7fb9c2;
-    font-size: 15px;
-}
-
-.tablebody {
-    font-size: 20px;
-}
-.tablebody :nth-child(odd) {
-    background-color: #e7f0ed;
-}
-
-.tablebody :nth-child(even) {
-    background-color: #e7ffed;
-}
-
-td .highlight {
+.highlight {
     background-color: #628ca6;
     color: white;
+}
+
+tfoot {
+    background-color: #7fb9c2;
+    color: black;
+    font-size: 15px;  
 }
 
 /*medium screen*/
@@ -69,7 +67,7 @@ td .highlight {
     } 
      }
 
-/*large screen*/
+     /*large screen*/
 @media only screen and (min-width: 800px) {
    body {
     max-width: 1400px;
