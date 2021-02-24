@@ -29,7 +29,7 @@ table, th, td {
     flex-shrink: 0;
   }
   
- tr .title {   
+ thead {   
     background-color: #7fb9c2;
     color: black;
     font-size: 35px;
