@@ -1,0 +1,51 @@
+@media only screen and (min-width: 800px) {
+  body {
+    max-width: 1400px;
+  }
+
+  main {
+    max-width: 1400px;
+    margin: auto;
+  }
+
+  main .largerp {
+    margin: 0 auto;
+  }
+
+  .falls img {
+    max-width: 1000px;
+  }
+
+  nav ul li {
+    font-size: 18px;
+  }
+  .gallery {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .gallery img {
+    max-width: 400px;
+  }
+
+  figcaption {
+    font-size: 15px;
+  }
+
+  footer {
+    margin: auto;
+  }
+
+  footer li .map {
+    max-width: 450px;
+  }
+
+  div .article {
+    margin-top: 30px;
+  }
+
+  .heading h1 {
+    font-size: 45px;
+  }
+}
