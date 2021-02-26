@@ -165,8 +165,13 @@
     font-size: 15px;
   }
 
+  form fieldset {
+    margin: 10px 30px 30px 10px;
+  }
+
   .thanks p {
     font-size: 20px;
+    width: 500px; 
    }
 
 }

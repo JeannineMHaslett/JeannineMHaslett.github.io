@@ -361,8 +361,15 @@ footer #date {
 }
 
 /*style for form and thanks*/
+form {
+  margin: 0 auto;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+}
+
 .form {
-  width: 75%;
+  width: 100%;
   margin: 10px;
   display: block;
 }
@@ -374,7 +381,7 @@ footer #date {
   color: #172a39;
 }
 form fieldset {
-  margin: 10px 10px 30px 10px;
+  margin: 10px 20px 30px 10px;
   border: 5px solid rgba(76, 134, 169, 1);
   border-radius: 5px;
   padding: 10px 0px 10px 0px;
@@ -403,8 +410,8 @@ form div {
 
 form label.contact input,
 form label.date input,
-form label.comments input,
-form label.comments select {
+form label.comment input,
+form label.comment select {
     -webkit-appearance: none;
     display: block;
     font-size: 12px;
@@ -440,23 +447,28 @@ form label.radio {
   color: #555;
   font-size: 15px;
 }
+
+textarea{
+  margin: 10px;
+}
+
 .thanks {
   display: block;
-  width: 750px;
+  width: 350px;
   align-content: center;
   max-width: 1000px;
   height: 400px;
 }
  .thanks h1 {
-  margin: 15px;
+  margin: 10px;
   font-family: 'Bree Serif', serif;
   font-size: 26px;
   color: #172a39;
  }
 
  .thanks p {
-   margin: 15px;
-   max-width: 90vw;
+   margin-left: 15px;
+  max-width: 90vw;
   font-family: 'Poppins', sans-serif;
   color: #172a39;
   font-size: 12px;

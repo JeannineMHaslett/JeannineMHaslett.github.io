@@ -48,4 +48,18 @@
   .heading h1 {
     font-size: 45px;
   }
+
+  form fieldset {
+    margin: 10px 30px 30px 10px;
+  }
+
+  form legend {
+    width: 960px
+  }
+
+  .thanks p {
+    font-size: 20px;
+    width: 90%; 
+    justify-content: center;
+   }
 }
