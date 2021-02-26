@@ -117,88 +117,6 @@ nav ul.hide {
   border-radius: 5px;
 }
 
-.form {
-  width: 75%;
-  margin: 10px;
-  display: block;
-
-}
-
-.form h1 {
-  margin: 15px;
-  font-family: 'Bree Serif', serif;
-  font-size: 26px;
-  color: #172a39;
-}
-form fieldset {
-  margin: 10px 10px 30px 10px;
-  border: 5px solid rgba(76, 134, 169, 1);
-  border-radius: 5px;
-  padding: 10px 0px 10px 0px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 26px;
-  color: #172a39;
-}
-
-fieldset label.contact select {
-  padding: 10px;
-}
-form legend {
-  color: rgba(76, 134, 169, 1);
-  margin: 0px 0px 10px 15px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-}
-
-form label.contact,
-form div {
-    display: block;
-    padding: 5px;
-    color: #172a39;
-    font-size: 14px;
-}
-
-form label.contact input,
-form label.date input,
-form label.comments input,
-form label.comments select {
-    -webkit-appearance: none;
-    display: block;
-    font-size: 12px;
-    border: solid 3px rgba(76, 134, 169, .75);
-    border-radius: 4px;
-    padding: 10px 0px 10px 5px;
-    color: #172a39;
-    width: 90%;
-    max-width: 20rem;
-    background-color: #fff;
-    
-}
-
-form input.submitBtn {
-  border: none;
-  font-family: 'Poppins', sans-serif;
-  background-color: #172a39;
-  color: #f4d35f;
-  font-size: 15px;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 10px 10px;
-  width: 96%;
-  max-width: 250px;
-}
-
-
-form label.details, 
-form label.dropdown,
-form label.range,
-form label.radio {
-  display: block;
-  padding: 5px 0px 20px 5px;
-  color: #555;
-}
-
-
 .hero-div {
   position: relative;
 }
@@ -441,3 +359,105 @@ footer li .map {
 footer #date {
   font-size: 12px;
 }
+
+/*style for form and thanks*/
+.form {
+  width: 75%;
+  margin: 10px;
+  display: block;
+}
+
+.form h1 {
+  margin: 15px;
+  font-family: 'Bree Serif', serif;
+  font-size: 26px;
+  color: #172a39;
+}
+form fieldset {
+  margin: 10px 10px 30px 10px;
+  border: 5px solid rgba(76, 134, 169, 1);
+  border-radius: 5px;
+  padding: 10px 0px 10px 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: #172a39;
+}
+
+fieldset label.contact select {
+  padding: 10px;
+}
+form legend {
+  color: rgba(76, 134, 169, 1);
+  margin: 0px 0px 10px 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+form label.contact,
+form div {
+    display: block;
+    padding: 5px;
+    color: #172a39;
+    font-size: 14px;
+}
+
+form label.contact input,
+form label.date input,
+form label.comments input,
+form label.comments select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 12px;
+    border: solid 3px rgba(76, 134, 169, .75);
+    border-radius: 4px;
+    padding: 10px 0px 10px 5px;
+    color: #172a39;
+    width: 90%;
+    max-width: 20rem;
+    background-color: #fff;
+    
+}
+
+form input.submitBtn {
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  background-color: #172a39;
+  color: #f4d35f;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 10px;
+  width: 96%;
+  max-width: 250px;
+}
+
+form label.details, 
+form label.dropdown,
+form label.range,
+form label.radio {
+  display: block;
+  padding: 5px 0px 20px 5px;
+  color: #555;
+  font-size: 15px;
+}
+.thanks {
+  display: block;
+  width: 750px;
+  align-content: center;
+  max-width: 1000px;
+  height: 400px;
+}
+ .thanks h1 {
+  margin: 15px;
+  font-family: 'Bree Serif', serif;
+  font-size: 26px;
+  color: #172a39;
+ }
+
+ .thanks p {
+   margin: 15px;
+   max-width: 90vw;
+  font-family: 'Poppins', sans-serif;
+  color: #172a39;
+  font-size: 12px;
+ }

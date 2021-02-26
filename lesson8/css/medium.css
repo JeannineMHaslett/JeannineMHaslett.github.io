@@ -153,15 +153,20 @@
     justify-content: center;
   }
 
-form label.contact input,
-form label.date input,
-form label.comments input,
-form label.contact select,
-form label.comments select {
+  form label.contact input,
+  form label.date input,
+  form label.comments input,
+  form label.contact select,
+  form label.comments select {
+      font-size: 15px;
+  }
+   
+  form label.comments select {
     font-size: 15px;
-}
+  }
 
-form label.comments select {
-  font-size: 15px;
-}
+  .thanks p {
+    font-size: 20px;
+   }
+
 }
