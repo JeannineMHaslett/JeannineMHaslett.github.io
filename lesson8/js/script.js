@@ -15,14 +15,3 @@ document.getElementById("date").innerHTML = day[current.getDay()] +
     current.getFullYear();
 
 
-//function for Saturday pancake banner
-let n = Date();
-
-if (n == 5) {
-    document.querySelector(".satBanner").style.display = "block";
-}
-
-//function for the range tool
-function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
-  }

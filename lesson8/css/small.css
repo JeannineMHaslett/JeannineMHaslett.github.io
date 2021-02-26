@@ -118,82 +118,86 @@ nav ul.hide {
 }
 
 .form {
-    padding: 0 2%;
-    background-color: #d8e3ff;
-    min-height: 20rem;
-    display: block;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    padding: 12px;
-    width: 100%;
-    max-width: 20rem;
+  width: 75%;
+  margin: 10px;
+  display: block;
+
 }
 
 .form h1 {
-  font-family:  'Bree Serif', serif;
+  margin: 15px;
+  font-family: 'Bree Serif', serif;
   font-size: 26px;
+  color: #172a39;
 }
 form fieldset {
-  margin: 0;
-  border: rgba(76, 134, 169, 1) 5px solid;
+  margin: 10px 10px 30px 10px;
+  border: 5px solid rgba(76, 134, 169, 1);
+  border-radius: 5px;
+  padding: 10px 0px 10px 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  color: #172a39;
 }
 
+fieldset label.contact select {
+  padding: 10px;
+}
 form legend {
-  color: #172a39;
+  color: rgba(76, 134, 169, 1);
+  margin: 0px 0px 10px 15px;
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
-  margin: 20px 0px 0px 3px;
-  padding: 5px 8px;
 }
 
-form label.top,
+form label.contact,
 form div {
-  display: block;
-  padding-top: 16px;
-  font-family: 'Poppins', sans-serif;
-  color: #172a39;
-  font-size: 15px;
+    display: block;
+    padding: 5px;
+    color: #172a39;
+    font-size: 14px;
 }
 
-form label.top input,
-form label.top select {
-  -webkit-appearance: none;
-  display: block;
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  padding: 12px;
-  width: 100%;
-  max-width: 20rem;
-}
-
-form label.radio {
-  display: block;
-  padding: 6px;
+form label.contact input,
+form label.date input,
+form label.comments input,
+form label.comments select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 12px;
+    border: solid 3px rgba(76, 134, 169, .75);
+    border-radius: 4px;
+    padding: 10px 0px 10px 5px;
+    color: #172a39;
+    width: 90%;
+    max-width: 20rem;
+    background-color: #fff;
+    
 }
 
 form input.submitBtn {
   border: none;
-  background-color: #172a39;
-  color:  #f4d35f;
   font-family: 'Poppins', sans-serif;
+  background-color: #172a39;
+  color: #f4d35f;
   font-size: 15px;
   border-radius: 5px;
-  padding: 12px 18px;
-  margin: 0 0 2rem 2%;
+  padding: 10px;
+  margin: 10px 10px;
   width: 96%;
-  max-width: 20rem;
+  max-width: 250px;
 }
 
-form label.top input:required {
-  background-color: #f4d35f;
+
+form label.details, 
+form label.dropdown,
+form label.range,
+form label.radio {
+  display: block;
+  padding: 5px 0px 20px 5px;
+  color: #555;
 }
 
-form label.top input:required:valid {
-  background-color: #fff;
-} 
-textarea {
-  max-width: 100%;
-}
 
 .hero-div {
   position: relative;
