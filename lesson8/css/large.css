@@ -49,12 +49,29 @@
     font-size: 45px;
   }
 
+  .form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+  }
+
   form fieldset {
     margin: 10px 30px 30px 10px;
   }
 
   form legend {
     width: 960px
+  }
+
+  .thanks {
+    margin-right: auto;
+    margin-left:auto;
+    display: block;
+    width: 960px;
+    align-content: center;
+    max-width: 1000px;
+    height: 400px;
   }
 
   .thanks p {

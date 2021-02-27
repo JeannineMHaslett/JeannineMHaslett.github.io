@@ -153,6 +153,17 @@
     justify-content: center;
   }
 
+  .form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+  }
+
+  form legend {
+    width: auto;
+  }
+
   form label.contact input,
   form label.date input,
   form label.comments input,
@@ -167,6 +178,13 @@
 
   form fieldset {
     margin: 10px 30px 30px 10px;
+  }
+  .thanks {
+    display: block;
+    width: 500px;
+    align-content: center;
+    max-width: 1000px;
+    height: 400px;
   }
 
   .thanks p {
