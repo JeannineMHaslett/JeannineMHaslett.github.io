@@ -424,6 +424,10 @@ form label.comment select {
     background-color: #fff;  
 }
 
+form.label.contact input:valid {
+  background-color: #fff;
+}
+
 form label.contact input:invalid {
  background-color: #f4d35f;
 }
