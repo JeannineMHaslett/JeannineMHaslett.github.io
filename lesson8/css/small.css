@@ -421,8 +421,11 @@ form label.comment select {
     color: #172a39;
     width: 90%;
     max-width: 20rem;
-    background-color: #fff;
-    
+    background-color: #fff;  
+}
+
+form label.contact input:invalid {
+ background-color: #f4d35f;
 }
 
 form input.submitBtn {
