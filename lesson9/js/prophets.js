@@ -32,11 +32,12 @@ fetch(requestURL)
                 card.append(p2);
                 card.append(pimg);
                 cards.append(card);
-                
             });
 
             const utah = document.querySelector('.utah');
             const utahfilter = prophets.filter(x => x.birthplace == "Utah");
+
+            //followed video for the Utah prophets
 
             utahfilter.forEach(utahprophet => {
                 let card = document.createElement('section');
