@@ -22,12 +22,17 @@ table {
     font-family: Ubuntu, sans-serif;
     padding: 30px;
     box-shadow: 10px 10px 20px 0px #628ca6;
+    width: 350px;
 }
 
 table, th, td {
     border: 1px solid lightgray;
     border-collapse: collapse;
   }
+
+th {
+    font-weight: 700;
+}
 
 thead {
     background-color: #7fb9c2;
