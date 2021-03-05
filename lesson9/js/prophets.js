@@ -7,7 +7,6 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-            //console.table(jsonObject); //temporary checking for a valid response and data parsing
             const prophets = jsonObject['prophets'];
             //select output location
             const cards = document.querySelector('.cards');
@@ -15,17 +14,17 @@ fetch(requestURL)
             prophets.forEach(prophet => {
                 let card = document.createElement('section');
                 let h2 = document.createElement('h2');
-                let pimg = document.createElement('img');
                 let p = document.createElement('p');
                 let p2 = document.createElement('p');
+                let pimg = document.createElement('img');
 
                 //use template literals
                 h2.textContent = `${prophet.name} ${prophet.lastname}`;
                 pimg.setAttribute("src", prophet.imageurl);
                 pimg.setAttribute('alt', `Portrait of ${prophet.name} who was born in ${prophet.birthplace} in the year 
                 ${prophet.birthdate.substring(prophet.birthdate.length - 4)}!`)
-                p.textContent = 'p', "Date of Birth: ${prophet.birthdate}";
-                p2.textContent = 'p2',"Place of Birth: ${prophet.birthplace}";
+                p.textContent = `Date of Birth: ${prophet.birthdate}`;
+                p2.textContent = `Place of Birth: ${prophet.birthplace}`;
 
                 card.append(h2);
                 card.append(p);

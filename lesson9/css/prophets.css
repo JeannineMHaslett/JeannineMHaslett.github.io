@@ -6,32 +6,51 @@ body {
 
 h1, h2 {
     margin: 5px;
-    padding: 15px;
     font-family: 'Bree Serif', serif;
     color: #5E5C7B;
     text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
 }
 
 header {
     width: 100%;
 }
 
+p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 div {
+    max-width: 100%;
+    padding: 20px;
     background-color: #DDDEE2;
     text-align: center;
     vertical-align: middle;
+
       }
 
-
-main section {
-    margin-left: 8px;
-    margin-right: 8px;
+main {
+    margin-left: auto;
+    margin-right: auto;
     background-color:#B8B9CD;
+    box-shadow: 0 0 10px #000;
 }
 
 section {
     max-width: 325px;
     height: 350px;
+    margin-right: 5px;
+    margin-top: 5px;
     background-color:#B8B9CD;
     justify-content: center;
     border: 1px solid #5E5C7B;
@@ -42,16 +61,23 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
+.utah h2 {
+    padding-bottom: 20px;
+}
 
 img {
-max-width: 60%;
+max-width: 50%;
 vertical-align: middle;
 display: inline;
-box-shadow: 15 15 20px #000;
+box-shadow: 0 0 20px #000;
 }
 
 footer {
     max-width: 820px;
     margin: 0 auto;
+    margin-top: 20px;
     border-top: 1px solid #555;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
 }
