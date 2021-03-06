@@ -9,16 +9,8 @@ fetch(requestURL)
 
 .then(function (jsonObject){
     const towns = jsonObject['towns'];
-    console.log(towns);
-    //function sort(towns) {
-       // if (towns.name == "Preston" || towns.name == "Fish Haven" || towns.name == "Soda Springs") {
-       //   return true;
-      //  }
-     // };
 
-    //select output location
-    //const cards = document.querySelector('.cards');
-
+//create town input    
     const fishhaven = towns.filter(x => x.name === "Fish Haven");
     const preston = towns.filter(x => x.name === "Preston");
     const sodasprings = towns.filter(x => x.name === "Soda Springs");
@@ -29,7 +21,7 @@ fetch(requestURL)
 
    // let eachTown = towns.sort('sort');
     sort.forEach(town => {
-      let card = document.createElement('section');
+      let card = document.createElement('div');
       let name = document.createElement('h2');
       let motto = document.createElement('h3');
       let year = document.createElement('p'); 

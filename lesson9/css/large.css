@@ -36,41 +36,99 @@
   main .homepage {
     margin: 5px 10px 50px 10px;
   }
-.towns section {
-    max-width: 960px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
+
+  .homepage div {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr 1fr; 
+    margin: 20px;
+    justify-content: center;
+  }
+
+div .towns {
+  display: grid;
     margin-bottom: 50px;
     align-items: center;
     justify-content: center;
   }
 
-  .fishhaven {
+ .sort div .fishhaven {
+    width: auto;
+    display: block;
     grid-column-start: 1;
     max-width: 150px;
   }
 
   .fishhaven img {
-    grid-row-start: 2
+    grid-column-start: 1;
   }
 
-  .preston {
+  .sort div .preston {
+    width: auto;
+    display: block;
     grid-column-start: 2;
     max-width: 150px;
   }
 
   .preston img {
-    grid-row-start: 2
+    grid-column-start: 2;
   }
 
-  .sodasprings {
+  .sort div .sodasprings {
+    width: auto;
+    display: block;
     grid-column-start: 3;
     max-width: 150px;
   }
 
   .sodasprings img {
-    grid-row-start: 2
+    grid-column-start: 3;
   }
+
+  .sort .fishhaven h2 {
+    grid-column: 1;
+    margin: 0;
+}
+
+.sort .preston h2 {
+  grid-column: 2;
+  margin: 0;
+}
+
+.sort .sodasprings h2 {
+  grid-column: 3;
+  margin: 0;
+}
+
+.sort .fishhaven h3 {
+  grid-column: 2;
+  margin: 0;
+}
+
+.sort .preston h3 {
+  grid-column: 2;
+  margin: 0;
+}
+
+.sort .sodasprings h3 {
+  grid-column: 2;
+  margin: 0;
+}
+
+.sort .fishhaven p {
+  grid-column: 2;
+  margin: 0;
+}
+
+.sort .preston p {
+  grid-column: 2;
+  margin: 0;
+}
+
+.sort .sodasprings p {
+  grid-column: 2;
+  margin: 0;
+}
 
   footer {
     margin: auto;

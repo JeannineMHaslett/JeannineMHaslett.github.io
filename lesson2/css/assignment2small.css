@@ -68,7 +68,6 @@ main {
 }
 
 .columns {
-    max-width: 55em;
     overflow: hidden;
     display: grid;
     margin: auto;
