@@ -1,0 +1,262 @@
+/*Medium Screen*/
+@media only screen and (min-width: 500px) {
+  body {
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  picture img {
+    max-width: 960px;
+  }
+
+  .heading h1 {
+    font-size: 25px;
+  }
+
+  .byline {
+    font-size: 18px;
+  }
+
+  #primaryNav {
+    display: flex;
+    margin-top: 0;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: block;
+  }
+
+  #primaryNav {
+    display: flex;
+  }
+
+  nav ul li {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .hero-div img {
+    position: relative;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .overlay {
+    top: 40px;
+    left: 40px;
+    position: absolute;
+  }
+
+  .overlay td {
+    font-size: 18px;
+  }
+
+  .overlay h3 {
+    font-size: 20px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gallery img {
+    max-width: 400px;
+  }
+
+  .article {
+    margin-top: 20px;
+  }
+
+  .article p {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .rainstorm img {
+    float: right;
+    margin: 0;
+  }
+
+  .falls {
+    display: flex;
+    max-width: 100%;
+    margin: 0px;
+    background-color: #d8e3ff;
+  }
+
+  main h2 {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  .article h3,
+  .fdfc h3 {
+    font-size: 20px;
+  }
+
+  .five-day-forecast p {
+    font-size: 15px;
+  }
+
+  .five-day-forecast img {
+    max-width: 75px;
+  }
+
+  main .largerp {
+    margin: 0 auto;
+  }
+
+  figcaption {
+    font-size: 12px;
+  }
+/*
+  .towns section {
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+  }
+  
+  .towns img {
+    width: 90%;
+  }
+
+  .towns h2 {
+    text-align: center;
+    display: block;
+    color: #172a39;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .towns h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #172a39;
+    font-size: 12px;
+    margin: 10px;
+  }
+
+  .towns p {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .towns.section:nth-child(odd) img {
+    grid-column: 2;
+  }
+
+  .towns:nth-child(odd) p {
+    grid-column: 1;
+    grid-row: 1;
+  }*/
+
+  main .homepage {
+    justify-content: center;
+  }
+  .towns section {
+    display: grid;
+    width: 560px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+}
+
+.towns img {
+    grid-column: 2;
+    grid-row: 1/4;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 8px 8px 0;
+}
+
+.sort {
+    grid-column: 1;
+    grid-row: 3;
+    width: 90%;
+}
+
+.towns  {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 0 15px 15px;
+}
+
+.towns .name h2 {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 10px;
+}
+
+.towns .motto h3 {
+  font-family: 'Poppins', sans-serif;
+    color: #172a39;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.towns .year,
+.towns .pop,
+.towns .rain {
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 10px;
+  margin-top: 0;
+}
+
+.towns section:nth-child(even) img {
+    grid-column: 1;
+    border-radius: 8px 0 0 8px;
+}
+
+.towns section:nth-child(odd) h2
+.towns section:nth-child(odd) h3
+.towns section:nth-child(odd) p,
+.towns section:nth-child(odd) .sort {
+    grid-column: 2;
+}
+
+  .footer,
+  .social-media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+  }
+
+  .social-media img {
+    max-width: 30px;
+    padding: 10px 15px 0px 0px;
+  }
+
+  .footer img {
+    max-width: 650px;
+    margin: 0;
+  }
+
+  footer li .map {
+    max-width: 250px;
+  }
+
+  .copy .copyright,
+  .copy #date,
+  .copy .counter {
+    display: flex;
+    max-width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}

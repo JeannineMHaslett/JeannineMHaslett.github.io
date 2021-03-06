@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jeannine Haslett">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,500;0,700;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <title>Whether to Weather Preston</title>
+    <meta name="description" content="This is the home page for Whether to Weather, Preston home page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/weather-logo.png" alt="logo of sun with raining cloud">
+        <section class="heading">
+            <h1>Whether to Weather</h1>
+            <div class="byline">
+                Weather and more from Preston
+            </div>
+        </section>
+    </header>
+
+
+    <nav class="clearfix">
+        <!--for JavaScript per video for hamburger menu-->
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="/lesson5/preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main class="homepage">
+        <div class="hero-div">
+            <img src="images/prestonhero.jpg" alt="image of Shoshone Falls in Twin Falls Idaho">
+        </div>
+
+        <div class="towns"></div>
+
+        <div class="tourism">
+            <h4>Things to do in the area</h4>
+            <img src="images/shoshone-falls.jpg" alt="picture of a portion of the Shoshone Falls waterfall.">
+            <p>There are a number of things to do in this area. You can go kayaking, hiking, play with the kids at a
+                water park, go to the lake and much more. Below are some links with information to area towns and their
+                attractions.</p>
+        </div>
+
+        <div class="links">
+            <a href="https://www.tripadvisor.com/Tourism-g35454-Fish_Haven_Idaho-Vacations.html">Things to do in Fish
+                Haven</a><br>
+            <a
+                href="https://www.triphobo.com/places/preston-idaho-united-states/things-to-do#:~:text=Tourist%20Attractions%20in%20Preston%201%20Worm%20Creek%20Opera,8%20Pioneer%20Women%20Historical%20Monument%209%20Preston%20Airport">
+                Things to do in Preston</a><br>
+            <a href="https://www.tripadvisor.com/Tourism-g35606-Soda_Springs_Idaho-Vacations.html">Things to do in Soda
+                Springs</a><br>
+        </div>
+
+        <div class="tourism">
+            <p>If you're up for a road trip, Idaho has beautiful scenery, hot springs, and opportunities for some
+                vigorous exercise or relaxaton. Below are some links for things to do around the state.</p>
+        </div>
+
+        <div class="links">
+            <a href="https://visitidaho.org/things-to-do/hot-springs/">Hot Springs</a><br>
+            <a href="https://visitidaho.org/things-to-do/rafting-kayaking/">Rafting and Kayaking</a><br>
+            <a href="https://visitidaho.org/things-to-do/hiking-backpacking/">Hiking and Backpacking</a><br>
+        </div>
+    </main>
+
+    <footer>
+        <ul class="footer">
+            <li>
+                <h3>Weather Map</h3><br>
+                <img class="map" src="images/map.JPG" alt="Weather map of Preston">
+            </li>
+
+            <li>
+                <h3>Contact Information</h3>
+                <p>The Weather Company, an IBM business<br>
+                    1001 Summit Boulevard, Floor 20<br>
+                    Brookhaven, GA, USA 30319<br>
+                    888-123-4567</p>
+
+                <div class="social-media">
+                    <h3>Join us on Social Media</h3><br>
+                    <a class="faceboook" target="_blank" href="https://www.facebook.com"><img src="images/facebook.jpg"
+                            alt="facebook icon"></a>
+                    <a class="instagram" target="_blank" href="https://www.instagram.com"><img
+                            src="images/instagram.jpg" alt="instagram icon"></a>
+                    <a class="pinterest" target="_blank" href="https://www.pinterest.com"><img
+                            src="images/pinterest.jpg" alt="pinterest icon"></a>
+                </div>
+            </li>
+        </ul>
+        <div class="copy">
+            <div class="copyright">
+                <p>&copy;2021 Whether to Weather | Jeannine Haslett | <a href="https://www.byui.edu/online">BYUI
+                        Online Learning </a></p>
+            </div>
+        </div>
+
+        <div id="date"></div>
+
+    </footer>
+    <script src="js/home.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Bree Serif', 'Poppins']
+            }
+        });
+    </script>
+</body>
+
+</html>
