@@ -33,7 +33,7 @@
     font-size: 15px;
   }
 
-.towns.section {
+.towns section {
     max-width: 960px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
