@@ -19,12 +19,12 @@ fetch(requestURL)
     //select output location
     //const cards = document.querySelector('.cards');
 
-    const fishHaven = towns.filter(x => x.name === "Fish Haven");
+    const fishhaven = towns.filter(x => x.name === "Fish Haven");
     const preston = towns.filter(x => x.name === "Preston");
     const sodasprings = towns.filter(x => x.name === "Soda Springs");
 
     const sort = [];
-    sort.push(...fishHaven, ...preston, ...sodasprings)
+    sort.push(...fishhaven, ...preston, ...sodasprings)
     console.log(sort);
 
    // let eachTown = towns.sort('sort');

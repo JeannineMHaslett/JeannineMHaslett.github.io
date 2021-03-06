@@ -33,14 +33,45 @@
     font-size: 15px;
   }
 
+  main .homepage {
+    margin: 5px 10px 50px 10px;
+  }
 .towns section {
     max-width: 960px;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
     margin-bottom: 50px;
     align-items: center;
+    justify-content: center;
   }
-  
+
+  .fishhaven {
+    grid-column-start: 1;
+    max-width: 150px;
+  }
+
+  .fishhaven img {
+    grid-row-start: 2
+  }
+
+  .preston {
+    grid-column-start: 2;
+    max-width: 150px;
+  }
+
+  .preston img {
+    grid-row-start: 2
+  }
+
+  .sodasprings {
+    grid-column-start: 3;
+    max-width: 150px;
+  }
+
+  .sodasprings img {
+    grid-row-start: 2
+  }
+
   footer {
     margin: auto;
   }

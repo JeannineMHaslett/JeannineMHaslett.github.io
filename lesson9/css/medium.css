@@ -116,68 +116,24 @@
   figcaption {
     font-size: 12px;
   }
-/*
-  .towns section {
-    max-width: 960px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 50px;
-  }
-  
-  .towns img {
-    width: 90%;
-  }
-
-  .towns h2 {
-    text-align: center;
-    display: block;
-    color: #172a39;
-    font-size: 20px;
-    font-family: 'Bree Serif', serif;
-    margin-top: 20px;
-    margin-left: 10px;
-  }
-
-  .towns h3 {
-    font-family: 'Poppins', sans-serif;
-    color: #172a39;
-    font-size: 12px;
-    margin: 10px;
-  }
-
-  .towns p {
-    text-align: center;
-    vertical-align: middle;
-    font-size: 10px;
-    margin: 0;
-  }
-
-  .towns.section:nth-child(odd) img {
-    grid-column: 2;
-  }
-
-  .towns:nth-child(odd) p {
-    grid-column: 1;
-    grid-row: 1;
-  }*/
 
   main .homepage {
     justify-content: center;
     display: block;
-    margin: 0px 0px 0px 10px;
+    margin: 5px 10px 50px 10px;
   }
 
   .towns section {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
 }
 
 .towns img {
     grid-column: 2;
     grid-row: 1/4;
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
+    width: 90%;
+    height: 90%;
 }
 
 .sort {
@@ -212,12 +168,11 @@
   text-align: center;
   vertical-align: middle;
   font-size: 10px;
-  margin-top: 0;
+  margin: 0;
 }
 
 .towns section:nth-child(odd) img {
     grid-column: 1;
-    border-radius: 5px;
 }
 
 .towns section:nth-child(odd) h2
@@ -225,6 +180,10 @@
 .towns section:nth-child(odd) p,
 .towns section:nth-child(odd) .sort {
     grid-column: 2;
+}
+
+.tourism img {
+  float: right;
 }
 
   .footer,

@@ -279,7 +279,6 @@ div .tourism {
 }
 
 .tourism img {
-  float: right;
   margin: 5px;
 }
 
@@ -309,14 +308,14 @@ div .tourism {
   font-family: 'Poppins', sans-serif;
   color: #172a39;
   font-size: 18px;
-  margin: 10px;
+  margin-left: 10px;
 
 }
 .towns p {
   font-family: 'Poppins', sans-serif;
   color: #172a39;
   font-size: 12px;
-  margin: 10px;
+  margin-left: 10px;
 }
 
 .footer {
