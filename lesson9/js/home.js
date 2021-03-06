@@ -32,9 +32,9 @@ fetch(requestURL)
       //use template literals
       name.textContent = `${town.name}`;
       motto.textContent = `${town.motto}`;
-      year.textContent = `Year Founded: ${town.year}`;
-      pop.textContent = `Population: ${town.pop}`;
-      rain.textContent = `Annual Rainfall: ${town.rain}`;
+      year.textContent = `Year Founded: ${town.yearFounded}`;
+      pop.textContent = `Population: ${town.currentPopulation}`;
+      rain.textContent = `Annual Rainfall: ${town.averageRainfall}`;
       photo.src = `images/${town.photo}`;
       
       card.append(name);

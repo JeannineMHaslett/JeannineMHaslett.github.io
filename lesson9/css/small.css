@@ -303,7 +303,7 @@ div .tourism {
   margin: 10px;
 }
 
-.links a {
+.tourism a {
   font-family: 'Poppins', sans-serif;
   color: #172a39;
   font-size: 12px;
@@ -314,8 +314,8 @@ div .tourism {
   color: #172a39;
   font-size: 18px;
   margin-left: 10px;
-
 }
+
 .towns p {
   font-family: 'Poppins', sans-serif;
   color: #172a39;
