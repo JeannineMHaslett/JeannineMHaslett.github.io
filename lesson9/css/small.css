@@ -288,7 +288,32 @@ figure {
 
 /*Home page*/
 .homepage {
-  margin-bottom: 70px;
+  margin-bottom: 20px;
+}
+
+.homepage .hero-div img {
+  padding-bottom: 20px;
+}
+
+.towns h2 {
+  font-family: 'Bree Serif', serif;
+  color: #172a39;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.towns h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #172a39;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.towns p {
+  font-family: 'Poppins', sans-serif;
+  color: #172a39;
+  font-size: 15px;
+  margin-left: 10px;
 }
 
 div .tourism {
@@ -296,7 +321,8 @@ div .tourism {
 }
 
 .tourism img {
-  margin: 5px;
+  float: right; 
+  padding-left: 5px;
 }
 
 .tourism h4 {
@@ -320,27 +346,6 @@ div .tourism {
   color: #172a39;
   font-size: 12px;
   margin: 10px;
-}
-
-.towns h2 {
-  font-family: 'Bree Serif', serif;
-  color: #172a39;
-  font-size: 20px;
-  margin-left: 10px;
-}
-
-.towns h3 {
-  font-family: 'Poppins', sans-serif;
-  color: #172a39;
-  font-size: 18px;
-  margin-left: 10px;
-}
-
-.towns p {
-  font-family: 'Poppins', sans-serif;
-  color: #172a39;
-  font-size: 15px;
-  margin-left: 10px;
 }
 
 /*All pages*/
