@@ -19,6 +19,7 @@
   nav ul li {
     font-size: 18px;
   }
+  
   .gallery {
     display: grid;
     grid-gap: 10px;
@@ -33,6 +34,7 @@
     font-size: 15px;
   }
 
+  /*Home Page*/
   main .homepage {
     margin: 5px 10px 50px 10px;
   }
@@ -53,32 +55,49 @@ div .towns {
  .sort div .fishhaven {
     width: auto;
     grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
     max-width: 150px;
   }
 
   .fishhaven img {
     grid-column-start: 1;
-    justify-items: end;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;    
   }
 
   .sort div .preston {
     width: auto;
     grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
     max-width: 150px;
   }
 
   .preston img {
-    grid-column-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
   }
 
   .sort div .sodasprings {
     width: auto;
     grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
     max-width: 150px;
   }
 
   .sodasprings img {
     grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
   }
 
   .sort .fishhaven h2 {
@@ -86,42 +105,42 @@ div .towns {
     margin: 0;
 }
 
-.sort .preston h2 {
+ .preston h2 {
   grid-column: 2;
   margin: 0;
 }
 
-.sort .sodasprings h2 {
+ .sodasprings h2 {
   grid-column: 3;
   margin: 0;
 }
 
-.sort .fishhaven h3 {
+ .fishhaven h3 {
   grid-column: 2;
   margin: 0;
 }
 
-.sort .preston h3 {
+ .preston h3 {
   grid-column: 2;
   margin: 0;
 }
 
-.sort .sodasprings h3 {
+ .sodasprings h3 {
   grid-column: 2;
   margin: 0;
 }
 
-.sort .fishhaven p {
+ .fishhaven p {
   grid-column: 2;
   margin: 0;
 }
 
-.sort .preston p {
+ .preston p {
   grid-column: 2;
   margin: 0;
 }
 
-.sort .sodasprings p {
+ .sodasprings p {
   grid-column: 2;
   margin: 0;
 }

@@ -166,7 +166,7 @@ main .hero photo {
   float: right;
 }
 
-main h2 {
+main .weather h2 {
   display: block;
   color: #172a39;
   font-size: 20px;

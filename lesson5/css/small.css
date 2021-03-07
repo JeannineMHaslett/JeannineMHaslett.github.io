@@ -152,7 +152,7 @@ main {
   margin: 0;
 }
 
-main h2 {
+main .preston h2 {
   display: block;
   color: #172a39;
   font-size: 20px;

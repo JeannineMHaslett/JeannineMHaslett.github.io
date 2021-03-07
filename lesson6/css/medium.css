@@ -83,7 +83,7 @@
     background-color: #d8e3ff;
   }
 
-  main h2 {
+  main .weather h2 {
     margin-top: 50px;
     font-size: 30px;
   }

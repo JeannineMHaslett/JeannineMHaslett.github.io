@@ -1,14 +1,11 @@
 /*Medium Screen*/
 @media only screen and (min-width: 500px) {
-  
-  /*All*/
-  
   body {
     max-width: 1000px;
     margin: 0 auto;
     box-sizing: border-box;
   }
- /*Header and Nav*/
+
   picture img {
     max-width: 960px;
   }
@@ -42,7 +39,6 @@
     flex: 1 1 100%;
     text-align: center;
   }
-
   .hero-div img {
     position: relative;
     padding: 0px;
@@ -97,7 +93,7 @@
     background-color: #d8e3ff;
   }
 
-  main h2 {
+  main .preston h2 {
     margin-top: 50px;
     font-size: 30px;
   }
@@ -160,7 +156,7 @@
     grid-row: 2;
 }
 
-.towns .name h2 {
+.towns h2 {
     grid-column: 1;
     grid-row: 1;
     margin: 0;
