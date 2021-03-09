@@ -307,7 +307,7 @@ footer {
   color: #d8e3ff;
   border: none;
   text-align: center;
-  padding: 30px 0px 30px 0px;
+  padding: 50px 0px 30px 0px;
   font-family: 'Poppins', sans-serif;
   margin: 10px;
 }
@@ -381,45 +381,47 @@ form {
   color: #172a39;
 }
 form fieldset {
-  margin: 0px 20px 30px 10px;
+  min-width: 280px;
   border: 5px solid rgba(76, 134, 169, 1);
   border-radius: 5px;
-  padding: 10px 0px 10px 0px;
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   color: #172a39;
+  padding: 20px;
 }
 
 fieldset label.contact select {
   padding: 10px;
 }
+
 form legend {
-  color: rgba(76, 134, 169, 1);
+  font-weight: bold;
+  color: #172a39;
   margin: 0px 0px 10px 15px;
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
+  padding: 10px;
 }
 
 form label.contact,
 form div {
     display: block;
-    padding: 5px;
     color: #172a39;
-    font-size: 14px;
+    font-size: 18px;
+    margin-top: 20px;
 }
 
 form label.contact input,
 form label.date input,
 form label.comment input,
 form label.comment select {
-    -webkit-appearance: none;
     display: block;
-    font-size: 12px;
+    font-size: 18px;
     border: solid 3px rgba(76, 134, 169, .75);
     border-radius: 4px;
     padding: 10px 0px 10px 5px;
     color: #172a39;
-    width: 90%;
+    width: 50%;
     max-width: 20rem;
     background-color: #fff;  
 }
@@ -439,8 +441,7 @@ form input.submitBtn {
   color: #f4d35f;
   font-size: 15px;
   border-radius: 5px;
-  padding: 10px;
-  margin: 10px 10px;
+  margin-bottom: 30px;
   width: 96%;
   max-width: 250px;
 }
@@ -450,15 +451,16 @@ form label.dropdown,
 form label.range,
 form label.radio {
   display: block;
-  padding: 5px 0px 20px 5px;
+  padding: 5px 0px 5px 5px;
   color: #555;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 textarea{
   width: 75%;
   margin: 10px;
   border: solid 3px rgba(76, 134, 169, .75);
+  padding: 10px;
 }
 
 .thanks {

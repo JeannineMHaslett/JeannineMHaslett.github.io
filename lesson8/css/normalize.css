@@ -183,6 +183,7 @@ textarea {
   /* 1 */
   margin: 0;
   /* 2 */
+  padding: 10px;
 }
 
 /**
@@ -298,6 +299,8 @@ textarea {
   /* 1 */
   padding: 0;
   /* 2 */
+  height: 1em;
+  width: 1em;
 }
 
 /**
