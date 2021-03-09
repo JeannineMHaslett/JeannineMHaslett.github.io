@@ -399,7 +399,7 @@ form legend {
   color: #172a39;
   margin: 0px 0px 10px 15px;
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   padding: 10px;
 }
 
@@ -421,8 +421,6 @@ form label.comment select {
     border-radius: 4px;
     padding: 10px 0px 10px 5px;
     color: #172a39;
-    width: 50%;
-    max-width: 20rem;
     background-color: #fff;  
 }
 
