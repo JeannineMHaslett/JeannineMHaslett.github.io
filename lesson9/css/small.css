@@ -46,7 +46,7 @@ header .heading h1 {
 
 .byline {
   font-family: 'Poppins', sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
   color: #f4d35f;
   padding-right: 5px;
@@ -205,7 +205,7 @@ main .preston h2 {
 .article p {
   font-family: 'Poppins', sans-serif;
   color: #172a39;
-  font-size: 12px;
+  font-size: 15px;
   margin: 10px;
 }
 
@@ -298,21 +298,21 @@ figure {
 .towns h2 {
   font-family: 'Bree Serif', serif;
   color: #172a39;
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 10px;
 }
 
 .towns h3 {
   font-family: 'Poppins', sans-serif;
   color: #172a39;
-  font-size: 18px;
+  font-size: 22px;
   margin-left: 10px;
 }
 
 .towns p {
   font-family: 'Poppins', sans-serif;
   color: #172a39;
-  font-size: 15px;
+  font-size: 18px;
   margin-left: 10px;
 }
 
@@ -328,7 +328,7 @@ div .tourism {
 .tourism h4 {
   display: block;
   color: #172a39;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Bree Serif', serif;
   margin-top: 20px;
   margin-left: 10px;
@@ -337,14 +337,14 @@ div .tourism {
 .tourism p {
   font-family: 'Poppins', sans-serif;
   color: #172a39;
-  font-size: 12px;
+  font-size: 15px;
   margin: 10px;
 }
 
 .tourism a {
   font-family: 'Poppins', sans-serif;
   color: #172a39;
-  font-size: 12px;
+  font-size: 15px;
   margin: 10px;
 }
 
