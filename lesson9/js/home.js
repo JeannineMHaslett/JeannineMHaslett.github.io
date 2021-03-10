@@ -22,6 +22,7 @@ fetch(requestURL)
    // let eachTown = towns.sort('sort');
     sort.forEach(town => {
       let card = document.createElement('div');
+      let info = document.createElement('div');
       let name = document.createElement('h2');
       let motto = document.createElement('h3');
       let year = document.createElement('p'); 

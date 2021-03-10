@@ -1,7 +1,7 @@
 /*Medium Screen*/
 @media only screen and (min-width: 500px) {
   body {
-    max-width: 1000px;
+    max-width: 1150px;
     margin: 0 auto;
     box-sizing: border-box;
   }
@@ -119,11 +119,13 @@
 
   /*Home Page (every time I change something here it affects my large page)*/
 .towns {
+  max-width: 960px;
+  margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
   }
 
-.towns div {
+.info div {
   padding: 10px;
   flex-direction: row;
 }
@@ -149,13 +151,11 @@
 
   .towns p {
     vertical-align: middle;
-    font-size: 12px;
-    margin: 0;
   }
 
   .towns img {
-    margin: 0 auto;
-    width: 100%;
+    margin-left: 10px;
+    width: 90%;
     padding-top: 20px;
   }
 
