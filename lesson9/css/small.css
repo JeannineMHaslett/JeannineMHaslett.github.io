@@ -285,6 +285,17 @@ figure {
   max-width: 400px;
   height: auto;
 }
+.wireframes {
+  Margin-left: 30px; 
+}
+
+.wireframes h2 {
+  font-family: 'Bree Serif', serif;
+}
+
+.wireframes p {
+  font-family: 'Poppins', sans-serif;
+}
 
 /*Home page*/
 .homepage {
