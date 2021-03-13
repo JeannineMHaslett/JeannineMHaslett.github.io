@@ -51,7 +51,6 @@
   .overlay {
     position: absolute;
     top: 200px;
-    left: 200px;
   }
 
   .overlay td {
@@ -92,7 +91,6 @@
   }
 
   main h2 {
-    margin-top: 50px;
     font-size: 30px;
   }
 
