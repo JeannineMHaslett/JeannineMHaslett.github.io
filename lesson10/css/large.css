@@ -13,6 +13,10 @@
    max-width: 1440px;
   }
 
+  .hero-div img {
+    max-width: 100%;
+  }
+
   .overlay {
     position: absolute;
     margin-top: 90px;
