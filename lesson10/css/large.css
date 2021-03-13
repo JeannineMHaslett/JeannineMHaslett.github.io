@@ -12,8 +12,12 @@
     margin: 0 auto;
   }
 
-  .falls img {
-    max-width: 1000px;
+  .herodiv {
+   max-width: 1150px;
+  }
+
+  .overlay {
+    position: absolute;
   }
 
   nav ul li {
@@ -32,10 +36,6 @@
   figcaption {
     font-size: 15px;
   }
-
-.towns div {
-  display: block;
-}
 
 .towns {
     max-width: 1200px;

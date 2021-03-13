@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jeannine Haslett">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,500;0,700;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <title>Whether to Weather Preston</title>
+    <meta name="description" content="This is the home page for Whether to Weather, Preston home page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="satBanner">
+            <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+        <header>
+            <img src="images/weather-logo.png" alt="logo of sun with raining cloud">
+            <section class="heading">
+                <h1>Whether to Weather</h1>
+                <div class="byline">
+                    <p>Weather and more from Preston</p>
+                </div>
+            </section>
+        </header>
+    </div>
+
+    <nav class="clearfix">
+        <!--for JavaScript per video for hamburger menu-->
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="/lesson9/index.html">Home</a></li>
+            <li><a href="#" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+        
+    </nav>
+
+    <main>
+        <div class="hero-div">
+                <picture>
+                    <source srcset="images/prestonhero250.jpg" media="(min-width: 250px) and (max-width: 499px)"> 
+                    <source srcset="images/prestonhero400.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                    <source srcset="images/prestonhero600.jpg" media="(min-width: 800px)">
+                  
+                    <img src="images/prestonhero.jpg" alt="image of mountains near Preston, Idaho">
+
+
+            <section class="overlay"> 
+                <h2>Weather Summary</h2> 
+                <table> 
+                
+                <tr> 
+                <td><b>Currently:</b></td> 
+                <td><b id="now">&#176;</b></td> 
+                </tr> 
+                
+                <tr> 
+                <td><b>Temperature:</b></td> 
+                <td><b id="temp"></b></td> 
+                </tr> 
+                
+                <tr> 
+                <td><b>Wind:</b></td> 
+                <td><b id="speed">3</b><b> MPH SE</b></td> 
+                </tr> 
+                
+                <tr> <td><b>Wind Chill:</b></td> 
+                <td><b id="windchill"></b></td> 
+                </tr> 
+                </table> 
+            </section> 
+        </picture>
+    </div>
+  
+    <div class="fdfc"></div>
+            <h3>Preston, Idaho</h3>
+        
+            <h3><b>Five Day Forecast</b></h3>
+        </div>
+
+        <div class="dayofweek">
+            <div>
+               <p><span class = dayofweek1></span></p>
+                <img class ="icon1" src="" alt="">
+               <p><span class = forecast1></span>&#176;F</p>
+            </div>
+            <div>
+                <p><span class = dayofweek2></span></p>
+                <img class = "icon2" src="" alt="">
+               <p><span class = forecast2></span>&#176;F</p>
+            </div>
+            <div>
+                <p><span class = dayofweek3></span></p>
+                <img class = "icon3" src="" alt="">
+               <p><span class = forecast3></span>&#176;F</p>
+            </div>
+            <div>
+                <p><span class = dayofweek4></span></p>
+                <img class = "icon4" src="" alt="">
+               <p><span class = forecast4></span>&#176;F</p>
+            </div>
+            <div>
+                <p><span class = dayofweek5></span></p>
+                <img class = "icon5" src="" alt="">
+               <p><span class = forecast5></span>&#176;F</p>
+            </div>
+        </div>
+
+        <div class="article">
+            <h3><b>Weather News</b></h3>
+            <img class="rainstorm" src="images/rainstorm400.jpg" alt="rain and lightning in the evening">
+
+            <p>Welcome to the Preston weather home page. Here, you will find a five-day forecast, today's
+                temperature as well as humidity and wind chill. We will always alert you when there is stormy
+                weather, with updates on road conditions and closures.<br><br>
+
+                Last week's storm inundated Preston with 3 inches of rainfall in 2 hours, which caused mild
+                flooding in some neighborhoods. Be prepared for the moisture to turn to snow soon, as there is
+                an arctic blast moving our direction. The arctic blast is currently causing major problems in
+                the eastern part of the country in the form of a nor'easter. Stay tuned for more weather news.
+            </p>
+            <p>Welcome to the Preston weather home page. Here, you will find a five-day forecast, today's
+                temperature as well as humidity and wind chill. We will always alert you when there is stormy
+                weather, with updates on road conditions and closures.<br><br>
+
+                Last week's storm inundated Preston with 3 inches of rainfall in 2 hours, which caused mild
+                flooding in some neighborhoods. Be prepared for the moisture to turn to snow soon, as there is
+                an arctic blast moving our direction. The arctic blast is currently causing major problems in
+                the eastern part of the country in the form of a nor'easter. Stay tuned for more weather news.
+            </p>
+        </div>
+    </main>
+    <footer>
+        <ul class="footer">
+            <li>
+                <h3>Weather Map</h3><br>
+                <img class="map" src="images/map.JPG" alt="Weather map of Preston">
+            </li>
+
+            <li>
+                <h3>Contact Information</h3>
+                <p>The Weather Company, an IBM business<br>
+                    1001 Summit Boulevard, Floor 20<br>
+                    Brookhaven, GA, USA 30319<br>
+                    888-123-4567</p>
+
+                <div class="social-media">
+                    <h3>Join us on Social Media</h3><br>
+                    <a class="faceboook" target="_blank" href="https://www.facebook.com"><img src="images/facebook.png"
+                            alt="facebook icon"></a>
+                    <a class="instagram" target="_blank" href="https://www.instagram.com"><img
+                            src="images/instagram.png" alt="instagram icon"></a>
+                    <a class="pinterest" target="_blank" href="https://www.pinterest.com"><img
+                            src="images/pinterest.png" alt="pinterest icon"></a>
+                </div>
+            </li>
+        </ul>
+        <div class="copy">
+            <div class="copyright">
+                <p>&copy;2021 Whether to Weather | Jeannine Haslett | <a href="https://www.byui.edu/online">BYUI
+                        Online Learning </a></p>
+            </div>
+        </div>
+
+        <div id="date"></div>
+
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/forecast.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['Bree Serif', 'Poppins']
+        }
+      });
+    </script>
+    </script>
+    
+</body>
+
+</html>
+
+
+

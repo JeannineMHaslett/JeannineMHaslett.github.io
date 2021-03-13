@@ -22,7 +22,7 @@ fetch(requestURL)
    // let eachTown = towns.sort('sort');
     sort.forEach(town => {
       let card = document.createElement('div');
-      let info = document.createElement('div');
+      let info = document.createElement('section');
       let name = document.createElement('h2');
       let motto = document.createElement('h3');
       let year = document.createElement('p'); 
@@ -38,11 +38,12 @@ fetch(requestURL)
       rain.textContent = `Annual Rainfall: ${town.averageRainfall}`;
       photo.src = `images/${town.photo}`;
       
-      card.append(name);
-      card.append(motto);
-      card.append(year);
-      card.append(pop);  
-      card.append(rain);
+      card.append(info);
+      info.append(name);
+      info.append(motto);
+      info.append(year);
+      info.append(pop);  
+      info.append(rain);
       card.append(photo);  
       document.querySelector(".towns").appendChild(card);
     });

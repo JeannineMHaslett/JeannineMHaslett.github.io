@@ -1,5 +1,5 @@
 /*Medium Screen*/
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 550px) {
   body {
     max-width: 1150px;
     margin: 0 auto;
@@ -46,13 +46,12 @@
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding-bottom: 20px;
   }
 
   .overlay {
-    top: 40px;
-    left: 40px;
     position: absolute;
+    top: 200px;
+    left: 200px;
   }
 
   .overlay td {
@@ -81,7 +80,7 @@
   }
 
   .rainstorm img {
-    float: right;
+    display: block;
     margin: 0;
   }
 
@@ -131,9 +130,8 @@
   flex-direction: row;
 }
 
-.towns div{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.towns:nth-child(odd) {
+	flex-direction: row-reverse;
 }
 
   .towns h2 {
