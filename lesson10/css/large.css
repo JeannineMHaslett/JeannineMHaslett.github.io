@@ -1,4 +1,4 @@
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 551px) {
   body {
     max-width: 1400px;
   }
@@ -12,8 +12,8 @@
     margin: 0 auto;
   }
 
-  .herodiv {
-   max-width: 1150px;
+  .hero-div {
+   max-width: 1440px;
   }
 
   .overlay {
