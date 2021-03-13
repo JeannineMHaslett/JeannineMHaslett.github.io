@@ -16,8 +16,7 @@ document.getElementById("date").innerHTML = day[current.getDay()] +
 
 
 //function for Saturday pancake banner
-let n = Date();
 
-if (n == 5) {
+if (current.getDay() == 5) {
     document.querySelector(".satBanner").style.display = "block";
 }
