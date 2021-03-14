@@ -63,13 +63,27 @@
 
                 <section class="overlay">
                     <h2>Weather Summary</h2>
-                    <ul>
-                        <li>Currently: <span id="currently"></span></li>
-                        <li>Temperature: <span id="high"></span>&#176; F</li>
-                        <li>Wind: <span id="windspeed"></span> mph</li>
-                        <li>Wind Chill: <span id="windchill"></span>&#176; F</li>
-                        <li>Humidity: <span id="humidity"></span></li>
-                      </ul>
+                    <table>
+
+                        <tr>
+                            <td id="clouds">Currently: </td>
+                        </tr>
+
+                        <tr>
+                            <td id="high">Today's High: </td>
+                        </tr>
+
+                        <tr>
+                            <td id="windspeed">Wind Speed: </td>
+                        </tr>
+
+                        <tr>
+                            <td id="windchill">Wind Chill: </td>
+                        </tr>
+                        <tr>
+                            <td id="humidity">Humidity: </td>
+                        </tr>
+                    </table>
                 </section>
             </picture>
         </div>
@@ -162,10 +176,9 @@
         <div id="date"></div>
 
     </footer>
-    <div><span id="visits"></span>Visitors</div>
-    <script src="js/script.js"></script>
+    <script src="js/weatherapi.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/forecast.js"></script>
+    
     <script>
         WebFont.load({
             google: {

@@ -53,12 +53,21 @@
     top: 200px;
   }
 
-  .overlay td {
-    font-size: 18px;
+  .overlay li {
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    color: #172a39;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: -30px;
   }
 
-  .overlay h3 {
-    font-size: 20px;
+  .overlay h2 {
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    color: #172a39;
+    font-size: 15px;
+    margin-left: 10px;
   }
 
   .gallery {
@@ -72,6 +81,10 @@
   .article {
     margin-top: 20px;
   }
+
+  main .largerp {
+    margin: 0 auto;
+  } 
 
   .article p {
     font-size: 15px;
@@ -90,28 +103,54 @@
     background-color: #d8e3ff;
   }
 
-  .article h3,
-  .fdfc h3 {
-    font-size: 20px;
-  }
+  .fdfc {
+    display: block;
+}
 
-  .five-day-forecast p {
-    font-size: 15px;
-  }
+.fdfc table{
+  border-width: 3px;
+  background-color: #d8e3ff;
+  color: #172a39;
+  padding: 10px;
+  align-items: center;
+}
 
-  .five-day-forecast img {
+.fdfc h3 {
+  font-family: 'Bree Serif', serif;
+  font-weight: bold;
+  color: #172a39;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.dayofweek {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  background-color: #f4d35f;
+  color: #172a39;
+  font-size: 18px;
+}
+
+  .icons img {
     max-width: 75px;
   }
 
-  main .largerp {
-    margin: 0 auto;
+  .forecast {
+    font-family: 'Poppins', sans-serif;
+    color: #172a39;
+    font-size: 18px;
+  }
+
+  .article h3  {
+    font-size: 20px;
   }
 
   figcaption {
     font-size: 12px;
   }
 
-  /*Home Page (every time I change something here it affects my large page)*/
+  /*Home Page */
 .towns {
   max-width: 960px;
   margin: 0 auto;

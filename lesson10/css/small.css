@@ -117,7 +117,6 @@ nav ul.hide {
   border-radius: 5px;
 }
 
-
 /*Preston page*/
 .satBanner {
   max-width: 100%;
@@ -154,7 +153,7 @@ picture {
   .overlay h3 {
     font-family: 'Poppins', sans-serif;
     color: #172a39;
-    font-size: 22px;
+    font-size: 18px;
   }
   
   .overlay td {
@@ -209,7 +208,7 @@ main .preston h2 {
 }
 
 /*Weather page*/
-.days {
+.dayofweek {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
@@ -218,33 +217,7 @@ main .preston h2 {
 }
 
 .fdfc {
-    margin: 0px 10px 30px 10px;
-}
-
-.fdfc h3 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  color: #172a39;
-  font-size: 15px;
-  margin: 10px;
-}
-
-.days p {
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  color: #172a39;
-  font-size: 12px;
-  margin: 0;
-}
-
-.days img {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin: auto;
-  text-align: center;
-  max-width: 50px;
-  padding: 5px;
+    display: none;
 }
 
 /*Gallery page*/
