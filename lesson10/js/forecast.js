@@ -6,7 +6,7 @@ fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
         //console.log(jsObject);
-        document.getElementById('currentlyS').textContent = jsObject.list[0].weather.description;
+        document.getElementById('currently').textContent = jsObject.list[0].weather.description;
         document.getElementById('high').textContent = jsObject.list[0].main.temp_max;
         document.getElementById('windspeed').textContent = jsObject.list[0].wind.speed;
         document.getElementById('windchill').innerHTML = windchill;
@@ -27,19 +27,14 @@ fetch(apiURL)
         };
 
         //forecast
-        //const dayofweek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        let day = 0; 
+        const dayofweek = ['Sun', 'Mon', 'Tues', 'Wed', 'Thur', 'Fri', 'Sat'];
         const forecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
-   
-        const dayofweek = new Date(forecast['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']);
-        for (let day = 0; day < forecast.length; day++) {
-            const d = new Date(forecast[day].dt_txt);
-            const imagesrc = 'https://openweathermap.org/img/wn/' + forecast[day].weather[0].icon + '@2x.png';
-            const desc = forecast[day].weather[0].description;
-            
-            document.getElementById(`day0${day+1}`).textContent = dayofweek[d.getDay()];
-            document.getElementById(`forecast0${day+1}`).textContent = (main.temp);
-            document.getElementById(`icon0${day+1}`).setAttribute('src', imagesrc);
-            document.getElementById(`icon0${day+1}`).setAttribute('alt', desc);
-
-        }
-    });
+        //console.log(forecast);
+        const imagesrc = 'https://openweathermap.org/img/wn/' + forecast[day].weather[0].icon + '@2x.png';
+        document.getElementById(`day0${day+1}`).textContent = dayofweek[day].weather;
+        document.getElementById(`forecast0${day+1}`).textContent = (main.temp);
+        document.getElementById(`icon0${day+1}`).setAttribute('src', imagesrc);
+        document.getElementById(`icon0${day+1}`).setAttribute('alt', icon);
+        day++;
+        });
