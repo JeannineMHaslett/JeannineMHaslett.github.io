@@ -36,11 +36,13 @@ fetch(forecastURL)
 
         forecastweek.forEach((x) => {
             let d = new Date(x.dt_txt);
-            document.getElementById(`day${day + 1}`).textContent = dayofweek[d.getDay()];
+            console.log(d);
+            document.getElementById(`dayofweek${day + 1}`).textContent = dayofweek[d.getDay()];
             
             const imagesrc = 'https://openweathermap.org/img/wn/' + x.weather[0].icon + '@2x.png';
             document.getElementById(`icon${day + 1}`).setAttribute('src', imagesrc);
 
-            document.getElementById(`forecast${day + 1}`).innerhTML = (x.main.temp);
-        });    
+            document.getElementById(`forecast${day + 1}`).innerHTML = (x.main.temp);
+            day++;
+        })    
         });

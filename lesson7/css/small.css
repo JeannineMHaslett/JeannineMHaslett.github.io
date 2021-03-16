@@ -212,6 +212,7 @@ main .preston h2 {
 .rainstorm {
   float: right;
   margin: 5px;
+  box-shadow: 0px 0px 30px 3px rgba(76, 134, 169, 1);
 }
 
 /*Weather page*/

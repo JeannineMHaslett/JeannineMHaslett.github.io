@@ -57,7 +57,7 @@
     list-style-type: none;
     font-family: 'Poppins', sans-serif;
     color: #172a39;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
     margin-left: -30px;
   }
@@ -66,7 +66,7 @@
     font-family: 'Bree Serif', serif;
     font-weight: bold;
     color: #172a39;
-    font-size: 15px;
+    font-size: 18px;
     margin-left: 10px;
   }
 
@@ -86,14 +86,21 @@
     margin: 0 auto;
   } 
 
+  .article h3{
+    margin-left: 10px;
+
+  }
+  
   .article p {
     font-size: 15px;
-    padding: 10px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
-  .rainstorm img {
+.rainstorm  {
     display: block;
-    margin: 0;
+    margin-right: 10px;
   }
 
   .falls {
@@ -108,8 +115,9 @@
 }
 
 .fdfc table{
-  border-width: 3px;
-  background-color: #d8e3ff;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 0px 10px 3px rgba(76, 134, 169, 1);
   color: #172a39;
   padding: 10px;
   align-items: center;
@@ -120,7 +128,8 @@
   font-weight: bold;
   color: #172a39;
   font-size: 18px;
-  margin: 10px;
+  margin-left: 10px;
+  margin-top: 30px;
 }
 
 .dayofweek {
@@ -132,18 +141,22 @@
   font-size: 18px;
 }
 
+.icons{
+  background-color: rgba(76, 134, 169, 1);
+}
   .icons img {
     max-width: 75px;
   }
 
   .forecast {
     font-family: 'Poppins', sans-serif;
+    background-color: #f4d35f;
     color: #172a39;
     font-size: 18px;
   }
 
   .article h3  {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   figcaption {

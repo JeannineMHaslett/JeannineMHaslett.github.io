@@ -150,21 +150,24 @@ picture {
     grid-template-columns: auto;
   }
   
-  .overlay h3 {
-    font-family: 'Poppins', sans-serif;
-    color: #172a39;
+  .overlay h2 {
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
     font-size: 18px;
+    margin-left: 10px;
   }
   
-  .overlay td {
+  .overlay ul {
+    list-style-type: none;
     font-family: 'Poppins', sans-serif;
     color: #172a39;
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: bold;
   }
   
   main {
     display: block;
-    margin: 0;
+    margin: 10px;
   }
   
   main .hero photo {
@@ -185,10 +188,12 @@ main .preston h2 {
 }
 
 .article h3 {
+  font-weight: bold;
   font-family: 'Poppins', sans-serif;
   color: #172a39;
   font-size: 15px;
-  margin: 10px;
+  margin-top: 50px; 
+  margin-bottom: 5px;
 }
 
 .article {
@@ -199,18 +204,18 @@ main .preston h2 {
   font-family: 'Poppins', sans-serif;
   color: #172a39;
   font-size: 15px;
-  margin: 10px;
 }
 
 .rainstorm {
+  max-width: 250px;
   float: right;
-  margin: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 0px 0px 10px 3px rgba(76, 134, 169, 1);
 }
 
 /*Weather page*/
 .dayofweek {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
   max-width: 100%;
   margin: 0;
@@ -300,6 +305,10 @@ figure {
   margin-left: 10px;
 }
 
+.towns img {
+  box-shadow: 0px 0px 30px 3px rgba(76, 134, 169, 1);
+}
+
 div .tourism {
   max-width: 500px;
 }
@@ -308,6 +317,7 @@ div .tourism {
   float: right; 
   padding-left: 5px;
   padding-bottom: 20px;
+  box-shadow: 0px 0px 30px 3px rgba(76, 134, 169, .75);
 }
 
 .tourism h4 {
@@ -335,14 +345,16 @@ div .tourism {
 
 /*All pages*/
 .footer {
+  max-width: 100%;
   display: block;
   flex-flow: row;
+  font-family: 'Poppins', sans-serif;
   background-color: #172a39;
-  padding: 0px;
+  color: #d8e3ff;
+  padding: 30px 0px 30px 0px;
   text-align: left;
   justify-content: center;
-  max-width: 100%;
-  margin: 10px auto;
+  margin-top: 30px;
 }
 
 .footer h3 {
@@ -363,17 +375,6 @@ div .tourism {
   list-style-type: none;
   padding: 25px;
   margin-left: 50px;
-}
-
-footer {
-  max-width: 100%;
-  background-color: #172a39;
-  color: #d8e3ff;
-  border: none;
-  text-align: center;
-  padding: 30px 0px 30px 0px;
-  font-family: 'Poppins', sans-serif;
-  margin: 10px;
 }
 
 .footer .social-media {
