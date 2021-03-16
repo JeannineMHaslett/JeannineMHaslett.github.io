@@ -1,5 +1,5 @@
 /*Medium Screen*/
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 750px) {
   body {
     max-width: 1150px;
     margin: 0 auto;
@@ -84,13 +84,13 @@
 
   main .largerp {
     margin: 0 auto;
-  } 
+  }
 
-  .article h3{
+  .article h3 {
     margin-left: 10px;
 
   }
-  
+
   .article p {
     font-size: 15px;
     margin-top: 0;
@@ -98,8 +98,8 @@
     margin-right: 10px;
   }
 
-.rainstorm  {
-  max-width: 350px;
+  .rainstorm {
+    max-width: 350px;
     display: block;
     margin-right: 10px;
   }
@@ -113,38 +113,39 @@
 
   .fdfc {
     display: block;
-}
+  }
 
-.fdfc table{
-  width: 100%;
-  text-align: center;
-  box-shadow: 0px 0px 10px 3px rgba(76, 134, 169, 1);
-  color: #172a39;
-  padding: 10px;
-  align-items: center;
-}
+  .fdfc table {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 10px 3px rgba(76, 134, 169, 1);
+    color: #172a39;
+    padding: 10px;
+    align-items: center;
+  }
 
-.fdfc h3 {
-  font-family: 'Bree Serif', serif;
-  font-weight: bold;
-  color: #172a39;
-  font-size: 18px;
-  margin-left: 10px;
-  margin-top: 30px;
-}
+  .fdfc h3 {
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    color: #172a39;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
 
-.dayofweek {
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  background-color: #f4d35f;
-  color: #172a39;
-  font-size: 18px;
-}
+  .dayofweek {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #f4d35f;
+    color: #172a39;
+    font-size: 18px;
+  }
 
-.icons{
-  background-color: rgba(76, 134, 169, 1);
-}
+  .icons {
+    background-color: rgba(76, 134, 169, 1);
+  }
+
   .icons img {
     max-width: 75px;
   }
@@ -156,7 +157,7 @@
     font-size: 18px;
   }
 
-  .article h3  {
+  .article h3 {
     font-size: 18px;
   }
 
@@ -165,21 +166,21 @@
   }
 
   /*Home Page */
-.towns {
-  max-width: 960px;
-  margin: 0 auto;
+  .towns {
+    max-width: 960px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
   }
 
-.info div {
-  padding: 10px;
-  flex-direction: row;
-}
+  .info div {
+    padding: 10px;
+    flex-direction: row;
+  }
 
-.towns:nth-child(odd) {
-	flex-direction: row-reverse;
-}
+  .towns:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
 
   .towns h2 {
     color: #172a39;
@@ -209,6 +210,52 @@
   .tourism {
     max-width: 960px;
     margin: 0 auto;
+  }
+
+  /*storm center*/
+  form fieldset {
+    min-width: 540px;
+  }
+  
+  .form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+  }
+
+  form legend {
+    width: auto;
+  }
+
+  form label.contact input,
+  form label.date input,
+  form label.comments input,
+  form label.contact select,
+  form label.comments select {
+      font-size: 15px;
+  }
+   
+  form label.comments select {
+    font-size: 15px;
+  }
+
+  .danger .radio {
+    width: 50%;
+    display: block;
+    padding: 5px 0px 5px 5px;
+    color: #555;
+    font-size: 18px;
+    }
+
+  form fieldset {
+    margin: 10px 30px 30px 10px;
+  }
+ 
+  input, 
+  select, 
+  textarea {
+    width: 75%;
   }
 
   .footer,

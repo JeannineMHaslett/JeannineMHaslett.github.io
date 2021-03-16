@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -13,21 +12,22 @@
         href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,500;0,700;1,500;1,700&display=swap"
         rel="stylesheet">
 
-    <title>Storm Reporting Center</title>
-    <meta name="description" content="Fill out this form to report a storm in your area.">
+    <title>Whether to Weather Preston</title>
+    <meta name="description" content="This is the home page for Whether to Weather, Preston home page">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
+
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 </head>
 
-<body class="thanks">
+<body>
     <header>
         <img src="images/weather-logo.png" alt="logo of sun with raining cloud">
         <section class="heading">
             <h1>Whether to Weather</h1>
             <div class="byline">
-                Weather and more from Preston
+                <p>Weather and more from Preston</p>
             </div>
         </section>
     </header>
@@ -37,20 +37,65 @@
         <!--for JavaScript per video for hamburger menu-->
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
-            <li><a href="/lesson4/preston-4.html">Home</a></li>
-            <li><a href="/lesson5/preston-5.html">Preston</a></li>
+            <li><a href="/lesson9/index.html">Home</a></li>
+            <li><a href="/lesson10/preston-10.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li><a href="#" class="active">Storm Center</a></li>
-            <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+            <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="#" class="active">Gallery</a></li>
         </ul>
     </nav>
 
-    <main>
-        <div class="thanks">
-        <h1>Area Storm Center</h1>
-        <p>Thanks for reporting your severe weather. Your response helps us assemble data. Your participation is greatly appreciated.</p>
-        </div>
+    <main class="gallery">
+        <figure><img src="images/placeholder.jpg" data-src="images/apodacasnowman.jpg"
+                alt="family in front of a snowman">
+            <figcaption>The Apodaca family enjoys the Thanksgiving snowfall</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/placeholder.jpg" data-src="images/eightinchessnow.jpg"
+                alt="level up to almost 8 inches on a ruler in the snow">
+            <figcaption>Nearly 8 inches of snow fell overnight</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/placeholder.jpg" data-src="images/fairviewut.jpg" alt="mountain road with fog and snow">
+            <figcaption>Fog near Fairview made mountain roads dangerous</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/placeholder.jpg" data-src="images/margiesnow.jpg"
+                alt="back yard, field and hill covered with snow">
+            <figcaption>Residents woke to a fresh dusting of snow</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/placeholder.jpg" data-src="images/monticellout.jpg"
+                alt="clear skies with snow-topped mountain in background">
+            <figcaption>It was a clear, dry day near Monticello, Utah</figcaption>
+        </figure>
+
+        <figure><img src="images/placeholder.jpg" data-src="images/nmmonsoon.jpg" alt="yard flooded with water">
+            <figcaption>Summer monsoon rains caused minor flooding</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/placeholder.jpg" data-src="images/nmsunset.jpg"
+                alt="sunset with pink, yellow and purple clouds">
+            <figcaption>The clouds provided perfect conditions for a beautiful, bright sunset</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/placeholder.jpg" data-src="images/roswellnm.jpg"
+                alt="vehicles with snow blowing over ice covered highway">
+            <figcaption>US 285 was icy with blowing snow</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/placeholder.jpg" data-src="images/windyweeds.jpg" alt="yard filled with tumbleweeds">
+            <figcaption>60 MPH winds blew tumbleweeds 5 miles down</figcaption>
+        </figure>
+
     </main>
 
     <footer>
@@ -89,6 +134,7 @@
 
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/lazyload.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 
     <script>
