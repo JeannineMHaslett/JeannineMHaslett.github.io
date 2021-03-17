@@ -120,6 +120,7 @@
 
   /*Home Page (every time I change something here it affects my large page)*/
 .towns {
+  min-width: 550px;
   max-width: 960px;
   margin: 0 auto;
     display: flex;
@@ -156,9 +157,10 @@
   }
 
   .towns img {
-    margin-left: 10px;
-    width: 90%;
-    padding-top: 20px;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .tourism {

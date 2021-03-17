@@ -1,5 +1,5 @@
 /*Medium Screen*/
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 550px) {
   body {
     max-width: 1150px;
     box-sizing: border-box;
@@ -166,16 +166,24 @@
 
   /*Home Page */
   .towns {
-    max-width: 960px;
+    max-width: 100%;
     display: flex;
-  }
-
-  .info div {
-    padding: 10px;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
-  .towns:nth-child(odd) {
+  .towns div {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+
+    flex-wrap: nowrap;
+  }
+
+  .towns div section {
+width: 50%;
+  }
+  .towns div:nth-child(odd) {
     flex-direction: row-reverse;
   }
 
@@ -197,12 +205,12 @@
   .towns p {
     vertical-align: middle;
   }
-
   .towns img {
-    margin-left: 10px;
-    width: 90%;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
-
   .tourism {
     max-width: 960px;
     margin: 0 auto;
@@ -244,7 +252,7 @@
   input, 
   select, 
   textarea {
-    width: 75%;
+    width: 90%;
   }
 
   .footer,

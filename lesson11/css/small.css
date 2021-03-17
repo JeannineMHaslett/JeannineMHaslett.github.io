@@ -165,7 +165,7 @@ picture {
   
   main {
     display: block;
-    max-width: 500px;
+    max-width: 100%;
   }
   
   main .hero photo {
@@ -233,6 +233,7 @@ main .preston h2 {
 }
 
 .form fieldset {
+  text-align: left;
   min-width: 280px;
   max-width: 750px;
   border: 5px solid rgba(76, 134, 169, 1);
@@ -303,11 +304,14 @@ form label.radio {
   padding: 5px 0px 5px 5px;
 }
 
+.danger input {
+  width: 5%;
+}
+
 textarea{
   width: 75%;
   margin: 10px;
   border: solid 3px rgba(76, 134, 169, .75);
-  padding: 10px;
 }
 
 /*thanks page*/
