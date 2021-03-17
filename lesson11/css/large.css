@@ -26,6 +26,7 @@
   nav ul li {
     font-size: 18px;
   }
+
   .gallery {
     display: grid;
     grid-gap: 10px;
@@ -36,6 +37,7 @@
     max-width: 400px;
   }
 
+
   figcaption {
     font-size: 15px;
   }
@@ -43,21 +45,20 @@
   .rainstorm{
     max-width: 500px;
   }
-.towns {
-    max-width: 1200px;
+  .towns {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 40px;
     margin: 0 auto;
     text-align: center;
 }
 
 .tourism {
-  max-width: 1200px;
   margin: 0 auto;
+  text-align: left;
 }
 
 .tourism img {
-  padding: 0px 50px 0px 5px;
+float: right;
 }
 
   footer {

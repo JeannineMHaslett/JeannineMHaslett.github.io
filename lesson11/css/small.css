@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,500;0,700;1,500;1,700&display=swap');
 /*All pages*/
 body {
-  max-width: 799px;
+  margin: 0 auto;
+  min-width: 250px;
+  max-width: 499px;
   background-color: #d8e3ff;
+  text-align: center;
 }
 
 .satBanner {
@@ -18,6 +21,8 @@ body {
 }
 
 header {
+  max-width: 100%;
+  margin: 0 auto;
   display: flex;
   background-color: #172a39;
   color: #f4d35f;
@@ -26,7 +31,6 @@ header {
 }
 
 .header {
-  max-width: 100%;
   margin: 0;
   background-color: #d8e3ff;
 }
@@ -66,6 +70,7 @@ nav button {
  }
 
 nav {
+  max-width: 100%;
   margin: 0 auto;
   background-color: #172a39;
   font-family: 'Poppins', sans-serif;
@@ -128,11 +133,6 @@ nav ul.hide {
   text-align: center;
 }
 
-.hero-div img {
-    width: 100%;
-  position: relative;
-}
-
 picture {
   display: block;
   width: 100%;
@@ -165,6 +165,7 @@ picture {
   
   main {
     display: block;
+    max-width: 500px;
   }
   
   main .hero photo {
@@ -191,6 +192,8 @@ main .preston h2 {
   font-size: 15px;
   margin-top: 50px; 
   margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .article {
@@ -201,6 +204,8 @@ main .preston h2 {
   font-family: 'Poppins', sans-serif;
   color: #172a39;
   font-size: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .rainstorm {
@@ -233,8 +238,6 @@ main .preston h2 {
   border: 5px solid rgba(76, 134, 169, 1);
   border-radius: 5px;
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  color: #172a39;
   padding: 20px;
 }
 
@@ -298,8 +301,6 @@ form label.range,
 form label.radio {
   display: block;
   padding: 5px 0px 5px 5px;
-  color: #555;
-  font-size: 18px;
 }
 
 textarea{
@@ -380,7 +381,7 @@ img[data-src] {
   
 figure {
   max-width: 400px;
-  height: auto;
+  height: 325px;
 }
 .wireframes {
   Margin-left: 30px; 
@@ -395,12 +396,19 @@ figure {
 }
 
 /*Home page*/
+main .homepage {
+  max-width: 500px;
+}
+
 .homepage {
   margin-bottom: 20px;
 }
 
 .homepage .hero-div img {
   padding-bottom: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .towns h2 {
@@ -426,17 +434,18 @@ figure {
 
 .towns img {
   box-shadow: 0px 0px 30px 3px rgba(76, 134, 169, 1);
+  margin: 10px;
+  max-width: 280px;
 }
 
 div .tourism {
   max-width: 500px;
 }
 
-.tourism img {
-  float: right; 
-  padding-left: 5px;
-  padding-bottom: 20px;
+.tourism img { 
   box-shadow: 0px 0px 30px 3px rgba(76, 134, 169, .75);
+  margin: 10px;
+  max-width: 280px;
 }
 
 .tourism h4 {
