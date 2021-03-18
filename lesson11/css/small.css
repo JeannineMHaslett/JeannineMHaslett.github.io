@@ -5,7 +5,6 @@ body {
   min-width: 250px;
   max-width: 499px;
   background-color: #d8e3ff;
-  text-align: center;
 }
 
 .satBanner {
@@ -210,10 +209,8 @@ main .preston h2 {
 
 .rainstorm {
   max-width: 250px;
-  float: right;
-  margin-left: 5px;
-  margin-right: 5px;
   margin-bottom: 10px;
+  margin-left: 10px;
   box-shadow: 0px 0px 10px 3px rgba(76, 134, 169, 1);
 }
 
@@ -403,6 +400,11 @@ main .homepage {
 
 .homepage {
   margin-bottom: 20px;
+  text-align: center;
+}
+
+.homepage .links {
+  text-align: left;
 }
 
 .homepage .hero-div img {
@@ -435,6 +437,7 @@ main .homepage {
   box-shadow: 0px 0px 30px 3px rgba(76, 134, 169, 1);
   margin: 10px;
   max-width: 280px;
+  width: 90%;
 }
 
 div .tourism {
@@ -448,7 +451,6 @@ div .tourism {
 }
 
 .tourism h4 {
-  display: block;
   color: #172a39;
   font-size: 18px;
   font-family: 'Bree Serif', serif;
@@ -474,13 +476,10 @@ div .tourism {
 /*All pages*/
 .footer {
   max-width: 100%;
-  display: block;
   flex-flow: row;
   font-family: 'Poppins', sans-serif;
   background-color: #172a39;
-  color: #d8e3ff;
   padding: 30px 0px 30px 0px;
-  text-align: left;
   justify-content: center;
   margin-top: 30px;
   margin-bottom: 0px;
@@ -504,6 +503,10 @@ div .tourism {
   list-style-type: none;
   padding: 25px;
   margin-left: 50px;
+}
+
+img.map {
+  width: 80%;
 }
 
 .footer .social-media {
@@ -536,9 +539,6 @@ footer p {
   color: #d8e3ff;
   text-align: left;
   font-size: 12px;
-}
-footer li .map {
-  max-width: 150px;
 }
 
 .copy {
