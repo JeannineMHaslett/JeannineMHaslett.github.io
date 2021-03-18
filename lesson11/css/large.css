@@ -60,7 +60,7 @@
   .homepage .towns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 100px;
     margin-right: 80px;
   }
 
@@ -74,7 +74,8 @@
 }
 
 .tourism img {
-float: right;
+margin-right: 75px;
+margin-left: 50px;
 }
 
   footer {

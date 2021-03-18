@@ -215,12 +215,18 @@
   }
 
   .tourism {
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
+    text-align: left;
+  }
+
+  .tourinfo {
+    width: 100%;
   }
 
   .tourism img {
     float: right;
+    margin-right: 20px;
   }
 
   /*storm center*/
