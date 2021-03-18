@@ -409,7 +409,6 @@ main .homepage {
   padding-bottom: 20px;
     max-width: 100%;
     margin: 0 auto;
-    text-align: center;
 }
 
 .towns h2 {
@@ -422,14 +421,13 @@ main .homepage {
 .towns h3 {
   font-family: 'Poppins', sans-serif;
   color: #172a39;
-  font-size: 22px;
   margin-left: 10px;
 }
 
 .towns p {
   font-family: 'Poppins', sans-serif;
   color: #172a39;
-  font-size: 18px;
+  font-size: 16px;
   margin-left: 10px;
 }
 
@@ -459,6 +457,7 @@ div .tourism {
 }
 
 .tourism p {
+  text-align: left;
   font-family: 'Poppins', sans-serif;
   color: #172a39;
   font-size: 15px;
