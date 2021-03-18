@@ -40,6 +40,7 @@
   }
 
   .hero-div img {
+    width: 100%;
     position: relative;
     padding: 0px;
     align-items: center;
@@ -176,13 +177,13 @@
     width: 100%;
     padding: 10px;
     display: flex;
-
     flex-wrap: nowrap;
   }
 
   .towns div section {
-width: 50%;
+    width: 50%;
   }
+
   .towns div:nth-child(odd) {
     flex-direction: row-reverse;
   }
@@ -205,22 +206,25 @@ width: 50%;
   .towns p {
     vertical-align: middle;
   }
+
   .towns img {
     display: block;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
   }
+
   .tourism {
+    text-align: left;
     max-width: 960px;
     margin: 0 auto;
   }
 
-  /*storm center*/
-  form fieldset {
-    min-width: 540px;
+  .tourism img {
+    float: right;
   }
-  
+
+  /*storm center*/
   .form {
     margin-left: auto;
     margin-right: auto;
@@ -238,19 +242,15 @@ width: 50%;
   form label.comments input,
   form label.contact select,
   form label.comments select {
-      font-size: 15px;
+    font-size: 15px;
   }
-   
+
   form label.comments select {
     font-size: 15px;
   }
 
-  form fieldset {
-    margin: 10px 30px 30px 10px;
-  }
- 
-  input, 
-  select, 
+  input,
+  select,
   textarea {
     width: 90%;
   }

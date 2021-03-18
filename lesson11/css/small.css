@@ -234,12 +234,9 @@ main .preston h2 {
 
 .form fieldset {
   text-align: left;
-  min-width: 280px;
-  max-width: 750px;
   border: 5px solid rgba(76, 134, 169, 1);
   border-radius: 5px;
   font-family: 'Poppins', sans-serif;
-  padding: 20px;
 }
 
 fieldset label.contact select {
