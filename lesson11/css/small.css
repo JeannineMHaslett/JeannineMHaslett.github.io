@@ -278,6 +278,12 @@ form label.range {
   display: block;
   margin: 0px;
   text-align: left;
+  width: 25%;
+  line-height: 1em;
+}
+
+.danger p {
+  margin-bottom: 0;
 }
 
 .details,
@@ -286,6 +292,12 @@ form label.range {
   margin-bottom: 20px;
 }
 
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  height: 1em;
+  width: 1.5em;
+}
 
 textarea{
   width: 75%;
