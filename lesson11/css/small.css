@@ -264,8 +264,8 @@ form input.submitBtn {
   font-size: 15px;
   border-radius: 5px;
   margin-bottom: 30px;
-  width: 96%;
-  max-width: 250px;
+  width: 100%;
+  max-width: 280px;
 }
 
 form label.details, 
