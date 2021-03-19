@@ -51,14 +51,18 @@
 .towns h3 {
   margin-right: 20px;
 }
+
 .towns img {
   width: 100%;
+}
+
+.homepage div {
+  width: 100%; 
 }
 
   .homepage .towns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 100px;
     margin-right: 80px;
   }
 
@@ -72,7 +76,7 @@
 }
 
 .tourism img {
-margin-right: 75px;
+margin-right: 35px;
 margin-left: 50px;
 }
 

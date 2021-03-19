@@ -384,10 +384,10 @@ main .homepage {
   font-family: 'Bree Serif', serif;
   color: #172a39;
   font-size: 25px;
-  margin-left: 10px;
 }
 
 .towns h3 {
+  font-size: 12px;
   font-family: 'Poppins', sans-serif;
   color: #172a39;
   margin-left: 10px;
