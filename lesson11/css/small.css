@@ -228,12 +228,15 @@ fieldset label.contact select {
   padding: 10px;
 }
 
-form label.contact,
-form div {
+form label.contact {
     display: block;
     color: #172a39;
     font-size: 18px;
     margin-top: 20px;
+}
+
+.form h2 {
+  font-size: 15px;
 }
 
 form label.contact input,
