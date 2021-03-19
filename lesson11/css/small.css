@@ -165,7 +165,7 @@ main .preston h2 {
 
 .article h3 {
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Bree Serif', serif;
   color: #172a39;
   font-size: 15px;
   margin-top: 50px; 
@@ -277,6 +277,7 @@ form label.range {
 .danger label.radio{
   display: block;
   margin: 0px;
+  text-align: left;
 }
 
 .details,
@@ -519,13 +520,31 @@ footer p {
 }
 
 .copy {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #172a39;
   color: #d8e3ff;
-  text-align: left;
-  padding: 30px 0px 30px 30px;
+  padding: 15px 0px 0px 0px;
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
   text-align: center;
+}
+
+.copy a {
+  color: #d8e3ff;
+}
+
+.copy a:hover {
+  color:#f4d35f;
+}
+
+.copy a:visited {
+  color: rgba(76, 134, 169, 1);
+}
+
+#date {
+  height: 50px;
 }
 
 footer .copy #date {

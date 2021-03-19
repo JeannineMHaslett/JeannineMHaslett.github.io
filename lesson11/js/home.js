@@ -37,6 +37,7 @@ fetch(requestURL)
       pop.textContent = `Population: ${town.currentPopulation}`;
       rain.textContent = `Annual Rainfall: ${town.averageRainfall}`;
       photo.src = `images/${town.photo}`;
+      photo.alt = `${town.name}`;
       
       card.append(info);
       info.append(name);
