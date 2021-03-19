@@ -60,8 +60,8 @@
           
        <fieldset>
         <legend>Storm Details</legend>
-            <label class="details"><p>Date of Storm</p1><br><br><input type="date" name="completedDate"></label>
-            <p>Storm Type</p>
+            <label class="details">Date of Storm<input type="date" name="completedDate"></label>
+            Storm Type
            <label class="dropdown">
                 <select name="type">
                 <option value="">Select Type</option>
@@ -73,8 +73,7 @@
             </select>
         </label>
 
-            <label class="range">
-                <p>Storm Severity</p><span id="ratingvalue">5</span>
+            <label class="range">Storm Severity <span id="ratingvalue"></span>
                 <input type="range" class="rating" value="5" min="1" max="10" step="1" list="tickmarks"
                     oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 <datalist id="tickmarks">
@@ -92,8 +91,7 @@
                 </datalist>
                 </label>
                 
-                <label class="dropdown">
-                    <p>Storm Region</p>
+                <label class="dropdown">Storm Region
                 <select name="region">
                     <option value="">Select Region</option>
                     <option value="hail">Preston</option>
@@ -102,7 +100,7 @@
                 </select>
                 </label>
 
-                <div class="danger"><p>Are you in danger?</p>   
+                <div class="danger">Are you in danger?   
             <label class="radio"><input type="radio" name="threat" value="yes"> Yes</label>
             <label class="radio"><input type="radio" name="threat" value="maybe"> Maybe</label>
             <label class="radio"><input type="radio" name="threat" value="no"> No</label>

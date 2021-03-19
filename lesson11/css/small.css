@@ -235,10 +235,6 @@ form label.contact {
     margin-top: 20px;
 }
 
-.form p {
-  font-size: 15px;
-}
-
 form label.contact input,
 form label.date input,
 form label.comment input,
@@ -274,14 +270,21 @@ form input.submitBtn {
 
 form label.details, 
 form label.dropdown,
-form label.range,
-form label.radio {
+form label.range {
   display: block;
 }
 
-.danger input {
-  width: 5%;
+.danger label.radio{
+  display: block;
+  margin: 0px;
 }
+
+.details,
+.dropdown, 
+.range {
+  margin-bottom: 20px;
+}
+
 
 textarea{
   width: 75%;
