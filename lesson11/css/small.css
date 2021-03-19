@@ -235,7 +235,7 @@ form label.contact {
     margin-top: 20px;
 }
 
-.form h2 {
+.form p {
   font-size: 15px;
 }
 
@@ -277,7 +277,6 @@ form label.dropdown,
 form label.range,
 form label.radio {
   display: block;
-  padding: 5px 0px 5px 5px;
 }
 
 .danger input {
