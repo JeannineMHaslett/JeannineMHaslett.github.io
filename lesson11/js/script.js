@@ -21,4 +21,4 @@ if (current.getDay() == 5) {
     document.querySelector(".satBanner").style.display = "block";
 }
 
-//visitor counter
+

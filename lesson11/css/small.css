@@ -7,18 +7,6 @@ body {
   background-color: #d8e3ff;
 }
 
-.satBanner {
-  max-width: 100%;
-  display: none;
-  background-color: #f4d35f;
-  color: #172a39;
-  padding: 15px;
-  font-family: 'Bree Serif', serif;
-  font-size: 15px;
-  margin: 0 auto;
-  text-align: center;
-}
-
 header {
   max-width: 100%;
   margin: 0 auto;
@@ -55,7 +43,7 @@ header .heading h1 {
 }
 
 #primaryNav {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 nav button {
@@ -83,7 +71,6 @@ nav ul {
 
  nav ul li {
   padding-bottom: 15px;
-  font-size: 15px;
  }
 
 nav ul li a {
@@ -132,25 +119,17 @@ nav ul.hide {
   text-align: center;
 }
 
-picture {
-  display: block;
-  width: 100%;
-  margin: 0;
-}
-
  .overlay {
     display: block;
     padding: 10px;
     background-color: rgba(76, 134, 169, .75);
     border-radius: 5px;
-    box-shadow: 0px 0px 30px 3px white;
     grid-template-columns: auto;
   }
   
   .overlay h2 {
     font-family: 'Bree Serif', serif;
     font-weight: bold;
-    font-size: 18px;
     margin-left: 10px;
   }
   
@@ -167,14 +146,14 @@ picture {
     max-width: 100%;
   }
   
-  main .hero photo {
-    display: flex;
+  .hero-div img {
     max-width: 100%;
     margin: 0;
     display: block;
     background-color: #d8e3ff;
     float: right;
   }
+
 main .preston h2 {
   display: block;
   color: #172a39;
@@ -379,18 +358,6 @@ img[data-src] {
   
 figure {
   max-width: 400px;
-  height: 325px;
-}
-.wireframes {
-  Margin-left: 30px; 
-}
-
-.wireframes h2 {
-  font-family: 'Bree Serif', serif;
-}
-
-.wireframes p {
-  font-family: 'Poppins', sans-serif;
 }
 
 /*Home page*/
@@ -447,14 +414,15 @@ div .tourism {
 .tourism img { 
   box-shadow: 0px 0px 30px 3px rgba(76, 134, 169, .75);
   margin: 10px;
-  max-width: 90%;
+  max-width: 280px;
 }
 
 .tourism h4 {
   color: #172a39;
   font-size: 18px;
   font-family: 'Bree Serif', serif;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
   margin-left: 10px;
 }
 
@@ -471,6 +439,10 @@ div .tourism {
   color: #172a39;
   font-size: 15px;
   margin: 10px;
+}
+
+.tourinfo {
+  text-align: left;
 }
 
 /*All pages*/
