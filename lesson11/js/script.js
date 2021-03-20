@@ -14,3 +14,6 @@ document.getElementById("date").innerHTML = day[current.getDay()] +
     ", " + current.getDate() + " " + month[current.getMonth()] + " " +
     current.getFullYear();
 
+    if (current.getDay() == 5) {
+        document.querySelector(".satBanner").style.display = "block";
+     }
