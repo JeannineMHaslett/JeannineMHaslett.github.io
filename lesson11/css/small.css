@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,500;0,700;1,500;1,700&display=swap');
+
 /*All pages*/
 body {
   margin: 0 auto;
@@ -54,7 +55,7 @@ nav button {
   font-size: 30px;
   border-radius: 5px;
   margin: 5px;
- }
+}
 
 nav {
   max-width: 100%;
@@ -67,11 +68,11 @@ nav ul {
   list-style-type: none;
   padding-right: 15px;
   margin: 0;
- }
+}
 
- nav ul li {
+nav ul li {
   padding-bottom: 15px;
- }
+}
 
 nav ul li a {
   display: block;
@@ -119,40 +120,34 @@ nav ul.hide {
   text-align: center;
 }
 
- .overlay {
-    display: block;
-    padding: 10px;
-    background-color: rgba(76, 134, 169, .75);
-    border-radius: 5px;
-    grid-template-columns: auto;
-  }
-  
-  .overlay h2 {
-    font-family: 'Bree Serif', serif;
-    font-weight: bold;
-    margin-left: 10px;
-  }
-  
-  .overlay ul {
-    list-style-type: none;
-    font-family: 'Poppins', sans-serif;
-    color: #172a39;
-    font-size: 15px;
-    font-weight: bold;
-  }
-  
-  main {
-    display: block;
-    max-width: 100%;
-  }
-  
-  .hero-div img {
-    max-width: 100%;
-    margin: 0;
-    display: block;
-    background-color: #d8e3ff;
-    float: right;
-  }
+.overlay {
+  width: 250px;
+  display: block;
+  margin-left: 10px;
+  padding: 5px;
+  background-color: rgba(76, 134, 169, .75);
+  border-radius: 5px;
+  grid-template-columns: auto;
+}
+
+.overlay h2 {
+  font-family: 'Bree Serif', serif;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.overlay ul {
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+  color: #172a39;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+main {
+  display: block;
+  max-width: 100%;
+}
 
 main .preston h2 {
   display: block;
@@ -168,7 +163,7 @@ main .preston h2 {
   font-family: 'Bree Serif', serif;
   color: #172a39;
   font-size: 15px;
-  margin-top: 50px; 
+  margin-top: 50px;
   margin-bottom: 15px;
   margin-left: 5px;
   margin-right: 5px;
@@ -194,7 +189,7 @@ main .preston h2 {
 }
 
 /*storm center*/
-.form { 
+.form {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -229,23 +224,23 @@ fieldset label.contact select {
 }
 
 form label.contact {
-    display: block;
-    color: #172a39;
-    font-size: 18px;
-    margin-top: 20px;
+  display: block;
+  color: #172a39;
+  font-size: 18px;
+  margin-top: 20px;
 }
 
 form label.contact input,
 form label.date input,
 form label.comment input,
 form label.comment select {
-    display: block;
-    font-size: 18px;
-    border: solid 3px rgba(76, 134, 169, .75);
-    border-radius: 4px;
-    padding: 10px 0px 10px 5px;
-    color: #172a39;
-    background-color: #fff;  
+  display: block;
+  font-size: 18px;
+  border: solid 3px rgba(76, 134, 169, .75);
+  border-radius: 4px;
+  padding: 10px 0px 10px 5px;
+  color: #172a39;
+  background-color: #fff;
 }
 
 form.label.contact input:valid {
@@ -253,7 +248,7 @@ form.label.contact input:valid {
 }
 
 form label.contact input:invalid {
- background-color: #f4d35f;
+  background-color: #f4d35f;
 }
 
 form input.submitBtn {
@@ -268,13 +263,13 @@ form input.submitBtn {
   max-width: 280px;
 }
 
-form label.details, 
+form label.details,
 form label.dropdown,
 form label.range {
   display: block;
 }
 
-.danger label.radio{
+.danger label.radio {
   display: block;
   margin: 0px;
   text-align: left;
@@ -287,7 +282,7 @@ form label.range {
 }
 
 .details,
-.dropdown, 
+.dropdown,
 .range {
   margin-bottom: 20px;
 }
@@ -299,7 +294,7 @@ form label.range {
   width: 1.5em;
 }
 
-textarea{
+textarea {
   width: 75%;
   margin: 10px;
   border: solid 3px rgba(76, 134, 169, .75);
@@ -313,13 +308,13 @@ textarea{
 }
 
 .thanks p {
-  color:#172a39;
+  color: #172a39;
   font-family: 'Poppins', sans-serif;
   margin-right: 10px;
   margin-left: 10px;
 }
 
-header .thanks  {
+header .thanks {
   width: 280px;
   margin-left: 5px;
 }
@@ -337,14 +332,14 @@ header .thanks  {
 }
 
 .fdfc {
-    display: none;
+  display: none;
 }
 
 /*Gallery page*/
 figcaption {
   padding: 15px;
   font-size: 10px;
-  font-family: 'Poppins'; 
+  font-family: 'Poppins';
 }
 
 .gallery {
@@ -373,7 +368,7 @@ img[data-src] {
 .gallery .placeholder {
   max-width: 400px;
 }
-  
+
 figure {
   max-width: 400px;
 }
@@ -394,8 +389,15 @@ main .homepage {
 
 .homepage .hero-div img {
   padding-bottom: 20px;
-    max-width: 100%;
-    margin: 0 auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.hero-div img {
+  max-width: 100%;
+  margin-top: 0;
+  display: block;
+  background-color: #d8e3ff;
 }
 
 .towns h2 {
@@ -429,10 +431,10 @@ div .tourism {
   max-width: 500px;
 }
 
-.tourism img { 
+.tourism img {
   box-shadow: 0px 0px 30px 3px rgba(76, 134, 169, .75);
   margin: 10px;
-  max-width: 280px;
+  max-width: 260px;
 }
 
 .tourism h4 {
@@ -473,6 +475,14 @@ div .tourism {
   justify-content: center;
   margin-top: 30px;
   margin-bottom: 0px;
+}
+
+.footer h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin: 0 auto;
+  text-align: left;
+  color: #f4d35f;
 }
 
 .footer h3 {
@@ -537,10 +547,10 @@ footer p {
   margin-right: auto;
   background-color: #172a39;
   color: #d8e3ff;
-  padding: 15px 0px 0px 0px;
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
   text-align: center;
+  padding: 25px;
 }
 
 .copy a {
@@ -548,7 +558,7 @@ footer p {
 }
 
 .copy a:hover {
-  color:#f4d35f;
+  color: #f4d35f;
 }
 
 .copy a:visited {

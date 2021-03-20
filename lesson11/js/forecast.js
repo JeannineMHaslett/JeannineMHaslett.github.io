@@ -36,7 +36,7 @@ fetch(forecastURL)
 
         forecastweek.forEach((x) => {
             let d = new Date(x.dt_txt);
-            console.log(d);
+            //console.log(d);
             document.getElementById(`dayofweek${day + 1}`).textContent = dayofweek[d.getDay()];
             
             const imagesrc = 'https://openweathermap.org/img/wn/' + x.weather[0].icon + '@2x.png';

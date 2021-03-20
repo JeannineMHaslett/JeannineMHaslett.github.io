@@ -10,7 +10,7 @@
   }
 
   .hero-div {
-   max-width: 1440px;
+    max-width: 1440px;
   }
 
   .overlay {
@@ -35,30 +35,31 @@
     font-size: 15px;
   }
 
-  .rainstorm{
+  .rainstorm {
     max-width: 500px;
   }
 
   .towns div {
     display: block;
   }
+
   .towns div section {
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
-}
+  }
 
-.towns h3 {
-  margin-right: 20px;
-}
+  .towns h3 {
+    margin-right: 20px;
+  }
 
-.towns img {
-  width: 100%;
-}
+  .towns img {
+    width: 100%;
+  }
 
-.homepage div {
-  width: 100%; 
-}
+  .homepage div {
+    width: 100%;
+  }
 
   .homepage .towns {
     display: grid;
@@ -70,15 +71,15 @@
     width: 750px;
   }
 
-.tourism {
-  margin: 0 auto;
-  text-align: left;
-}
+  .tourism {
+    margin: 0 auto;
+    text-align: left;
+  }
 
-.tourism img {
-margin-right: 35px;
-margin-left: 50px;
-}
+  .tourism img {
+    margin-right: 35px;
+    margin-left: 50px;
+  }
 
   footer {
     margin: auto;
