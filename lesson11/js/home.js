@@ -38,6 +38,7 @@ fetch(requestURL)
             rain.textContent = `Annual Rainfall: ${town.averageRainfall}`;
             photo.src = `images/${town.photo}`;
             photo.alt = `${town.name}`;
+           // activities.textContent = `${town.events}`;
 
             card.append(info);
             info.append(name);
