@@ -421,6 +421,44 @@ main .homepage {
   width: 90%;
 }
 
+.townevents div {
+  width: 240px;
+  background-color: #f4d35f;
+  padding: 10px;
+  margin-top: 40px;
+  border-radius: 5px;
+  border: solid 20px rgba(76, 134, 169, 1);
+  box-shadow: 0px 0px 10px 3px rgba(76, 134, 169, 1);
+}
+
+.townevents .fishhaven h2,
+.townevents .preston h2,
+.townevents .sodasprings h2 {
+  font-family: 'Bree Serif', serif;
+  color: #172a39;
+  font-size: 25px;
+}
+
+.townevents .fishhaven h3,
+.townevents .preston h3,
+.townevents .sodasprings h3 {
+  font-size: 12px;
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+  color: #172a39;
+  margin-left: 10px;
+}
+
+.townevents .fishhaven li,
+.townevents .preston li,
+.townevents .sodasprings li {
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+  color: #172a39;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
 div .tourism {
   max-width: 500px;
 }
