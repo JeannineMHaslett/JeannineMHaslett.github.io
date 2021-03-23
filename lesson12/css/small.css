@@ -6,12 +6,12 @@ body{max-width: 765px;
 }
 
 header{
-    background-color: #a40000;
+    background-color: #ffba00;
 }
 
 nav button {
     padding: 0px 5px;
-    background-color: #d8e3ff;
+    background-color: #ffdead;
     color: #172a39;
     border: #172a39;
     font-size: 30px;
@@ -22,7 +22,7 @@ nav button {
   nav {
     max-width: 100%;
     margin: 0 auto;
-    background-color: #4f7942;
+    background-color: #a40000;
     font-family: 'Poppins', sans-serif;
   }
   
@@ -44,7 +44,7 @@ nav button {
   }
   
   nav ul li a:hover {
-    background-color: #f4d35f;
+    background-color: #ffba00;
     color: #172a39;
     border-radius: 5px;
   }
@@ -60,11 +60,11 @@ nav button {
   }
 
 h1{
-    color:#ffba00;
+    color: #3c1414;
 }
 
 .byline p{
-    color: #ffba00;
+    color: #3c1414;
 }
 
 h2{ 
