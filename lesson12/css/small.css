@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&family=Stoke&display=swap');
 
 body {
-    min-width: 280px;
-    max-width: 1200px;
+    width: 1200px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #ffdead;
@@ -14,7 +14,7 @@ header {
 }
 
 #primaryNav {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -23,7 +23,7 @@ nav button {
     background-color: #ffdead;
     color: #3c1414;
     border: #3c1414;
-    font-size: 30px;
+    font-size: 10vw;
     border-radius: 5px;
     margin: 5px;
 }
@@ -47,7 +47,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    padding: 15px 2%;
+    padding: 15px;
     text-decoration: none;
     color: #ffdead;
     font-weight: bold;
@@ -73,14 +73,14 @@ nav ul li a:active {
 h1 {
     font-family: 'Stoke', serif;
     color: #3c1414;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .byline p {
     color: #3c1414;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 38px;
 }
 
 h2 {
