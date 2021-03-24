@@ -2,5 +2,22 @@
 
 body{
     max-width: 765;
-}    
+} 
+
+header .logo {
+    width: 150px;
+    padding: 40px 45px 10px 25px;
+    float: right;
+}
+
+h1 {
+    font-family: 'Stoke', serif;
+    color: #3c1414;
+    font-size: 30px;
+    padding: 10px 15px 10px 25px;
+    text-align: left;
+    align-items: center;
+}
+
+
 }
