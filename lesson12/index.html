@@ -45,7 +45,75 @@
         </ul>
     </nav>
     <main>
+        <table id="belen-weather">
+            <tr>
+                <th>Date:</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Currently: </td>
+                <td><span id="currently"></span></td>
+            </tr>
+            <tr>
+                <td>Temperature: </td>
+                <td><span id="currently"></span>&#176; F</td>
+            </tr>
+            <tr>
+                <td>Humidity:</td>
+                <td><span id="humidity"></span></td>
+            </tr>
+            <tr>
+                <td>Wind:</td>
+                <td><span id="windspeed"></span>MPH</td>
+            </tr>
+        </table>
 
+
+        <div class="alert">
+            <span class="close" onclick="this.parentElement.style.display='none';">&times;</span>
+            <p></p>
+        </div>
+
+        <div class="thdfc">
+            <h3>Belen, New Mexico Weather Forecast</h3>
+            <table>
+                <tr class="dayofweek">
+                    <td><span id="dayofweek1"></span></td>
+                    <td><span id="dayofweek2"></span></td>
+                    <td><span id="dayofweek3"></span></td>
+                </tr>
+
+                <tr class="icons">
+                    <td><img id="icon1" src="https://byui-cit230.github.io" alt="rain"></td>
+                    <td><img id="icon2" src="https://byui-cit230.github.io" alt="sun"></td>
+                    <td><img id="icon3" src="https://byui-cit230.github.io" alt="snow"></td>
+                </tr>
+
+                <tr class="forecast">
+                    <td><span id="forecast1"></span>&#176;F</td>
+                    <td><span id="forecast2"></span>&#176;F</td>
+                    <td><span id="forecast3"></span>&#176;F</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2>About the Chamber of Commerce</h2>
+        <p class="mini-heading">Our Purpose:</p>
+        <p></p>
+
+        <h2>Small businesses of the month</h2>
+        <p></p>
+
+        <h3>La Dos Gringa's</h3>
+        <p></p>
+
+        <h3>Craig Tire</h3>
+        <p></p>
+
+        <h3>New Mexico Travertine</h3>
+        <p></p>
+
+        <button class="join" ahref=""><h4>Join the Chamber</h4></button>
     </main>
 </body>
 <footer></footer>

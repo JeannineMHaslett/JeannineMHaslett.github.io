@@ -30,8 +30,8 @@ header img {
 .heading h1 {
     font-family: 'Stoke', serif;
     color: #910101;
-    font-size: 1.5rem;
-    padding-left: 20px;
+    font-size: 25px;
+    padding: 0px 20px 0px 5px;
     text-align: left;
 }
 
@@ -40,10 +40,9 @@ header img {
     color: #910101;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
-    margin-left: 20px;
-    padding-bottom: 20px;
+    padding: 0px 20px 10px 5px;
     margin-bottom: 0px;
 }
 
@@ -123,3 +122,67 @@ h3 {
 p {
     color: #3c1414;
 }
+
+#belen-weather th {
+    font-weight: bold;
+}
+
+table#belen-weather {
+    padding: 20px;
+}
+
+#belen-weather th,
+#belen-weather td {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: #3c1414;
+    text-align: left;
+}
+
+#belen-weather td {
+    margin-left: 20px;
+}
+
+.alert {
+    max-width: 100%;
+    background-color: #910101;
+    color: #ffcc00;
+    padding: 10px 10px 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+span.close {
+    font-size: 25px;
+}
+
+.close button {
+  margin-left: 20px;
+  color: #ffcc00;
+  font-weight: bold;
+  float: right;
+  transition: 0.3s;
+}
+
+.thdfc {
+    display: block;
+    align-content: center;
+  }
+
+  .thdfc table {
+  width: 90%;
+  margin-left: 10px;
+  text-align: center;
+  border: 3px solid #4f7942;
+  box-shadow: 5px 5px 7px 3px #3c1414;
+  color: #3c1414;
+  padding: 10px;
+  align-items: center;
+}
+
+.thdfc h3 {
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    color: #172a39;
+    margin-left: 10px;
+  }
