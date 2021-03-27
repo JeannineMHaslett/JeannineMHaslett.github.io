@@ -3,7 +3,7 @@
 body {
     margin: 0 auto;
     min-width: 250px;
-    max-width: 499px;
+    max-width: 539px;
     background-color: #fee9c1;
 }
 
@@ -46,6 +46,14 @@ header img {
     margin-bottom: 0px;
 }
 
+.banner img { 
+    position: relative;
+    text-align: center;
+    max-width: 280px;
+    margin: 0;
+    display: flex;
+}
+
 #primaryNav {
     font-size: 15px;
     padding-top: 18px;
@@ -80,7 +88,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    padding: 15px 2%;
+    padding: 15px;
     text-decoration: none;
     color: #fee9c1;
 }
@@ -185,4 +193,20 @@ span.close {
     font-weight: bold;
     color: #172a39;
     margin-left: 10px;
+  }
+
+  .highlight,
+  .about {
+      margin-left: 10px;
+  } 
+
+  .highlight img {
+      padding: 10px;
+      max-width: 250px;
+      margin: 0;
+      float: left;
+  }
+
+  button {
+      margin-left: 10px;
   }

@@ -33,6 +33,13 @@
         </section>
     </header>
 
+    <div class="banner">
+        <source srcset="images/welcomesign250.jpg" media="(min-width: 280px) and (max-width: 539px)">
+        <source srcset="images/welcomesign400.jpg" media="(min-width: 540px) and (max-width: 799px)">
+        <source srcset="images/welcomesign600.jpg" media="(min-width: 800px)">
+        <img src="images/welcomesign.jpg" alt="Iron welcom sign in the shape of a train.">
+    </div>
+
     <nav class="clearfix">
         <!--hamburger menu-->
         <button onclick="toggleMenu()">&#9776;</button>
@@ -97,26 +104,44 @@
             </table>
         </div>
 
-        <h2>About the Chamber of Commerce</h2>
-        <p class="mini-heading">Our Purpose:</p>
-        <p></p>
+        <div class="about">
+            <h2>About the Chamber of Commerce</h2>
+            <p class="mini-heading">Our Purpose:</p>
+            <p></p>
+        </div>
 
-        <h2>Small businesses of the month</h2>
-        <p></p>
+        <div class="highlight">
+            <h2>Small businesses of the month</h2>
+            <p></p>
 
-        <h3>La Dos Gringa's</h3>
-        <p></p>
+            <h3>La Dos Gringa's</h3>
+            <img src="images/placeholder.jpg" data-src="images/gringas400.jpg"
+                alt="picture of outside of La Dos Gringa's restauraunt">
+            <figcaption>La Dos Gringa's restaurant is located at....off of Camino Del Llano just west of 1-25.
+            </figcaption>
+            <p></p>
 
-        <h3>Craig Tire</h3>
-        <p></p>
+            <h3>Craig Tire</h3>
+            <img src="images/placeholder.jpg" data-src="images/craig400.jpg" alt="Picture of outside of Craig Tire">
+            <figcaption>Craig Tire is located on Main Street in Belen (Highway 314), just north of the railroad
+                bridge.</figcaption>
+            <p></p>
 
-        <h3>New Mexico Travertine</h3>
-        <p></p>
+            <h3>New Mexico Travertine</h3>
+            <img src="images/placeholder.jpg" data-src="images/nmtravertine400.jpg"
+                alt="picture of outside of new Mexico Travertine with stacks of travertine slabs displayed.">
+            <figcaption>New Mexico Travertine is located West of Belen on Camino Del Llano just east of the Double
+                Eagle Airport.</figcaption>
+            <p></p>
+        </div>
 
-        <button class="join" ahref=""><h4>Join the Chamber</h4></button>
+        <button type="button" class="join"><a href="https://JeannineMHaslett.github.io/lesson12/join.html">
+                <h4>Join the Chamber</h4>
+            </a></button>
     </main>
 </body>
 <footer></footer>
 <script src="js/toggle.js"></script>
+<script src="js/lazyload.js"></script>
 
 </html>
