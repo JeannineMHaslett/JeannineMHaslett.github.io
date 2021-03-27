@@ -1,9 +1,34 @@
-@media only screen and (min-width: 766px){
+@media only screen and (min-width: 770px) {
 
+    main {
+        max-width: 1150px;
+        margin: auto;
+    }
 
+    header img {
+        position: relative;
+        width: 10%;
+        padding: 40px 10px 40px 40px;
+    }
 
-#primaryNav {
-    font-size: 30px; 
+    .heading h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .byline p {
+        text-align: center;
+        font-size: 30px;
+        margin-left: 0px;
+    }
+
+    nav ul li {
+        font-size: 20px;
+    }
 }
 
-}
+/*header img {
+    width: 70px;
+    height: 55px;
+    padding: 20px 0px 0px 20px;
+}*/

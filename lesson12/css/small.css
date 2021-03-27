@@ -1,47 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&family=Stoke&display=swap');
 
 body {
-    width: 1200px;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #ffdead;
+    margin: 0 auto;
+    min-width: 250px;
+    max-width: 499px;
+    background-color: #fee9c1;
+}
+
+main {
+    margin: 0 auto;
+    min-width: 250px;
+    max-width: 499px;
 }
 
 header {
-    display: block;
-    margin: 0 auto;
-    background-color: #ffba00;
-    padding: 25px;
-    text-align: left;    
+    max-width: 100%;
+    margin-top: 0px;
+    display: flex;
+    background-color: #ffcc00;
+    color: #910101;
 }
 
-header .logo {
-    width: 75px;
-    padding: 40px 45px 10px 25px;
-    float: right;
+header img {
+    width: 70px;
+    height: 55px;
+    padding: 20px 20px 0px 20px;
+}
+
+.heading h1 {
+    font-family: 'Stoke', serif;
+    color: #910101;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.byline p {
+    display: block;
+    color: #910101;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 #primaryNav {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 15px;
+    padding-top: 18px;
+    padding-bottom: 0px;
 }
 
 nav button {
     padding: 0px 5px;
-    background-color: #ffdead;
+    background-color: #fee9c1;
     color: #3c1414;
-    border: #3c1414;
-    font-size: 10vw;
+    font-size: 30px;
     border-radius: 5px;
-    margin: 55px;
+    margin: 5px;
 }
 
 nav {
     max-width: 100%;
     margin: 0 auto;
-    background-color: #a40000;
-    font-family: 'Roboto', sans-serif;
+    background-color: #910101;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav ul {
@@ -56,21 +81,19 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    padding: 15px;
+    padding: 15px 2%;
     text-decoration: none;
-    color: #ffdead;
-    font-weight: bold;
+    color: #fee9c1;
 }
 
 nav ul li a:hover {
-    background-color: #ffba00;
+    background-color: #fee9c1;
     color: #3c1414;
-    font-weight: bold;
     border-radius: 5px;
 }
 
 nav ul li a:active {
-    background-color: #ffba00;
+    background-color: #fee9c1;
 }
 
 .clearfix:after {
@@ -79,31 +102,22 @@ nav ul li a:active {
     clear: both;
 }
 
-h1 {
-    font-family: 'Stoke', serif;
-    color: #3c1414;
-    font-size: 30px;
-    padding: 10px 15px 10px 25px;
-    text-align: left;
-    align-items: center;
+nav ul.hide {
+    display: none;
 }
 
-.byline p {
-    display: block;
+.active {
+    background-color: #fee9c1;
     color: #3c1414;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    text-align: left;
-    margin-left: 25px;
+    border-radius: 5px;
 }
 
 h2 {
-    color: #a40000;
+    color: #910101;
 }
 
 h3 {
-    color: #a40000;
+    color: #910101;
 }
 
 p {
