@@ -52,8 +52,8 @@
     }
 
     .weather {
-        max-width: 50%;
-        display: block;
+        display: flex;
+        max-width: 100%;
         justify-content: center;
     }
 
@@ -65,7 +65,7 @@
     }
 
     .thdfc table {
-        width: 75%;
+        width: 100%;
         background-color: #ffcc00;
         margin-left: 20px;
         margin-top: 20px;
@@ -107,7 +107,9 @@
 
     .thdfc img#icon1,
     .thdfc img#icon2,
-    .thdfc img#icon3 {
+    .thdfc img#icon3,
+    .thdfc img#icon4,
+    .thdfc img#icon5 {
         width: 75px;
     }
 
@@ -118,17 +120,9 @@
         flex-wrap: nowrap;
     }
 
-    /*
-    .highlight,
-    .about {
-        display: block;
-        margin-left: 10px;
-    }
-*/
-
 .highlight img {
     display: block;
-    width: 50%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }

@@ -164,13 +164,23 @@ p {
     display: none;
 }
 
-.alert {
-    max-width: 100%;
+.alert  {
+    max-width: 20%;
+    margin-left: 10px;
     background-color: #910101;
     color: #ffcc00;
     padding: 10px 10px 10px 20px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
+    box-shadow: 3px 3px 5px 3px #3c1414;
+    border-radius: 5px;
+}
+
+.alert a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffcc00;
 }
 
 span.close {
@@ -222,6 +232,7 @@ span.close {
 }
 
 .joinbutton a {
+    max-width: 20%;
     margin-left: 10px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -231,6 +242,7 @@ span.close {
     border-radius: 5px;
     font-size: 15px;
     font-weight: bold;
+    box-shadow: 3px 3px 5px 3px #3c1414;
 }
 
 footer {

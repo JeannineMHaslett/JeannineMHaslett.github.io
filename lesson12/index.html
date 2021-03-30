@@ -81,32 +81,40 @@
             <div class="thdfc">
                 <table>
                     <tr>
-                        <th colspan="3">Belen, New Mexico Weather Forecast</th>
+                        <th colspan="5">Belen, New Mexico Weather Forecast</th>
                     </tr>
                     <tr class="dayofweek">
                         <td><span id="dayofweek1"></span></td>
                         <td><span id="dayofweek2"></span></td>
                         <td><span id="dayofweek3"></span></td>
+                        <td><span id="dayofweek4"></span></td>
+                        <td><span id="dayofweek5"></span></td>
                     </tr>
 
                     <tr class="icons">
                         <td><img id="icon1" src="https://byui-cit230.github.io" alt="rain"></td>
                         <td><img id="icon2" src="https://byui-cit230.github.io" alt="sun"></td>
                         <td><img id="icon3" src="https://byui-cit230.github.io" alt="snow"></td>
+                        <td><img id="icon4" src="https://byui-cit230.github.io" alt="snow"></td>
+                        <td><img id="icon5" src="https://byui-cit230.github.io" alt="snow"></td>
                     </tr>
 
                     <tr class="forecast">
                         <td><span id="forecast1"></span>&#176;F</td>
                         <td><span id="forecast2"></span>&#176;F</td>
                         <td><span id="forecast3"></span>&#176;F</td>
+                        <td><span id="forecast4"></span>&#176;F</td>
+                        <td><span id="forecast5"></span>&#176;F</td>
                     </tr>
                 </table>
             </div>
         </div>
 
-        <div class="alert">
-            <span class="close" onclick="this.parentElement.style.display='none';">&times;</span>
-            <p></p>
+        <div class="alert"><a
+                href="https://forecast.weather.gov/showsigwx.php?warnzone=NMZ219&warncounty=NMC061&firewxzone=NMZ106&local_place1=Belen%20NM&product1=Hazardous+Weather+Outlook&lat=34.6587&lon=-106.779#.YGOOhLCSmM8"
+                target="_blank">
+                Weather Alerts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <span class="close" onclick="this.parentElement.style.display='none';"> &times;</span>
         </div>
 
         <div class="about">
@@ -157,8 +165,8 @@
         </div>
     </main>
 
-    <footer>
         <footer>
+            <p><br></p>
             <h3>Contact Information</h3>
             <p>The Weather Company, an IBM business<br>
                 1001 Summit Boulevard, Floor 20<br>
@@ -173,9 +181,9 @@
                         alt="instagram icon"></a>
                 <a class="pinterest" target="_blank" href="https://www.pinterest.com"><img src="images/pinterest.jpg"
                         alt="pinterest icon"></a>
+                        <p><br></p>            
             </div>
         </footer>
-    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/toggle.js"></script>
