@@ -22,11 +22,49 @@
         margin-left: 0px;
     }
 
+    .banner picture img {
+        display: flex;
+    }
+
     nav ul li {
         font-size: 20px;
     }
+
+    .weather {
+        max-width: 100%;
+    }
+    
+table#belen-weather {
+    max-width: 25%;
+    margin: 30px;
+    text-align: center;
+    align-content: center;
 }
 
+.thdfc table {
+    width: 100%;
+    background-color: #ffcc00;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+    .about {
+        display: block;
+    }
+
+    .highlight {
+        text-align: left;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .highlight img {
+        text-align: center;
+        max-width: 350px;
+    }
+}
 /*header img {
     width: 70px;
     height: 55px;

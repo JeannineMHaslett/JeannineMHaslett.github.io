@@ -3,7 +3,7 @@
 body {
     margin: 0 auto;
     min-width: 250px;
-    max-width: 539px;
+    max-width: 499px;
     background-color: #fee9c1;
 }
 
@@ -46,7 +46,7 @@ header img {
     margin-bottom: 0px;
 }
 
-.banner img { 
+.banner img {
     position: relative;
     text-align: center;
     max-width: 280px;
@@ -121,34 +121,47 @@ nav ul.hide {
 
 h2 {
     color: #910101;
+    font-family: 'Stoke', serif;
 }
 
 h3 {
     color: #910101;
+    font-family: 'Stoke', serif;
 }
 
 p {
     color: #3c1414;
 }
 
-#belen-weather th {
-    font-weight: bold;
+.weather {
+    padding: 5px;
+    max-width: 100%;
+    display: block;
 }
 
-table#belen-weather {
-    padding: 20px;
+.weather #belen-weather th {
+    font-weight: bold;
+    color: #910101
+}
+
+#belen-weather {
+    margin-top: 20px;
+    display: block;
+    align-content: center;
+    margin-bottom: 20px;
 }
 
 #belen-weather th,
 #belen-weather td {
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
     color: #3c1414;
     text-align: left;
+    margin-left: 20px;
 }
 
-#belen-weather td {
-    margin-left: 20px;
+.thdfc {
+    display: none;
 }
 
 .alert {
@@ -165,48 +178,69 @@ span.close {
 }
 
 .close button {
-  margin-left: 20px;
-  color: #ffcc00;
-  font-weight: bold;
-  float: right;
-  transition: 0.3s;
-}
-
-.thdfc {
-    display: block;
-    align-content: center;
-  }
-
-  .thdfc table {
-  width: 90%;
-  margin-left: 10px;
-  text-align: center;
-  border: 3px solid #4f7942;
-  box-shadow: 5px 5px 7px 3px #3c1414;
-  color: #3c1414;
-  padding: 10px;
-  align-items: center;
-}
-
-.thdfc h3 {
-    font-family: 'Bree Serif', serif;
+    margin-left: 20px;
+    color: #ffcc00;
     font-weight: bold;
-    color: #172a39;
+    float: right;
+    transition: 0.3s;
+}
+
+.about {
     margin-left: 10px;
-  }
+}
 
-  .highlight,
-  .about {
-      margin-left: 10px;
-  } 
+.about h2 {
+    font-family: 'Stoke', serif;
+}
 
-  .highlight img {
-      padding: 10px;
-      max-width: 250px;
-      margin: 0;
-      float: left;
-  }
+.about p, 
+.highlight p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
 
-  button {
-      margin-left: 10px;
-  }
+.highlight {
+    text-align: left;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+.highlight img {
+    text-align: center;
+    padding: 10px;
+    max-width: 250px;
+    margin-right: 20px;
+    margin-left: -5px;
+}
+
+#gringas,
+#craig,
+#travertine {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.joinbutton a {
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    background-color: #910101;
+    color: #ffcc00;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 40px; 
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        color: #910101;
+        background-color: #ffcc00;
+        text-align: center;
+      }
+      
+
