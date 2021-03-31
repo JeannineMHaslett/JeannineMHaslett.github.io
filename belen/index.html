@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jeannine Haslett">
+
+    <link rel="shortcut icon" href="belen-favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,500&family=Stoke&display=swap"
+        rel="stylesheet">
+
+    <title>Belen, New Mexico Chamber of Commerce</title>
+    <meta name="description" content="Welcome to the Hub City and the Belen, NM Chamber of Commerce">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
+</head>
+
+<body>
+    <nav class="clearfix">
+        <!--hamburger menu-->
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="/belen/belen.html">Belen</a></li>
+            <li><a href="/belen/directory.html">Directory</a></li>
+            <li><a href="/belen/contact.html">Contact</a></li>
+            <li><a href="/belen/join.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <img class="logo" src="images/belen-logo125.png"
+            alt="Logo that resembles the hub city effigy in Belen's City Center">
+        <section class="heading">
+            <h1>Belen, NM Chamber of Commerce</h1>
+            <div class="byline">
+                <p>Welcome to the Hub City</p>
+            </div>
+        </section>
+    </header>
+
+    <div class="banner">
+        <picture>
+            <source srcset="images/welcomesign250.jpg" media="(min-width: 280px) and (max-width: 539px)">
+            <source srcset="images/welcomesignlg.jpg" media="(min-width: 540px) and (max-width: 799px)">
+            <source srcset="images/welcomesignlg.jpg" media="(min-width: 800px) and (max-width: 1440px)">
+            <img src="images/welcomesignlg.jpg" alt="Iron welcome sign in the shape of a train.">
+        </picture>
+    </div>
+
+    <main>
+        <div class="weather">
+            <table id="belen-weather">
+                <tr>
+                    <th colspan="2" id="date"></th>
+                </tr>
+                <tr>
+                    <td>Conditions: </td>
+                    <td><span id="currently"></span></td>
+                </tr>
+                <tr>
+                    <td>Temperature: </td>
+                    <td><span id="high"></span>&#176; F</td>
+                </tr>
+                <tr>
+                    <td>Humidity:</td>
+                    <td><span id="humidity"></span></td>
+                </tr>
+                <tr>
+                    <td>Wind:</td>
+                    <td><span id="windspeed"></span>MPH</td>
+                </tr>
+            </table>
+
+            <div class="thdfc">
+                <table>
+                    <tr>
+                        <th colspan="5">Belen, New Mexico Weather Forecast</th>
+                    </tr>
+                    <tr class="dayofweek">
+                        <td><span id="dayofweek1"></span></td>
+                        <td><span id="dayofweek2"></span></td>
+                        <td><span id="dayofweek3"></span></td>
+                        <td><span id="dayofweek4"></span></td>
+                        <td><span id="dayofweek5"></span></td>
+                    </tr>
+
+                    <tr class="icons">
+                        <td><img id="icon1" src="https://byui-cit230.github.io" alt="rain"></td>
+                        <td><img id="icon2" src="https://byui-cit230.github.io" alt="sun"></td>
+                        <td><img id="icon3" src="https://byui-cit230.github.io" alt="snow"></td>
+                        <td><img id="icon4" src="https://byui-cit230.github.io" alt="snow"></td>
+                        <td><img id="icon5" src="https://byui-cit230.github.io" alt="snow"></td>
+                    </tr>
+
+                    <tr class="forecast">
+                        <td><span id="forecast1"></span>&#176;F</td>
+                        <td><span id="forecast2"></span>&#176;F</td>
+                        <td><span id="forecast3"></span>&#176;F</td>
+                        <td><span id="forecast4"></span>&#176;F</td>
+                        <td><span id="forecast5"></span>&#176;F</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="alert"><a
+                href="https://forecast.weather.gov/showsigwx.php?warnzone=NMZ219&warncounty=NMC061&firewxzone=NMZ106&local_place1=Belen%20NM&product1=Hazardous+Weather+Outlook&lat=34.6587&lon=-106.779#.YGOOhLCSmM8"
+                target="_blank">
+                Weather Alerts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <span class="close" onclick="this.parentElement.style.display='none';"> &times;</span>
+        </div>
+
+        <div class="about">
+            <h2>About the Chamber of Commerce</h2>
+            <p class="mini-heading">Our Purpose:</p>
+            <p></p>
+
+            <h2>Small businesses of the month</h2>
+            <p>These are the highlighted businesses of the month</p>
+        </div>
+
+        <div class="highlight">
+            <div id="gringas">
+                <h3>La Dos Gringa's</h3>
+                <p class="owner">Janet and Desiree Montaño</p>
+                <img src="images/placeholder.jpg" data-src="images/gringas400.jpg"
+                    alt="picture of outside of La Dos Gringa's restauraunt">
+                <p class="caption">La Dos Gringa's restaurant is located at....off of Camino Del Llano just west of
+                    1-25.
+                </p>
+            </div>
+
+            <div id="craig">
+                <h3>Craig Tire</h3>
+                <p class="owner">John Craig Jr.</p>
+                <img src="images/placeholder.jpg" data-src="images/craig400.jpg" alt="Picture of outside of Craig Tire">
+                <p class="caption">Craig Tire is located on Main Street in Belen (Highway 314), just north of the
+                    railroad
+                    bridge.</p>
+                <p>paragraph goes here</p>
+            </div>
+
+            <div id="travertine">
+                <h3>New Mexico Travertine</h3>
+                <p class="owner">Janice Lardner</p>
+                <img src="images/placeholder.jpg" data-src="images/nmtravertine400.jpg"
+                    alt="picture of outside of new Mexico Travertine with stacks of travertine slabs displayed.">
+                <p class="caption">New Mexico Travertine is located West of Belen on Camino Del Llano just east of the
+                    Double
+                    Eagle Airport.</p>
+                <p>a paragraph goes here</p>
+            </div>
+        </div>
+
+        <div class="joinbutton">
+            <a href="/lesson12/join.html" target="_blank">
+                Join the Chamber of commerce!</a>
+        </div>
+
+        <div class="events">
+            <p id="kind">Upcoming Events</p>
+            <p class="caption">Click section headings for a link with more info.</p>
+            <p><a href="https://www.facebook.com/worldslargestmatanza/" target="_blank">20th Annual Matanza</a></p>
+            <p>For 20 years, Belen has boasted the world's largest Matanza. It will be held at Eagle Park on January 23,
+                2021 from 7:00am to 3:00pm. Entry fee is $10 per person. Register to cook or sponsor the event.
+            </p>
+
+            <p><a href="http://www.vfrsballoonclub.org/?page_id=7/" target="_blank">35th Annual St. Patrick's Day
+                    Balloon Rallye</a></p>
+            <p>The 35th annual St. Patrick's Day Balloon Rallye will be held at Eagle Park on Saturday, March 13, 2021
+                from 7:00am until 12:00pm. Admission is free. There will be food trucks available for your convenience.
+            </p>
+
+            <p><a href="https://www.americantowns.com/place/belen-farmers-market-belen-nm.html" target="_blank">Belen
+                    Farmer's Market
+                    opening in June</a></p>
+            <p>The Belen Farmer's market will be opening up again beginning June 18, 2021 and will be held every Friday
+                at Anna Becker Park from 4:00 to 7:00pm through October 29, 2021. Visitors may purchase locally grown
+                eggs, honey and produce.
+            </p>
+            <p><a href="https://www.facebook.com/events/360642157924843/" target="_blank">Rio Abajo Becker Street Arts
+                    Festival</a></p>
+            <p>Saturday, September 25, 2021 from 10:00am to 10:00pm. Enjoy music by local musicians, art by local
+                artists, performances by schools, dance studios and Karate dojos, and lots of food.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p><br></p>
+        <h3>Contact Information</h3>
+        <p>The Weather Company, an IBM business<br>
+            1001 Summit Boulevard, Floor 20<br>
+            Brookhaven, GA, USA 30319<br>
+            888-123-4567</p>
+
+        <div class="social-media">
+            <h3>Join us on Social Media</h3><br>
+            <a class="faceboook" target="_blank" href="https://www.facebook.com"><img src="images/facebook.jpg"
+                    alt="facebook icon"></a>
+            <a class="instagram" target="_blank" href="https://www.instagram.com"><img src="images/instagram.jpg"
+                    alt="instagram icon"></a>
+            <a class="pinterest" target="_blank" href="https://www.pinterest.com"><img src="images/pinterest.jpg"
+                    alt="pinterest icon"></a>
+            <p><br></p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/toggle.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="js/thdfc.js"></script>
+    <script src="js/getdate.js"></script>
+    <script src="https://cdnres.willyweather.com/widget/warning/loadView.html?id=134506" type="application/javascript"></script>
+
+</body>
+
+</html>
