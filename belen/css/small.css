@@ -24,14 +24,14 @@ header {
 header img {
     width: 70px;
     height: 55px;
-    padding: 20px 20px 0px 20px;
+    padding: 20px 20px 0px 10px;
 }
 
 .heading h1 {
     font-family: 'Stoke', serif;
     color: #910101;
     font-size: 25px;
-    padding: 0px 20px 0px 5px;
+    padding: 0px 20px 0px 0px;
     text-align: left;
 }
 
@@ -89,6 +89,7 @@ nav ul li {
 nav ul li a {
     display: block;
     padding: 15px;
+    margin: 2px;
     text-decoration: none;
     color: #fee9c1;
 }
@@ -145,16 +146,16 @@ h2,
 h3,
 p,
 p.caption {
-    margin-left: 10px;
     margin-right: 10px;
 }
 
 .weather {
     padding: 5px;
-    max-width: 100%;
+    max-width: 75%;
     display: block;
     border: 5px solid #4f7942;
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .weather #belen-weather th {
@@ -182,10 +183,9 @@ p.caption {
     display: none;
 }
 
-.alert  {
-    max-width: 75%;
+.alert {
+    width: 75%;
     margin-left: 10px;
-    padding: 20px;
     background-color: #910101;
     color: #ffcc00;
     padding: 10px 10px 10px 20px;
@@ -216,6 +216,7 @@ span.close {
 
 .about {
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 .about h2 {
@@ -230,6 +231,7 @@ span.close {
 .owner {
     color: #4f7942;
     font-weight: bold;
+    font-size: 15px;
 }
 
 .highlight {
@@ -237,14 +239,15 @@ span.close {
     display: block;
     float: left;
     margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 20px;
 }
 
 .highlight img {
     text-align: center;
-    max-width: 250px;
-    margin-right: 20px;
-    margin-left: -5px;
+    max-width: 240px;
+    margin-right: 25px;
+    margin-left: 0px;
     box-shadow: 3px 3px 5px 3px #3c1414;
 }
 
@@ -255,25 +258,26 @@ span.close {
     margin-bottom: 25px;
 }
 
-.joinbutton a{
+.joinbutton a {
+    width: 75%;
     text-decoration: none;
     margin-left: 10px;
+    margin-right: 15px;
     font-family: 'Roboto', sans-serif;
-    text-decoration: none;
     background-color: #910101;
     color: #ffcc00;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
     font-size: 15px;
     font-weight: bold;
     box-shadow: 3px 3px 5px 3px #3c1414;
 }
 
-.events{
-    margin: 40px 10px 20px 10px;
+.events {
+    margin: 40px 20px 20px 10px;
 }
 
-#kind{
+#kind {
     font-size: 20px;
     font-family: 'Stoke', serif;
     color: #910101;
@@ -289,23 +293,36 @@ span.close {
     font-weight: bold;
 }
 
-#history {
+#history,
+.ttd {
     margin: 15px;
 }
 
-#history a {
+#history a,
+.ttd a {
+    font-family: 'Roboto', sans-serif;
     color: #910101;
+    font-size: 18px;
 }
 
-#history a:visited {
+#history a:visited,
+.ttd a:visited {
     color: #4f7942;
 }
 
-#history img,
 .movies img,
-.livelihood img {
+.livelihood img,
+.currently img {
     text-align: center;
     max-width: 250px;
+    margin-right: 20px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 5px 3px #3c1414;
+}
+
+#history img {
+    max-width: 240px;
+    text-align: center;
     margin-right: 20px;
     margin-left: 15px;
     box-shadow: 3px 3px 5px 3px #3c1414;
@@ -320,7 +337,7 @@ span.close {
 }
 
 .demographics table,
-.demographics h3, 
+.demographics h3,
 .demographics p {
     margin: 10px;
 }
@@ -340,7 +357,10 @@ table .bold {
     font-size: 15px;
     padding-right: 20px;
 }
-.movies {
+
+.movies,
+.livelihood,
+.currently {
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -352,13 +372,17 @@ table .bold {
 }
 
 footer {
-    margin-top: 40px; 
-        font-size: 12px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        color: #910101;
-        background-color: #ffcc00;
-        text-align: center;
-      }
-      
+    margin-top: 40px;
+    margin-right: 20px;
+    font-weight: bold;
+    background-color: #ffcc00;
+    text-align: center;
+}
 
+footer div#today {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #3c1414;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffcc00;
+ }  

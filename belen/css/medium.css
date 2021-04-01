@@ -52,6 +52,8 @@
     }
 
     .weather {
+        margin-left: 0;
+        margin-bottom: 40px;
         display: flex;
         max-width: 100%;
         justify-content: center;
@@ -135,8 +137,9 @@
 
     #history img,
     .movies img, 
-    .livelihood img {
-        max-width: 100%;
+    .livelihood img,
+    .currently img {
+        max-width: 50%;
         margin-left: 15px;
     }
 

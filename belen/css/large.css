@@ -64,6 +64,15 @@ table#belen-weather {
         text-align: center;
         max-width: 350px;
     }
+
+    
+.movies img,
+.livelihood img,
+.currently img {
+    margin-left: 0px;
+    box-shadow: 3px 3px 5px 3px #3c1414;
+}
+
 }
 /*header img {
     width: 70px;

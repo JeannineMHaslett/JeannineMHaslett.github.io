@@ -28,6 +28,7 @@
         <ul id="primaryNav" class="hide">
             <li><a href="#" class="active">Home</a></li>
             <li><a href="/belen/belen.html">Belen</a></li>
+            <li><a href="/belen/thingstodo.html">Things To Do</a></li>
             <li><a href="/belen/directory.html">Directory</a></li>
             <li><a href="/belen/contact.html">Contact</a></li>
             <li><a href="/belen/join.html">Join</a></li>
@@ -58,7 +59,7 @@
         <div class="weather">
             <table id="belen-weather">
                 <tr>
-                    <th colspan="2" id="date"></th>
+                    <th colspan="2" id="date">Date</th>
                 </tr>
                 <tr>
                     <td>Conditions: </td>
@@ -135,16 +136,22 @@
                 <p class="caption">La Dos Gringa's restaurant is located at....off of Camino Del Llano just west of
                     1-25.
                 </p>
+                <p>The Mantano family owned and operated Montano's Restaurant for over 35 years. Mom, Janet and
+                    Daughter, Desiree, decided to strike out and continue the tradition while adding a twist of their
+                    own flavor to the menu. Desiree's two daughters are growing up in the restaurant business as well,
+                    continuing the tradition into the third generation.</p>
             </div>
 
             <div id="craig">
                 <h3>Craig Tire</h3>
-                <p class="owner">John Craig Jr.</p>
+                <p class="owner">J.R. Craig</p>
                 <img src="images/placeholder.jpg" data-src="images/craig400.jpg" alt="Picture of outside of Craig Tire">
                 <p class="caption">Craig Tire is located on Main Street in Belen (Highway 314), just north of the
                     railroad
                     bridge.</p>
-                <p>paragraph goes here</p>
+                <p>Craig Tire company was started By John Craig and his wife, Carolyn in 1999. When he suddenly passed
+                    away of a heart attack in 2007, his oldest son, John Jr. (J.R.) and his wife, Kimberly, took over
+                    ownership of the business. Craig tire has two locations; one in Belen and one in Peralta,</p>
             </div>
 
             <div id="travertine">
@@ -153,9 +160,12 @@
                 <img src="images/placeholder.jpg" data-src="images/nmtravertine400.jpg"
                     alt="picture of outside of new Mexico Travertine with stacks of travertine slabs displayed.">
                 <p class="caption">New Mexico Travertine is located West of Belen on Camino Del Llano just east of the
-                    Double
-                    Eagle Airport.</p>
-                <p>a paragraph goes here</p>
+                    Double Eagle Airport.</p>
+                <p>NM Travertine was started in 1984 by Vince Lardner, who passed it on to his son, Tim. Tim Lardner
+                    passesd away in 2010, leaving the business to his wife, Janice, and their four children. The quarry
+                    is located 20 miles west of Belen. New Mexico was once under water, and calciferous sediments
+                    created the tan, marble-like rock. NM Travertine is now a worldwide provider of natural stone
+                    products.</p>
             </div>
         </div>
 
@@ -191,35 +201,45 @@
                 artists, performances by schools, dance studios and Karate dojos, and lots of food.
             </p>
         </div>
+
+        <div class="ttd">
+            <h3>Things To Do</h3>
+            <p>Did you know that Judy Chicago moved to Belen a few years ago? She opened up a gallery just west of the
+                Harvey House Museum between First and Second Streets. The historical district of the city has lots of
+                places to visit and things to see. Click the link to see the many different places to visit.<br></p>
+                <a href="/belen/thingstodo.html" target="_blank">
+                    Things To Do In Belen</a>
+        </div>
     </main>
 
     <footer>
         <p><br></p>
         <h3>Contact Information</h3>
-        <p>The Weather Company, an IBM business<br>
-            1001 Summit Boulevard, Floor 20<br>
-            Brookhaven, GA, USA 30319<br>
-            888-123-4567</p>
+        <p>Belen Chamber Of Commerce<br>
+            712 Dalies Ave<br>
+            Belen, NM, USA 87002<br>
+            (505) 864-8091</p>
 
         <div class="social-media">
             <h3>Join us on Social Media</h3><br>
-            <a class="faceboook" target="_blank" href="https://www.facebook.com"><img src="images/facebook.jpg"
+            <a class="faceboook" target="_blank" href="https://www.facebook.com/GreaterBelenChamberofCommerce"><img src="images/facebook.jpg"
                     alt="facebook icon"></a>
-            <a class="instagram" target="_blank" href="https://www.instagram.com"><img src="images/instagram.jpg"
+            <a class="instagram" target="_blank" href="https://www.instagram.com/explore/locations/127411417303945/greater-belen-chamber-of-commerce/"><img src="images/instagram.jpg"
                     alt="instagram icon"></a>
-            <a class="pinterest" target="_blank" href="https://www.pinterest.com"><img src="images/pinterest.jpg"
+            <a class="pinterest" target="_blank" href="https://www.pinterest.com/j9haslett/new-mexico/belen-nm/"><img src="images/pinterest.jpg"
                     alt="pinterest icon"></a>
-            <p><br></p>
-        </div>
+        </div><br>
+        <div id="today"></div><br><br>
+        
+        
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/toggle.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/footerdate.js"></script>
     <script src="js/lazyload.js"></script>
-    <script src="js/thdfc.js"></script>
-    <script src="js/getdate.js"></script>
-    <script src="https://cdnres.willyweather.com/widget/warning/loadView.html?id=134506" type="application/javascript"></script>
-
+    <script src="https://cdnres.willyweather.com/widget/warning/loadView.html?id=134506"></script>
 </body>
 
 </html>

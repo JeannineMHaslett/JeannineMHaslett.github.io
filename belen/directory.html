@@ -20,6 +20,20 @@
 </head>
 
 <body>
+
+    <nav class="clearfix">
+        <!--for JavaScript per video for hamburger menu-->
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="/belen/index.html">Home</a></li>
+            <li><a href="/belen/belen.html">Belen</a></li>
+            <li><a href="/belen/thingstodo.html">Things To Do</a></li>
+            <li><a href="#" class="active">Directory</a></li>
+            <li><a href="/belen/contact.html">Contact</a></li>
+            <li><a href="/belen/join.html">Join</a></li>
+        </ul>
+    </nav>
+
     <header>
         <img class="logo" src="images/belen-logo125.png"
             alt="Logo that resembles the hub city effigy in Belen's City Center">
@@ -31,22 +45,16 @@
         </section>
     </header>
 
-    <nav class="clearfix">
-        <!--for JavaScript per video for hamburger menu-->
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li><a href="/belen/index.html">Home</a></li>
-            <li><a href="/belen/belen.html">Belen</a></li>
-            <li><a href="#" class="active">Directory</a></li>
-            <li><a href="/belen/contact.html">Contact</a></li>
-            <li><a href="/belen/join.html">Join</a></li>
-        </ul>
-    </nav>
+
     <main>
 
     </main>
 </body>
-<footer></footer>
+<footer>
+
+    <div id="today"></div><br><br>
+</footer>
 <script src="js/toggle.js"></script>
+<script src="js/footerdate.js"></script>
 
 </html>
