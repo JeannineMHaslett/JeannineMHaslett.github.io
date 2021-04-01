@@ -138,7 +138,8 @@
     #history img,
     .movies img, 
     .livelihood img,
-    .currently img {
+    .currently img,
+    .ttd img {
         max-width: 50%;
         margin-left: 15px;
     }

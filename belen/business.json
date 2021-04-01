@@ -1,9 +1,9 @@
 {
     "business": [
       {
-        "Imageurl": "",   
+        "Imageurl": "https://j9ref.files.wordpress.com/2021/04/petescard.jpg?w=336",  
         "name": "Pete's Cafe",
-        "birthdate": "23 December 1805",
+        "address": "23 December 1805",
         "death": "27 June 1844",
         "length": 14,
         "order": 1,

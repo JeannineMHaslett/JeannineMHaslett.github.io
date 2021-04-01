@@ -299,20 +299,23 @@ span.close {
 }
 
 #history a,
-.ttd a {
+.ttd a,
+footer a {
     font-family: 'Roboto', sans-serif;
     color: #910101;
     font-size: 18px;
 }
 
 #history a:visited,
-.ttd a:visited {
+.ttd a:visited,
+footer a:visited {
     color: #4f7942;
 }
 
 .movies img,
 .livelihood img,
-.currently img {
+.currently img,
+.ttd img {
     text-align: center;
     max-width: 250px;
     margin-right: 20px;
