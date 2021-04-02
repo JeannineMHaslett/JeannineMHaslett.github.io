@@ -21,15 +21,15 @@
 
 <body>
     <nav class="clearfix">
-        <!--for JavaScript per video for hamburger menu-->
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="/belen/index.html">Home</a></li>
             <li><a href="/belen/belen.html">Belen</a></li>
-            <li><a href="#" class="active">Things To Do</a></li>
+            <li><a href="/belen/thingstodo.html">Things To Do</a></li>
             <li><a href="/belen/directory.html">Directory</a></li>
             <li><a href="/belen/contact.html">Contact</a></li>
             <li><a href="/belen/join.html">Join</a></li>
+            <li><a href="#" class="active">Attributes</a></li>
         </ul>
     </nav>
 
@@ -46,19 +46,52 @@
 
     <div class="banner">
         <picture>
-            <source srcset="images/railrunner250.jpg" media="(min-width: 280px) and (max-width: 539px)">
-            <source srcset="images/railrunner.jpg" media="(min-width: 540px) and (max-width: 799px)">
-            <source srcset="images/railrunner.jpg" media="(min-width: 800px) and (max-width: 1440px)">
-            <img src="images/railrunner.jpg" alt="Iron welcome sign in the shape of a train.">
+            <source srcset="images/westmesa250.jpg" media="(min-width: 280px) and (max-width: 539px)">
+            <source srcset="images/westmesa.jpg" media="(min-width: 540px) and (max-width: 799px)">
+            <source srcset="images/westmesa.jpg" media="(min-width: 800px) and (max-width: 1440px)">
+            <img src="images/westmesa.jpg" alt="Iron welcome sign in the shape of a train.">
         </picture>
     </div>
 
     <main>
+        <div class="attributes">
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attributes</h2>
+        
+            <ul>
+                <li><p class="owner">Photography</p></li>
+                <li>Jeannine Haslett</li>
+                <li>Jimmy Hardyman (with permission)</li>
+                <li><br></li>
+            </ul>
 
+            <p class="owner">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Historical and Recent Information</p>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Belen,_New_Mexico#Demographics" target="_blank">Wikipedia,
+                        Belen, NM</a></li>
+                <li><a
+                        href="https://www.usnews.com/education/best-high-schools/new-mexico/districts/belen-consolidated-schools/belen-high-12894">US
+                        News, Belen High</a></li>
+                <li><a href="https://www.census.gov/quickfacts/fact/table/belencitynewmexico,NM/PST045219"
+                        target="_blank">United States Census Bureau</a></li>
+                <li><a href="https://www.belenmainstreet.com/visit-belen/movies-filmed-here/" target="_blank">Belen Main
+                        Street Partnership</a></li>
+                <li><a href="https://www.waymarking.com/waymarks/WMMP81_Belen_Hotel_Belen_NM" target="_blank">National
+                        Register of Historic Places</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/History_of_New_Mexico" target="_blank">Wikipedia, History of
+                        New Mexico</a></li>
+                <li><a href="https://www.facebook.com/belenharveyhouse/" target="_blank">Facebook, Belen Harvey House
+                        Museum</a></li>
+                <li><a href="http://www.nmhcpl.org/uploads/THE_HISTORY_OF_BELEN.pdf#:~:text=Belenites%20know%20that%20the%20name%20%E2%80%9CBelen%E2%80%9D%20means%20Bethlehem%2C,the%20birthplace%20of%20Jesus%20Christ%20in%20Central%20Palestine."
+                        target="_blank">The History of Belen by Donald A. Chavez y Gilbert</a>
+            </ul>
+        </div>
     </main>
 
     <footer>
         <p><br></p>
+
+        <p>Last Modified On: <div id="today"></div>
+        </p><br>
         <h3>Contact Information</h3>
         <p>Belen Chamber Of Commerce<br>
             712 Dalies Ave<br>
@@ -74,14 +107,14 @@
                     src="images/instagram.jpg" alt="instagram icon"></a>
             <a class="pinterest" target="_blank" href="https://www.pinterest.com/j9haslett/new-mexico/belen-nm/"><img
                     src="images/pinterest.jpg" alt="pinterest icon"></a>
+            <p><br><br></p>        
         </div>
 
-        <div id="today"></div><br><br>
 
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/hamburger.js"></script>
     <script src="js/lazyload.js"></script>
     <script src="js/footerdate.js"></script>
 

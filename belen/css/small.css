@@ -368,15 +368,51 @@ table .bold {
     margin-right: 10px;
 }
 
-.movies ul {
+.movies ul,
+.attributes li {
     font-family: 'Roboto', sans-serif;
     color: #3c1414;
     font-size: 15px;
 }
 
+.attributes li+li {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+div.attributes {
+    justify-content: center;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.attributes ul li {
+    list-style-type: none;
+}
+
+.attributes li a {
+    text-decoration: none;
+    color: #3c1414;
+}
+
+.attributes li a:visited {
+    color: #4f7942;
+} 
+
+.attributes p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.attributes p.owner {
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #910101;
+}
+
 footer {
     margin-top: 40px;
-    margin-right: 20px;
     font-weight: bold;
     background-color: #ffcc00;
     text-align: center;
