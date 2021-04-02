@@ -49,7 +49,8 @@ header img {
 .banner img {
     position: relative;
     text-align: center;
-    max-width: 280px;
+    min-width: 100%;
+    max-width: 100%;
     margin: 0;
     display: flex;
 }
@@ -319,7 +320,6 @@ footer a:visited {
     text-align: center;
     max-width: 250px;
     margin-right: 20px;
-    margin-left: 10px;
     box-shadow: 3px 3px 5px 3px #3c1414;
 }
 

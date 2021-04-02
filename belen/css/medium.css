@@ -152,6 +152,10 @@
         vertical-align: middle;
     }
 
+    p.caption {
+        margin-left: 15px;
+    }
+
     .joinbutton a {
         width: 25%;
     }
