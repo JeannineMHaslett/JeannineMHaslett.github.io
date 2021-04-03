@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/medium.css">
 </head>
+<a id="top"></a>
 
 <body>
 
@@ -45,15 +46,25 @@
         </section>
     </header>
 
+    <div class="banner">
+        <picture>
+            <source srcset="images/westmesa250.jpg" media="(min-width: 280px) and (max-width: 539px)">
+            <source srcset="images/westmesa.jpg" media="(min-width: 540px) and (max-width: 799px)">
+            <source srcset="images/westmesa.jpg" media="(min-width: 800px) and (max-width: 1440px)">
+            <img src="images/westmesa.jpg" alt="Iron welcome sign in the shape of a train.">
+        </picture>
+    </div>
+
 
     <main>
-
+        <div class="top">
+            <a href="#top">Back to Top</a>
+            </div>
     </main>
 </body>
 <footer>
+    <div id="today"></div><br>
 
-    <p>Last Modified On: <div id="today"></div>
-    </p><br>
 </footer>
 <script src="js/hamburger.js"></script>
 <script src="js/toggle.js"></script>

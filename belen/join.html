@@ -14,14 +14,13 @@
     <title>Belen, New Mexico Chamber of Commerce</title>
     <meta name="description" content="Welcome to the Hub City and the Belen, NM Chamber of Commerce">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/extrasmall.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/medium.css">
 </head>
 
-<body>
 
+<body>
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
@@ -33,6 +32,9 @@
             <li><a href="#" class="active">Join</a></li>
             <li><a href="/belen/attributes.html">Attributes</a></li>
         </ul>
+    </nav>
+
+    <a id="top"></a>
 
     <header>
         <img class="logo" src="images/belen-logo125.png"
@@ -45,20 +47,143 @@
         </section>
     </header>
 
+    <div class="banner">
+        <picture>
+            <source srcset="images/1city-council250.jpg" media="(min-width: 280px) and (max-width: 539px)">
+            <source srcset="images/1city-council.jpg" media="(min-width: 540px) and (max-width: 799px)">
+            <source srcset="images/1city-council.jpg" media="(min-width: 800px) and (max-width: 1440px)">
+            <img src="images/1city-council.jpg" alt="Iron welcome sign in the shape of a train.">
+        </picture>
+    </div>
 
-    
-    </nav>
-    <main>
+    <h2>Join the Belen Chamber of Commerce</h2>
+    <p>There are many benefits to joining the Chamber of Commerce. It is a built-in support system for small businesses.
+    </p>
+
+    <p class="brownbold">1. Publicity Boost</p>
+    <p>We will help give your business more exposure online. Every time the Chamber mentions your business, you may get
+        yourself a free link on other websites, which will give you a higher rank on Google, making your business more
+        likely to show up on web searches.</p>
+
+    <p class="brownbold">2. Networking Opportunities</p>
+    <p>You will get to mingle with and get to know other business owners in your community. This will give you exposure
+        and allow you business opportunities you wouldn't otherwise get. It also gives you advanced notice of expos and
+        community events.</p>
+
+    <p class="brownbold">3. Access to Mailing Lists</p>
+    <p>Every member of the chamber gets a quarterly mailing list that includes everyone else who is a member of the
+        chamber. This gives you opportunities to collaborate with other businesses in the community, or get in touch
+        with other businesses who might be able to use your services.</p>
+
+    <p class="brownbold">4. Freebies and Discounts</p>
+    <p>Chamber of Commerce events often include mugs, sun caps, pens and other gifts that are given away as gifts or
+        prizes. Often, businesses will raffle off or give away in a free drawing one of their services or products as a
+        way to gain exposure. You may be lucky enough to win something.</p>
+
+    <p class="brownbold">5. Access to Funding</p>
+    <p>The chamber works directly with governmental and educational organizations. This gives you access to information
+        you may need, such as business loans or legislation that affects you.</p><br>
+
+    <h3>Membership Levels and Perks</h3><br>   
+    <p class="greenbold">Non-profit--$100 annually</p>
+    <p>oisdfh kdsjghadslj</p><br>
+
+    <p class="greenbold">Bronze--$200 annually</p>
+    <p>dfbgdshnujnfd</p><br>
+
+    <p class="greenbold">Silver--$400 annually</p>
+    <p>sadfbdsfbhfghn</p><br>
+
+    <p class="greenbold">Gold--$1000</p>
+    <p>asfdv dsfhnjyi</p><br>
+
+    <main class="form">
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="contact">First Name (required)<br> <input type="text" name="fullname" placeholder="John"
+                        required></label><br>
+                <label class="contact">Last Name (required)<br> <input type="text" name="fullname" placeholder="Smith"
+                        required></label><br>
+                <label class="contact">Title<br> <input type="text" name="fullname"
+                        placeholder="Mr, Mrs, Ms, Dr."></label><br>
+                <label class="contact">Email (required)<br> <input type="email" name="email"
+                        placeholder="name@domain.com" required></label><br>
+                <label class="contact">Cell Phone<br> <input type="text" name="fullname"
+                        placeholder="(505) 123-4567"></label><br>
+                <label class="contact">Business Name (required)<br> <input type="tel" name="phone"
+                        placeholder="John Smith's Restaurant" required></label><br>
+                <label class="contact">Business Address<br> <input type="text" name="fullname"
+                        placeholder="1234 My Street, Belen, NM 87002"></label><br>
+                <label class="contact">Business Website<br> <input type="text" name="fullname"
+                        placeholder="https://www.johnsmithsrestaurant.com"></label><br>
+                <label class="contact">Business Description<br> <input type="text" name="fullname"
+                        placeholder="Restaurant, Auto Repair, Grocery"></label><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Details</legend>
+                <label class="details">Desired Start Date<br><input type="date" name="completedDate"></label><br>
+                Choose Membership Level<br>
+                <label class="dropdown">
+                    <select name="type" required>
+                        <option value="none"> -- </option>
+                        <option value="nonprofit">Non-Profit, $100</option>
+                        <option value="bronze">Bronze, $200</option>
+                        <option value="silver">Silver, $400</option>
+                        <option value="gold">Gold, $1000</option>
+                    </select>
+                </label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Comments</legend>
+                <label class="comment">Additional Comments<br>
+                    <textarea name="comment" rows="10" placeholder=""></textarea></label>
+            </fieldset>
+
+            <input type="submit" value="Submit Request" class="submitBtn">
+
+        </form>
+
+        <div class="top">
+            <a href="#top">Back to Top</a>
+        </div>
 
     </main>
-</body>
-<footer>
 
-    <p>Last Modified On: <div id="today"></div>
-    </p><br>
-</footer>
-<script src="js/hamburger.js"></script>
-<script src="js/toggle.js"></script>
-<script src="js/footerdate.js"></script>
+    <footer>
+        <p><br></p>
+
+        <div id="today"></div><br>
+
+        <h3>Contact Information</h3>
+        <p>Belen Chamber Of Commerce<br>
+            712 Dalies Ave<br>
+            Belen, NM, USA 87002<br>
+            (505) 864-8091</p>
+
+        <div class="social-media">
+            <h3>Join us on Social Media</h3><br>
+            <a class="faceboook" target="_blank" href="https://www.facebook.com/GreaterBelenChamberofCommerce"><img
+                    src="images/facebook.jpg" alt="facebook icon"></a>
+            <a class="instagram" target="_blank"
+                href="https://www.instagram.com/explore/locations/127411417303945/greater-belen-chamber-of-commerce/"><img
+                    src="images/instagram.jpg" alt="instagram icon"></a>
+            <a class="pinterest" target="_blank" href="https://www.pinterest.com/j9haslett/new-mexico/belen-nm/"><img
+                    src="images/pinterest.jpg" alt="pinterest icon"></a>
+            <p><br><br></p>
+        </div>
+
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="js/footerdate.js"></script>
+
+</body>
 
 </html>

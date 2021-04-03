@@ -13,6 +13,14 @@ main {
     max-width: 499px;
 }
 
+.top a {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #3c1414;
+    margin-left: 40px;
+}
+
 header {
     max-width: 100%;
     margin-top: 0px;
@@ -143,6 +151,22 @@ p.caption {
     font-size: 12px;
 }
 
+.greenbold {
+    color: #4f7942;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.brownbold {
+    color:  #3c1414;
+    font-weight: bold;
+}
+
+.redbold {
+    color: #910101;
+    font-weight: bold;
+}
+
 h2,
 h3,
 p,
@@ -161,7 +185,7 @@ p.caption {
 
 .weather #belen-weather th {
     font-weight: bold;
-    color: #910101
+    color: #910101;
 }
 
 #belen-weather {
@@ -226,12 +250,6 @@ span.close {
 
 .about p {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-}
-
-.owner {
-    color: #4f7942;
-    font-weight: bold;
     font-size: 15px;
 }
 
@@ -313,6 +331,7 @@ footer a:visited {
     color: #4f7942;
 }
 
+.history,
 .movies img,
 .livelihood img,
 .currently img,
@@ -321,6 +340,12 @@ footer a:visited {
     max-width: 250px;
     margin-right: 20px;
     box-shadow: 3px 3px 5px 3px #3c1414;
+    filter: blur(0px);
+    transition: filter 0.5s;
+}
+
+img[data-src] {
+    filter: blur(5px);
 }
 
 #history img {
@@ -336,7 +361,7 @@ footer a:visited {
     max-width: 100%;
     display: block;
     border: 5px solid #4f7942;
-    margin: 20px 10px 20px 10px;
+    margin: 20px 5px 20px 25px;
 }
 
 .demographics table,
@@ -398,7 +423,7 @@ div.attributes {
 
 .attributes li a:visited {
     color: #4f7942;
-} 
+}
 
 .attributes p {
     margin-bottom: 5px;
@@ -411,6 +436,106 @@ div.attributes {
     color: #910101;
 }
 
+.form {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.form h2 {
+    margin: 30px 15px 20px 15px;
+    font-family: 'Stoke', serif;
+    font-size: 26px;
+    color: #910101;
+}
+
+
+.form fieldset {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-style: none;
+}
+
+fieldset.details select {
+    margin-right: 10px;
+}
+
+fieldset label.contact select {
+    padding: 10px;
+}
+
+.form legend {
+    font-weight: bold;
+    color: #4f7942;
+    margin: 0px 0px 10px 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+form label.contact {
+    display: block;
+    color: #172a39;
+    font-size: 18px;
+}
+
+form.label.contact input:valid {
+    background-color: #fff;
+}
+
+form label.contact input:invalid {
+    background-color: #ffcc00;;
+}
+
+form label.contact input,
+form label.details input,
+form label.comment input,
+form label.dropdown select,
+form label.comment textarea {
+    display: block;
+    font-size: 18px;
+    border: solid 3px #4f7942;
+    border-radius: 4px;
+    color: #3c1414;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+label#text {
+    margin-bottom: 10px;
+}
+
+form input.submitBtn {
+    width: 75%;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 15px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #910101;
+    color: #ffcc00;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px 3px #3c1414;
+}
+
+label.contact #text,
+label.details #text,
+label.comment #text {
+    margin-bottom: 10px;
+}
+
+form label.details,
+form label.dropdown,
+form label.range
+form label.contact {
+    display: block;
+}
+
 footer {
     margin-top: 40px;
     font-weight: bold;
@@ -421,7 +546,8 @@ footer {
 footer div#today {
     margin-top: 20px;
     margin-right: 20px;
+    margin-left: 15px;
     color: #3c1414;
     font-family: 'Roboto', sans-serif;
     background-color: #ffcc00;
- }  
+}

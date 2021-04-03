@@ -140,8 +140,7 @@
     .livelihood img,
     .currently img,
     .ttd img {
-        max-width: 50%;
-        margin-left: 15px;
+        max-width: 95%;
     }
 
     .highlight h2 {
@@ -168,6 +167,10 @@
         width: 30%;
     }
 
+    .demographics {
+        max-width: 90%;
+    }
+
     #events {
         display: flex;
         max-width: 100%;
@@ -180,4 +183,24 @@
         display: block;
         justify-content: center;    
      }
+
+     .form {
+        width: 50%;
+        text-align: left;
+      }
+
+      form legend {
+        width: auto;
+      }
+
+      
+  form label.comments select {
+    font-size: 15px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 90%;
+  }
 }
