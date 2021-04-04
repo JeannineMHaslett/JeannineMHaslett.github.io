@@ -19,6 +19,19 @@ main {
     font-weight: bold;
     color: #3c1414;
     margin-left: 40px;
+    margin-top: 20px;
+}
+
+.map {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+
+#mapwrapper {
+    max-width: 100%;
+    margin: 0px 10px 0px 20px;
 }
 
 header {
@@ -138,6 +151,13 @@ h3 {
     color: #910101;
     font-family: 'Stoke', serif;
     font-size: 1rem;
+    margin-bottom: 0;
+}
+
+h4 {
+    color: #910101;
+    font-family: 'Stoke', serif;
+    font-size: .85rem;
     margin-bottom: 0;
 }
 
@@ -335,7 +355,8 @@ footer a:visited {
 .movies img,
 .livelihood img,
 .currently img,
-.ttd img {
+.ttd img,
+.citylinks img {
     text-align: center;
     max-width: 250px;
     margin-right: 20px;
@@ -535,6 +556,44 @@ form label.range
 form label.contact {
     display: block;
 }
+
+#directorylinks a {
+    margin-right: 10px;
+    margin-left: 20px;
+    color: #3c1414;
+    font-weight: bold;
+}
+
+#covidinfo,
+.citylinks {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.citylinks p {
+    color: #3c1414; 
+}
+
+.citylinks a {
+    text-decoration: none;
+    color: #3c1414;
+    font-weight: bold;
+}
+
+.citylinks a:visited {
+    color: #4f7942;
+}
+
+.citylinks li {
+    list-style-type: none;
+}
+
+#covidinfo p,
+#covidinfo a {
+    color: #910101;
+    font-weight: bold;
+}
+
 
 footer {
     margin-top: 40px;

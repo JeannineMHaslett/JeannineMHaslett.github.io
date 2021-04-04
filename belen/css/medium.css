@@ -139,8 +139,13 @@
     .movies img, 
     .livelihood img,
     .currently img,
-    .ttd img {
+    .ttd img,
+    .citylinks img {
         max-width: 95%;
+    }
+
+    .citylinks img {
+        margin-top: 20px;
     }
 
     .highlight h2 {
