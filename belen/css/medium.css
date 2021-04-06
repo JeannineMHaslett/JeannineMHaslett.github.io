@@ -208,4 +208,32 @@
   textarea {
     width: 90%;
   }
+
+  
+.buttons img {
+    display: block;
+    float: left;
+    max-width: 35px;
+    margin-bottom: 10px;
+}
+
+.buttons a {
+    display: block;
+}
+
+  .cards1 {
+    display: block;
+    margin: 10px 10px 10px 30px; 
+}
+
+div.cards2 {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    align-items: center;
+}
+
+
 }
