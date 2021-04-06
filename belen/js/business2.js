@@ -7,7 +7,7 @@ fetch(requestURL)
     .then(function (jsonObject) {
             console.log(jsonObject);
             const business = jsonObject['business'];
-            const cards1 = document.querySelector('.cards1');
+            const cards2 = document.querySelector('.cards2');
 
             business.forEach(each_business => {
                 let card = document.createElement('section');
@@ -27,7 +27,7 @@ fetch(requestURL)
 
                 pimg.style.width = '250px';
 
-                cards1.append(card);
+                cards2.append(card);
                 card.append(pimg);
                 card.append(h2);
                 card.append(p);
@@ -35,5 +35,3 @@ fetch(requestURL)
                 card.append(p3)
             })
         });
-
-        
