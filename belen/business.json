@@ -6,7 +6,7 @@
         "name": "Pete's Cafe",
         "address": "105 N First St., Belen, NM 87002",
         "phone": "505-864-4811",
-        "Website": "https://www.petescafenewmexico.com/"
+        "website": "https://www.petescafenewmexico.com/"
       },
 
       {
@@ -15,7 +15,7 @@
         "name": "Greg's BBQ",
         "address": "629 S Main St, Belen, NM 87002",
         "phone": "(505) 250-5480",
-        "Website": "https://www.menupix.com/newmexico/restaurants/30853667/Gregs-BBQ-Belen-NM"
+        "website": "https://www.menupix.com/newmexico/restaurants/30853667/Gregs-BBQ-Belen-NM"
       },
 
       {
@@ -24,7 +24,7 @@
         "name": "Ranchero Builder's Supply",
         "address": "19404 N Main, Belen, NM 87002",
         "phone": "505-864-0619",
-        "Website": "http://rancherobuilders.com/"
+        "website": "http://rancherobuilders.com/"
       },
 
       {
@@ -33,7 +33,7 @@
         "name": "Buckland Pharmacy",
         "address": "600 Dalies Ave, Belen, NM 87002",
         "phone": "505-864-7434",
-        "Website": "https://www.bucklandpharmacy.biz/"
+        "website": "https://www.bucklandpharmacy.biz/"
       },
 
       {
@@ -42,7 +42,7 @@
         "name": "The Lock Shop",
         "address": "319 Highway 314 SW, Los Lunas, NM 87031",
         "phone": "505-866-LOCK (5625)",
-        "Website": "https://www.lockshopnm.com/"
+        "website": "https://www.lockshopnm.com/"
       },
 
       {
@@ -51,7 +51,7 @@
         "name": "Burritos Alinstante",
         "address": "19337 Highway 314, Belen, NM 87002",
         "phone": "505-864-6740",
-        "Website": "https://www.burritosalinstante.com/"
+        "website": "https://www.burritosalinstante.com/"
       },
 
       {
@@ -60,7 +60,7 @@
         "name": "Share N Care Pharmacy",
         "address": "701 Dalies Ave, Belen, NM 87002",
         "phone": "505-864-7471",
-        "Website": "http://sharencarepharmacy.com/contactus.html"
+        "website": "http://sharencarepharmacy.com/contactus.html"
       },
 
       {
@@ -69,7 +69,7 @@
         "name": "Haslett's Restorations",
         "address": "1539 Peyton Rd, Los Lunas, NM 87031",
         "phone": "505-865-7764",
-        "Website": "Not Available"
+        "website": "Not Available"
       },
 
       {
@@ -78,7 +78,7 @@
         "name": "Craig Independent Tire",
         "address": "19236 Highway 314, Belen, NM 87002",
         "phone": "505-263-8345",
-        "Website": "https://www.goodyear.com/en-US/tire-shop/Belen+NM+87002+US/000116819"
+        "website": "https://www.goodyear.com/en-US/tire-shop/Belen+NM+87002+US/000116819"
       }
     ]
 }

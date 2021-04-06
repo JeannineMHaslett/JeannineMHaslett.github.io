@@ -628,6 +628,11 @@ h2#contact {
     margin-left: 20px;
 }
 
+.cards, .business {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
 footer {
     margin-top: 40px;
     font-weight: bold;

@@ -5,23 +5,24 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
+            console.log(jsonObject);
             const business = jsonObject['business'];
             const cards = document.querySelector('.cards');
 
-            prophets.forEach(prophet => {
+            business.forEach(each_business => {
                 let card = document.createElement('section');
                 let h2 = document.createElement('h2');
                 let p = document.createElement('p');
                 let p2 = document.createElement('p');
+                let p3 = document.createElement('p');
                 let pimg = document.createElement('img');
 
-                //use template literals
-                h2.textContent = `${business.name}`;
-                pimg.setAttribute("src", business.imageurl);
-                pimg.setAttribute('alt', `Photo of ${business.name}`)
-                p.textContent = `Address: ${business.address}`;
-                p2.textContent = `Phone: ${business.phone}`;
-                p3.textContent = `Website: ${business.website}`;
+                h2.textContent = `${each_business.name}`;
+                pimg.setAttribute("src", `${each_business.Imageurl}`);
+                pimg.setAttribute('alt', `Photo of ${each_business.name}`)
+                p.textContent = `Address: ${each_business.address}`;
+                p2.textContent = `Phone: ${each_business.phone}`;
+                p3.textContent = `website: ${each_business.website}`;
 
                 pimg.style.width = '250px';
 
@@ -33,3 +34,5 @@ fetch(requestURL)
                 cards.append(card);
             })
         });
+
+        
