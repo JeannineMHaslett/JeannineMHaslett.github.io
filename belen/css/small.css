@@ -575,11 +575,11 @@ form label.contact {
     display: block;
 }
 
-#directorylinks h2 {
+.directorylinks h2 {
     margin-left: 20px;
 }
 
-#directorylinks a {
+.directorylinks a {
     margin-right: 10px;
     margin-left: 20px;
     color: #3c1414;
@@ -597,7 +597,6 @@ form label.contact {
 }
 
 .citylinks a {
-    text-decoration: none;
     color: #3c1414;
     font-weight: bold;
 }
@@ -630,6 +629,10 @@ h2#contact {
     margin: 10px 10px 10px 20px; 
 }
 
+.cards2 {
+    margin: 10px 10px 10px 20px; 
+}
+
 .directory, 
 .directory2 {
     margin-left: 20px;
@@ -638,6 +641,10 @@ h2#contact {
 
 .buttons img {
     display: none;
+}
+
+div.buttons {
+    margin-left: 20px;
 }
 
 .buttons a {

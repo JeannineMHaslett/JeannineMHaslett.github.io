@@ -25,7 +25,7 @@ fetch(requestURL)
                 p2.textContent = `Phone: ${each_business.phone}`;
                 p3.textContent = `website: ${each_business.website}`;
 
-                pimg.style.width = '250px';
+                pimg.style.width = '175px';
 
                 cards2.append(card);
                 card.append(pimg);

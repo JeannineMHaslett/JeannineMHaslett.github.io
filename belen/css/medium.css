@@ -228,12 +228,11 @@
 
 div.cards2 {
     display: grid;
-    grid-gap: 30px;
+    grid-gap: 40px;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 50px;
-    margin-left: 40px;
+    margin-left: 10px;
     align-items: center;
 }
-
 
 }
