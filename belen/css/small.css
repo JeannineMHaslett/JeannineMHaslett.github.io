@@ -266,11 +266,6 @@ span.close {
     margin-right: 10px;
 }
 
-.about h2 {
-    font-family: 'Stoke', serif;
-}
-
-.about p,
 .thanks p {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
