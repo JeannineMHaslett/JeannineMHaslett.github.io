@@ -268,9 +268,15 @@ span.close {
     font-family: 'Stoke', serif;
 }
 
-.about p {
+.about p,
+.thanks p {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+}
+
+.thanks,
+.perks {
+    margin: 30px 10px 30px 20px;
 }
 
 .highlight {
@@ -298,6 +304,21 @@ span.close {
 }
 
 .joinbutton a {
+    width: 75%;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 15px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #910101;
+    color: #ffcc00;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px 3px #3c1414;
+}
+
+.join a {
     width: 75%;
     text-decoration: none;
     margin-left: 10px;
@@ -458,7 +479,6 @@ div.attributes {
 }
 
 .form {
-    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -470,7 +490,6 @@ div.attributes {
     font-size: 26px;
     color: #910101;
 }
-
 
 .form fieldset {
     text-align: left;
@@ -499,7 +518,7 @@ fieldset label.contact select {
 
 form label.contact {
     display: block;
-    color: #172a39;
+    color: #3c1414;
     font-size: 18px;
 }
 
@@ -507,7 +526,9 @@ form.label.contact input:valid {
     background-color: #fff;
 }
 
-form label.contact input:invalid {
+form label.contact input:invalid,
+form label.details input:invalid,
+form label.dropdown input:invalid {
     background-color: #ffcc00;;
 }
 
@@ -557,6 +578,10 @@ form label.contact {
     display: block;
 }
 
+#directorylinks h2 {
+    margin-left: 20px;
+}
+
 #directorylinks a {
     margin-right: 10px;
     margin-left: 20px;
@@ -594,6 +619,14 @@ form label.contact {
     font-weight: bold;
 }
 
+#utilities {
+    margin-bottom: 30px;
+}
+
+h2#contact {
+    margin-top: 40px;
+    margin-left: 20px;
+}
 
 footer {
     margin-top: 40px;
